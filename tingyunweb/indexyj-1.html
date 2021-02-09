@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title font color="#FF0000">10.128.1.143环境袁洁的测试探针页面</title>
+</head>
+
+<body>
+    <h3>
+        <font color="#FF0000">10.128.1.143环境袁洁的测试探针页面</font>
+    </h3>
+    <button id="btn1" onclick="btn1();">原生js两个同级别ajax的get请求</button>
+    <button id="btn2" onclick="btn2();">jq的ajax的get请求</button>
+    <button id="btn3" onclick="sendList();">原生js的ajax的post请求</button>
+    <button onclick="triggerJsError();">触发js错误</button>
+    <button onclick="foo();">触发js错误 调用没有的函数</button><br>
+    <button id="btn4">setTimeout</button>
+    <a href='tozhanshi.html' target='main'>跳转到展示页面</a>
+    <button onclick="captureException();">error hook 调接口 </button><br>
+</body>
+
+</html>
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
+<!--<script src="yjcz.js"></script>-->
+<!-- <script src="yjcznew.js"></script> -->
+<!--<script src="10.128.2.95cj.js"></script>-->
+<script src="10.128.2.95cj-new.js"></script>
+<script src="ajax.js"></script>
+<script src="scope.js"></script>
+<script>
+    //原生js的ajax的请求 get
+    function btn1() {
+        sendAjax();
+        sendAjax();
+    }
+    //jq的ajax的get请求
+    function btn2() {
+        sendjQAjax();
+        sendjQAjax();
+    }
+    //setTimeout
+    function btn4() {
+        console.log(1);
+        setTimeout('console.log(2)', 8000);
+        sendList();
+        console.log(3);
+    }
+
+    // document.getElementById('btn1').addEventListener('click', function() {
+    //
+    // });
+    //原生js的ajax的请求 post
+    // document.getElementById('btn3').addEventListener('click', function() {
+    //     sendList();
+    // });
+    // document.getElementById('btn4').addEventListener('click', function() {
+    //     console.log(1);
+    //     setTimeout('console.log(2)', 8000);
+    //     sendList();
+    //     console.log(3);
+    // });
+
+    // document.getElementById('btn2').addEventListener('click', function() {
+    //     sendjQAjax();
+    //     sendjQAjax();
+    // });
+</script>
