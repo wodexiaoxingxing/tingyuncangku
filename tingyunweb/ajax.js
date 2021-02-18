@@ -18,7 +18,7 @@ function sendAjax() {
     xhr.onload = function() {
             // cb && cb();
             // sleep(1000);
-        console.log('原生js两个同级别ajax的get请求')
+            console.log('原生js两个同级别ajax的get请求')
         }
         // xhr.send();
     xhr.send(JSON.stringify({
@@ -53,14 +53,14 @@ function sendList() {
         key: '批量审批-手动123123123123123123123123123'
     });
     const xhr = new XMLHttpRequest();
-//设置请求头
+    //设置请求头
 
 
     xhr.open('POST', 'http://192.168.5.114:8089/shop/list?type=wjn_type1')
     xhr.setRequestHeader('Content-Type', 'application/json')
-    xhr.setRequestHeader('wjn_test','header_snow')
-    //当前袁洁配置的不能生效，原因是该接口没有配置ceshi1的  -----没配服务端返回头导致的报错
-    //xhr.setRequestHeader('ceshi1', 'ceshi1')
+    xhr.setRequestHeader('wjn_test', 'header_snow')
+        //当前袁洁配置的不能生效，原因是该接口没有配置ceshi1的  -----没配服务端返回头导致的报错
+        //xhr.setRequestHeader('ceshi1', 'ceshi1')
     xhr.onload = function() {
         // sleep(1000);
         console.log('原生js的ajax的post请求')
@@ -83,4 +83,17 @@ function sendjQAjax(time) {
         //     console.log(`request ${time} end`);
         // })
 }
+
 function foo() { bar(); }
+
+function yjget() {
+    $.ajax({
+        method: 'POST',
+        url: `http://192.168.5.186:5000/index1`,
+        // dataType: 'jsonp', // 请求方式为jsonp
+        // crossDomain: true,
+        success: function() {
+            console.log('jq访问袁洁的get接口');
+        }
+    })
+}

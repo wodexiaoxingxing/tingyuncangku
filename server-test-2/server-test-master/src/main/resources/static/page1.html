@@ -1,0 +1,104 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>AgentExternalTest</title>
+</head>
+<body>
+<p>跨应用测试页面：<a href="<%=contextPath%>/externalTest.jsp"><%=contextPath%>/externalTest.jsp</a></p>
+<button id="btn1">点击发送ajax</button>
+<button id="btn2">点击listServer_ajax</button>
+<button id="btn11">点击跳转</button>
+<button onclick="triggerJsError();">triggerJsError</button>
+<p>分位值测试页面：<a href="<%=contextPath%>/quantileTest.jsp"><%=contextPath%>/quantileTest.jsp</a></p>
+<p>分位值测试页面(两个Webaction)：<a href="<%=contextPath%>/quantileTest2.jsp"><%=contextPath%>/quantileTest2.jsp</a></p>
+
+
+<p>play框架跨应用<a href="<%=contextPath%>/play"><%=contextPath%>/play</a></p>
+
+
+
+<p>验证HttpClientPrintWriter无flush的情况<a href="<%=contextPath%>/test_no_flush"><%=contextPath%>/test_no_flush</a></p>
+<p>验证HttpClientPrintWriter有flush的情况<a href="<%=contextPath%>/test_flush"><%=contextPath%>/test_flush</a></p>
+<p>验证HttpClientPrintWriter返回jsp頁面<a href="<%=contextPath%>/test_jsp"><%=contextPath%>/test_jsp</a></p>
+
+<p>验证urlConnectionPrintWriter无flush的情况<a href="<%=contextPath%>/url_no_flush"><%=contextPath%>/url_no_flush</a></p>
+<p>验证urlConnectionPrintWriter有flush的情况<a href="<%=contextPath%>/url_flush"><%=contextPath%>/url_flush</a></p>
+<p>验证urlConnectionPrintWriter返回jsp頁面<a href="<%=contextPath%>/url_jsp"><%=contextPath%>/url_jsp</a></p>
+
+
+<p>验证HttpClient4空指针</p>
+<p>验证HttpClient4空指针异常<a href="<%=contextPath%>/post_test"><%=contextPath%>/post_test(HttpClient4.0)</a></p>
+
+<p>
+    Https调用<br/>
+    <span>说明:调用https需要1.通过java生成密钥，2在Tomcat端配置https访问(conf/server.xml),3.在应用中开启https访问的请求(已注释)</span>
+</p>
+<p>验证Https调用<a href="<%=contextPath%>/https_test"><%=contextPath%>/https_test</a></p>
+
+<script>
+    function sendAjax(time, cb) {
+        const xhr = new XMLHttpRequest
+        xhr.open('get', 'https://reportalpha1.tingyun.com/demo-server/test/custom-request');
+        xhr.onload = function() {
+            cb && cb();
+            sleep(1000);
+        }
+        xhr.send(JSON.stringify({
+            delay: 2000
+        }))
+    }
+    function sendRequest() {
+        const event = window.TINGYUN.createAutoEvent({
+            key:'name_server2'
+        });
+        const xhr = new XMLHttpRequest();
+        xhr.open('POST', 'http://192.168.5.114:8089/shop/list')
+        xhr.setRequestHeader('Content-Type', 'application/json')
+        xhr.send(JSON.stringify({
+            delay: 2000
+        }))
+        event.end();
+    }
+    function sendHref() {
+        var event = window.TINGYUN.createAutoEvent({
+            key: 'wjn_href01'
+        });
+        event.store();
+
+
+        const xhr = new XMLHttpRequest();
+        xhr.open('POST', 'http://192.168.5.114:8089/shop/list')
+        xhr.setRequestHeader('Content-Type', 'application/json')
+        xhr.send(JSON.stringify({
+            delay: 2000
+        }))
+        window.location.href = 'http://localhost:8089/static/page2';
+
+    }
+    function sleep(n) {
+        const time = +new Date;
+        while((+new Date) < (time + n)) {}
+    }
+    function triggerJsError() {
+        const event = window.TINGYUN.createAutoEvent({
+            key:'name_error'
+        });
+        throw new Error('test-error');
+        event.end();
+    }
+
+    document.getElementById('btn1').addEventListener('click', function() {
+
+        sendAjax();
+    });
+    document.getElementById('btn2').addEventListener('click', function() {
+
+        sendRequest();
+    });
+    document.getElementById('btn11').addEventListener('click', function() {
+
+        sendHref();
+    });
+</script>
+</body>
+</html>

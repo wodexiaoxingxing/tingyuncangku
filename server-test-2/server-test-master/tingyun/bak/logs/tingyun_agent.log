@@ -1,0 +1,936 @@
+2020-07-24 14:08:42,819 [main] [12708 1] INFO  - Writing to Tingyun log file: D:\IDEAProjects\server-test-2\server-test-master\tingyun\logs\tingyun_agent.log
+2020-07-24 14:08:42,820 [main] [12708 1] INFO  - JRE vendor Oracle Corporation version 1.8.0_241
+2020-07-24 14:08:42,820 [main] [12708 1] INFO  - JVM vendor Oracle Corporation Java HotSpot(TM) 64-Bit Server VM version 25.241-b07
+2020-07-24 14:08:42,820 [main] [12708 1] INFO  - OS Windows 10 version 10.0 arch amd64
+2020-07-24 14:08:42,821 [main] [12708 1] INFO  - Agent Host: DESKTOP-MCCERJJ
+2020-07-24 14:08:42,901 [main] [12708 1] INFO  - ClassLoaders will be to skip: [com/ibm/oti/vm/BootstrapClassLoader, jdk/internal/loader/BuiltinClassLoader, sun/reflect/misc/MethodUtil, com/ibm/oti/vm/AbstractClassLoader, weblogic/utils/classloaders/GenericClassLoader, com/ibm/jvm/ClassLoader, com/tingyun/agent/libs/com/alibaba/fastjson/util/ASMClassLoader, com/collaxa/cube/engine/deployment/BPELClassLoader, groovy/lang/GroovyClassLoader, groovy/lang/GroovyClassLoader$InnerLoader, gw/internal/gosu/compiler/SingleServingGosuClassLoader, org/codehaus/groovy/reflection/ClassLoaderForClassArtifacts, org/codehaus/groovy/reflection/SunClassLoader, org/codehaus/groovy/runtime/callsite/CallSiteClassLoader, org/mvel2/optimizers/impl/asm/ASMAccessorOptimizer$ContextClassLoader, org/springframework/context/support/ContextTypeMatchClassLoader, org/springframework/data/convert/ClassGeneratingEntityInstantiator$ObjectInstantiatorClassGenerator, javax/management/remote/rmi/RMIConnectionImpl$CombinedClassLoader, com/tingyun/starter/a]
+2020-07-24 14:08:43,139 [main] [12708 1] INFO  - ClassLoaderClassTransformer patched com.tingyun.starter.a@7f560810(class com.tingyun.starter.a) -- className:com/tingyun/weave/a/a$1
+2020-07-24 14:08:43,526 [main] [12708 1] INFO  - ClassLoaderClassTransformer patched com.tingyun.starter.a@7f560810(class com.tingyun.starter.a) -- className:com/tingyun/weave/a/aa$2
+2020-07-24 14:08:43,564 [main] [12708 1] INFO  - ClassLoaderClassTransformer patched BoostrapPlaceholder(class com.tingyun.weave.a.a$1) -- className:java/util/ResourceBundle$RBClassLoader
+2020-07-24 14:08:43,589 [main] [12708 1] INFO  - ClassLoaderClassTransformer patched BoostrapPlaceholder(class com.tingyun.weave.a.a$1) -- className:sun/misc/Launcher$ExtClassLoader
+2020-07-24 14:08:43,609 [main] [12708 1] INFO  - ClassLoaderClassTransformer patched BoostrapPlaceholder(class com.tingyun.weave.a.a$1) -- className:sun/misc/Launcher$AppClassLoader
+2020-07-24 14:08:43,636 [main] [12708 1] INFO  - ClassLoaderClassTransformer patched BoostrapPlaceholder(class com.tingyun.weave.a.a$1) -- className:java/net/URLClassLoader
+2020-07-24 14:08:43,652 [main] [12708 1] INFO  - ClassLoaderClassTransformer patched BoostrapPlaceholder(class com.tingyun.weave.a.a$1) -- className:sun/reflect/DelegatingClassLoader
+2020-07-24 14:08:43,668 [main] [12708 1] INFO  - ClassLoaderClassTransformer patched BoostrapPlaceholder(class com.tingyun.weave.a.a$1) -- className:java/security/SecureClassLoader
+2020-07-24 14:08:43,712 [main] [12708 1] INFO  - ClassLoaderClassTransformer patched BoostrapPlaceholder(class com.tingyun.weave.a.a$1) -- className:java/lang/ClassLoader
+2020-07-24 14:08:44,266 [Thread-5] [12708 16] INFO  - ---Plugin tingyun-webclient-plugin-1.0 is enabled. Loading.
+2020-07-24 14:08:44,267 [Thread-8] [12708 19] INFO  - ---Plugin tingyun-jetty-plugin-9.3 is enabled. Loading.
+2020-07-24 14:08:44,267 [Thread-1] [12708 12] INFO  - ---Plugin tingyun-play-exception-plugin-1.2 is enabled. Loading.
+2020-07-24 14:08:44,266 [Thread-6] [12708 17] INFO  - ---Plugin tingyun-play-plugin-2.4 is enabled. Loading.
+2020-07-24 14:08:44,267 [Thread-3] [12708 14] INFO  - ---Plugin tingyun-jdbc-mysql-plugin-3.0 is enabled. Loading.
+2020-07-24 14:08:44,266 [Thread-7] [12708 18] INFO  - ---Plugin tingyun-scala-plugin-2.9 is enabled. Loading.
+2020-07-24 14:08:44,268 [Thread-4] [12708 15] INFO  - ---Plugin tingyun-mongodb-plugin-2.6.3 is enabled. Loading.
+2020-07-24 14:08:44,268 [Thread-2] [12708 13] INFO  - ---Plugin tingyun-jms-plugin-1.1 is enabled. Loading.
+2020-07-24 14:08:44,322 [Thread-1] [12708 12] INFO  - ---Plugin tingyun-jersey-plugin-2.0 is enabled. Loading.
+2020-07-24 14:08:44,339 [Thread-3] [12708 14] INFO  - ---Plugin tingyun-jdbc-hsqldb-plugin-1.7 is enabled. Loading.
+2020-07-24 14:08:44,354 [Thread-3] [12708 14] INFO  - ---Plugin tingyun-websphere-plugin-7 is enabled. Loading.
+2020-07-24 14:08:44,380 [Thread-4] [12708 15] INFO  - ---Plugin tingyun-jdbc-batch-plugin is enabled. Loading.
+2020-07-24 14:08:44,393 [Thread-6] [12708 17] INFO  - ---Plugin tingyun-httpclient-plugin-3.1 is enabled. Loading.
+2020-07-24 14:08:44,413 [Thread-7] [12708 18] INFO  - ---Plugin tingyun-jdbc-plugin is enabled. Loading.
+2020-07-24 14:08:44,454 [Thread-4] [12708 15] INFO  - ---Plugin tingyun-spring-plugin-4.2 is enabled. Loading.
+2020-07-24 14:08:44,500 [Thread-3] [12708 14] INFO  - ---Plugin tingyun-spring-plugin-4.0 is enabled. Loading.
+2020-07-24 14:08:44,504 [Thread-5] [12708 16] INFO  - ---Plugin tingyun-jdbc-sybase-plugin-6 is enabled. Loading.
+2020-07-24 14:08:44,515 [Thread-2] [12708 13] INFO  - ---Plugin tingyun-jdbc-mysql-multihost-connection-plugin-6.0.2 is enabled. Loading.
+2020-07-24 14:08:44,517 [Thread-5] [12708 16] INFO  - ---Plugin tingyun-weblogic-ejb-plugin is enabled. Loading.
+2020-07-24 14:08:44,548 [Thread-6] [12708 17] INFO  - ---Plugin tingyun-resteasy-plugin-3.0 is enabled. Loading.
+2020-07-24 14:08:44,553 [Thread-4] [12708 15] INFO  - ---Plugin tingyun-jdbc-hsqldb-plugin-2.2 is enabled. Loading.
+2020-07-24 14:08:44,556 [Thread-2] [12708 13] INFO  - ---Plugin tingyun-jdbc-postgresql-plugin-9.4.1208 is enabled. Loading.
+2020-07-24 14:08:44,572 [Thread-1] [12708 12] INFO  - ---Plugin tingyun-spring-ws-plugin-2 is enabled. Loading.
+2020-07-24 14:08:44,575 [Thread-2] [12708 13] INFO  - ---Plugin tingyun-websphere-jmx-plugin is enabled. Loading.
+2020-07-24 14:08:44,585 [Thread-3] [12708 14] INFO  - ---Plugin tingyun-thread-plugin is enabled. Loading.
+2020-07-24 14:08:44,589 [Thread-5] [12708 16] INFO  - ---Plugin tingyun-spring-plugin-4.3 is enabled. Loading.
+2020-07-24 14:08:44,610 [Thread-4] [12708 15] INFO  - ---Plugin tingyun-play-plugin-2.2 is enabled. Loading.
+2020-07-24 14:08:44,611 [Thread-6] [12708 17] INFO  - ---Plugin tingyun-wildfly-ex-plugin-8 is enabled. Loading.
+2020-07-24 14:08:44,612 [Thread-2] [12708 13] INFO  - ---Plugin tingyun-spring-kafka-plugin is enabled. Loading.
+2020-07-24 14:08:44,618 [Thread-6] [12708 17] INFO  - ---Plugin tingyun-webflux-plugin-5.1.0 is enabled. Loading.
+2020-07-24 14:08:44,627 [Thread-2] [12708 13] INFO  - ---Plugin tingyun-jboss-ejb-plugin is enabled. Loading.
+2020-07-24 14:08:44,634 [Thread-8] [12708 19] INFO  - ---Plugin tingyun-weblogic-plugin-12.2.1.2 is enabled. Loading.
+2020-07-24 14:08:44,636 [Thread-4] [12708 15] INFO  - ---Plugin tingyun-jetty-plugin-7.6 is enabled. Loading.
+2020-07-24 14:08:44,640 [Thread-3] [12708 14] INFO  - ---Plugin tingyun-jdbc-socket-plugin is enabled. Loading.
+2020-07-24 14:08:44,659 [Thread-3] [12708 14] INFO  - ---Plugin tingyun-netty-plugin-3.4 is disabled. Skipping.
+2020-07-24 14:08:44,660 [Thread-3] [12708 14] INFO  - ---Plugin tingyun-reactor-netty-plugin-0.8 is enabled. Loading.
+2020-07-24 14:08:44,665 [Thread-5] [12708 16] INFO  - ---Plugin tingyun-jetty-plugin-9 is enabled. Loading.
+2020-07-24 14:08:44,678 [Thread-2] [12708 13] INFO  - ---Plugin tingyun-resin-plugin-4.0.18 is enabled. Loading.
+2020-07-24 14:08:44,704 [Thread-1] [12708 12] INFO  - ---Plugin tingyun-jdbc-embedded-derby-plugin-10.11 is enabled. Loading.
+2020-07-24 14:08:44,721 [Thread-1] [12708 12] INFO  - ---Plugin tingyun-akka-plugin-2.0 is enabled. Loading.
+2020-07-24 14:08:44,783 [Thread-3] [12708 14] INFO  - ---Plugin tingyun-glassfish-plugin-4 is enabled. Loading.
+2020-07-24 14:08:44,838 [Thread-1] [12708 12] INFO  - ---Plugin tingyun-ejb-plugin-3.0 is enabled. Loading.
+2020-07-24 14:08:44,847 [Thread-1] [12708 12] INFO  - ---Plugin tingyun-wildfly-port-plugin-8 is enabled. Loading.
+2020-07-24 14:08:44,869 [Thread-7] [12708 18] INFO  - ---Plugin tingyun-jetty-plugin-9.1 is enabled. Loading.
+2020-07-24 14:08:44,949 [Thread-1] [12708 12] INFO  - ---Plugin tingyun-websphere-ejb-plugin is enabled. Loading.
+2020-07-24 14:08:44,952 [Thread-8] [12708 19] INFO  - ---Plugin tingyun-jedis-plugin-2.7.2 is enabled. Loading.
+2020-07-24 14:08:44,980 [Thread-1] [12708 12] INFO  - ---Plugin tingyun-jdbc-postgresql-plugin-9.4.1207 is enabled. Loading.
+2020-07-24 14:08:45,037 [Thread-5] [12708 16] INFO  - ---Plugin tingyun-resteasy-plugin-2.2 is enabled. Loading.
+2020-07-24 14:08:45,044 [Thread-5] [12708 16] INFO  - ---Plugin tingyun-mongodb-plugin-2.7.3 is enabled. Loading.
+2020-07-24 14:08:45,050 [Thread-1] [12708 12] INFO  - ---Plugin tingyun-spring-gateway-plugin-2.0.1 is enabled. Loading.
+2020-07-24 14:08:45,076 [Thread-8] [12708 19] INFO  - ---Plugin tingyun-mongodb-plugin-2.14.2 is enabled. Loading.
+2020-07-24 14:08:45,110 [Thread-3] [12708 14] INFO  - ---Plugin tingyun-akka-plugin-2.2 is enabled. Loading.
+2020-07-24 14:08:45,117 [Thread-2] [12708 13] INFO  - ---Plugin tingyun-mongodb-plugin-3.1 is enabled. Loading.
+2020-07-24 14:08:45,133 [Thread-4] [12708 15] INFO  - ---Plugin tingyun-jdbc-mysql-plugin-6.0 is enabled. Loading.
+2020-07-24 14:08:45,145 [Thread-5] [12708 16] INFO  - ---Plugin tingyun-jdbc-ojdbc-plugin is enabled. Loading.
+2020-07-24 14:08:45,165 [Thread-5] [12708 16] INFO  - ---Plugin tingyun-play-plugin-2.3 is enabled. Loading.
+2020-07-24 14:08:45,167 [Thread-7] [12708 18] INFO  - ---Plugin tingyun-rabbit-amqp-plugin-3.5 is enabled. Loading.
+2020-07-24 14:08:45,200 [Thread-1] [12708 12] INFO  - ---Plugin tingyun-kafka-plugin-2.3 is enabled. Loading.
+2020-07-24 14:08:45,205 [Thread-4] [12708 15] INFO  - ---Plugin tingyun-resin-plugin-4.0.49 is enabled. Loading.
+2020-07-24 14:08:45,206 [Thread-2] [12708 13] INFO  - ---Plugin tingyun-spring-gateway-plugin-2.1.0 is enabled. Loading.
+2020-07-24 14:08:45,218 [Thread-3] [12708 14] INFO  - ---Plugin tingyun-resin-plugin-4.0.27 is enabled. Loading.
+2020-07-24 14:08:45,236 [Thread-8] [12708 19] INFO  - ---Plugin tingyun-ning-async-httpclient-plugin-1.8.16 is enabled. Loading.
+2020-07-24 14:08:45,236 [Thread-5] [12708 16] INFO  - ---Plugin tingyun-jdbc-db2-plugin is enabled. Loading.
+2020-07-24 14:08:45,283 [Thread-5] [12708 16] INFO  - ---Plugin tingyun-axis-plugin-2.0 is enabled. Loading.
+2020-07-24 14:08:45,327 [Thread-2] [12708 13] INFO  - ---Plugin tingyun-jdbc-h2-plugin is enabled. Loading.
+2020-07-24 14:08:45,340 [Thread-8] [12708 19] INFO  - ---Plugin tingyun-jdbc-embedded-derby-plugin-10.10 is enabled. Loading.
+2020-07-24 14:08:45,362 [Thread-2] [12708 13] INFO  - ---Plugin tingyun-play-plugin-2.0 is enabled. Loading.
+2020-07-24 14:08:45,365 [Thread-1] [12708 12] INFO  - ---Plugin tingyun-jdbc-mysql-multihost-connection-plugin-5.1.3 is enabled. Loading.
+2020-07-24 14:08:45,383 [Thread-8] [12708 19] INFO  - ---Plugin tingyun-resin-plugin-3 is enabled. Loading.
+2020-07-24 14:08:45,404 [Thread-5] [12708 16] INFO  - ---Plugin tingyun-netty-plugin-4.0.0 is disabled. Skipping.
+2020-07-24 14:08:45,406 [Thread-5] [12708 16] INFO  - ---Plugin tingyun-huawei-support-plugin is enabled. Loading.
+2020-07-24 14:08:45,406 [Thread-1] [12708 12] INFO  - ---Plugin tingyun-jetty-servlet-plugin-9 is enabled. Loading.
+2020-07-24 14:08:45,410 [Thread-7] [12708 18] INFO  - ---Plugin tingyun-cxf-plugin-3.1 is enabled. Loading.
+2020-07-24 14:08:45,455 [Thread-1] [12708 12] INFO  - ---Plugin tingyun-resin-plugin-4.0.12 is enabled. Loading.
+2020-07-24 14:08:45,456 [Thread-2] [12708 13] INFO  - ---Plugin tingyun-glassfish-plugin-3.1 is enabled. Loading.
+2020-07-24 14:08:45,461 [Thread-5] [12708 16] INFO  - ---Plugin tingyun-httpclient-plugin-3.0 is enabled. Loading.
+2020-07-24 14:08:45,579 [Thread-5] [12708 16] INFO  - ---Plugin tingyun-whalin-memcached-plugin-3.0.0 is enabled. Loading.
+2020-07-24 14:08:45,655 [Thread-2] [12708 13] INFO  - ---Plugin tingyun-akka-plugin-2.1 is enabled. Loading.
+2020-07-24 14:08:45,665 [Thread-3] [12708 14] INFO  - ---Plugin tingyun-jetty-plugin-7 is enabled. Loading.
+2020-07-24 14:08:45,687 [Thread-8] [12708 19] INFO  - ---Plugin tingyun-jdbc-postgresql-plugin-8.0 is enabled. Loading.
+2020-07-24 14:08:45,691 [Thread-7] [12708 18] INFO  - ---Plugin tingyun-webflux-plugin-5.0.0 is enabled. Loading.
+2020-07-24 14:08:45,704 [Thread-4] [12708 15] INFO  - ---Plugin tingyun-jdbc-sqlserver-plugin is enabled. Loading.
+2020-07-24 14:08:45,764 [Thread-4] [12708 15] INFO  - ---Plugin tingyun-netty-plugin-3.8 is disabled. Skipping.
+2020-07-24 14:08:45,765 [Thread-4] [12708 15] INFO  - ---Plugin tingyun-axis-plugin-1.0 is enabled. Loading.
+2020-07-24 14:08:45,818 [Thread-6] [12708 17] INFO  - ---Plugin tingyun-jdbc-ojdbc7-plugin-12.1.0.2 is enabled. Loading.
+2020-07-24 14:08:45,833 [Thread-8] [12708 19] INFO  - ---Plugin tingyun-servlet-plugin-2.4 is enabled. Loading.
+2020-07-24 14:08:45,869 [Thread-2] [12708 13] INFO  - ---Plugin tingyun-tomcat-rum-plugin-7 is enabled. Loading.
+2020-07-24 14:08:45,870 [Thread-5] [12708 16] INFO  - ---Plugin tingyun-jdbc-informix-plugin is enabled. Loading.
+2020-07-24 14:08:45,876 [Thread-4] [12708 15] INFO  - ---Plugin tingyun-tomcat-7-request-listener-plugin is enabled. Loading.
+2020-07-24 14:08:45,879 [Thread-6] [12708 17] INFO  - ---Plugin tingyun-rabbit-amqp-plugin-5 is enabled. Loading.
+2020-07-24 14:08:45,882 [Thread-2] [12708 13] INFO  - ---Plugin tingyun-xmemcached-plugin-1.4.3 is enabled. Loading.
+2020-07-24 14:08:45,901 [Thread-1] [12708 12] INFO  - ---Plugin tingyun-tomcat-plugin-7 is enabled. Loading.
+2020-07-24 14:08:45,944 [Thread-2] [12708 13] INFO  - ---Plugin tingyun-jetty-plugin-6 is enabled. Loading.
+2020-07-24 14:08:45,944 [Thread-4] [12708 15] INFO  - ---Plugin tingyun-websphere-plugin-8 is enabled. Loading.
+2020-07-24 14:08:46,031 [Thread-2] [12708 13] INFO  - ---Plugin tingyun-spring-plugin-3.0 is enabled. Loading.
+2020-07-24 14:08:46,037 [Thread-1] [12708 12] INFO  - ---Plugin tingyun-javax.xml-plugin is enabled. Loading.
+2020-07-24 14:08:46,056 [Thread-6] [12708 17] INFO  - ---Plugin tingyun-jedis-plugin-1.5.2 is enabled. Loading.
+2020-07-24 14:08:46,083 [Thread-8] [12708 19] INFO  - ---Plugin tingyun-cxf-plugin-2.2.5 is enabled. Loading.
+2020-07-24 14:08:46,093 [Thread-3] [12708 14] INFO  - ---Plugin tingyun-tomcat-rum-plugin-8 is enabled. Loading.
+2020-07-24 14:08:46,098 [Thread-1] [12708 12] INFO  - ---Plugin tingyun-mongodb-plugin-3.0 is enabled. Loading.
+2020-07-24 14:08:46,123 [Thread-3] [12708 14] INFO  - ---Plugin tingyun-jboss-plugin-7 is enabled. Loading.
+2020-07-24 14:08:46,153 [Thread-4] [12708 15] INFO  - ---Plugin tingyun-glassfish-jersey-plugin-2.9 is enabled. Loading.
+2020-07-24 14:08:46,162 [Thread-6] [12708 17] INFO  - ---Plugin tingyun-jdbc-driver-plugin is enabled. Loading.
+2020-07-24 14:08:46,168 [Thread-6] [12708 17] INFO  - ---Plugin tingyun-cxf-plugin-2.7 is enabled. Loading.
+2020-07-24 14:08:46,170 [Thread-8] [12708 19] INFO  - ---Plugin tingyun-spring-gateway-plugin-2.0.0 is enabled. Loading.
+2020-07-24 14:08:46,242 [Thread-4] [12708 15] INFO  - ---Plugin tingyun-quartz-plugin-2.0.0 is enabled. Loading.
+2020-07-24 14:08:46,291 [Thread-4] [12708 15] INFO  - ---Plugin tingyun-reactor-netty-plugin-0.7 is enabled. Loading.
+2020-07-24 14:08:46,394 [Thread-3] [12708 14] INFO  - ---Plugin tingyun-play-plugin-2.1 is enabled. Loading.
+2020-07-24 14:08:46,477 [Thread-3] [12708 14] INFO  - ---Plugin tingyun-jsp-plugin-2.0 is enabled. Loading.
+2020-07-24 14:08:46,491 [Thread-8] [12708 19] INFO  - ---Plugin tingyun-wildfly-plugin-8 is enabled. Loading.
+2020-07-24 14:08:46,546 [Thread-6] [12708 17] INFO  - ---Plugin tingyun-netty-plugin-4.0.8 is disabled. Skipping.
+2020-07-24 14:08:46,548 [Thread-6] [12708 17] INFO  - ---Plugin tingyun-jdbc-jtds-plugin is enabled. Loading.
+2020-07-24 14:08:46,558 [Thread-6] [12708 17] INFO  - ---Plugin tingyun-jetty-plugin-9.0.3 is enabled. Loading.
+2020-07-24 14:08:46,675 [Thread-8] [12708 19] INFO  - ---Plugin tingyun-kafka-plugin-2.0 is enabled. Loading.
+2020-07-24 14:08:46,734 [Thread-6] [12708 17] INFO  - ---Plugin tingyun-weblogic-plugin-10 is enabled. Loading.
+2020-07-24 14:08:46,786 [Thread-8] [12708 19] INFO  - ---Plugin tingyun-jdbc-mysql-connection-plugin-5.1 is enabled. Loading.
+2020-07-24 14:08:46,790 [Thread-7] [12708 18] INFO  - ---Plugin tingyun-httpclient-plugin-4.0 is enabled. Loading.
+2020-07-24 14:08:46,799 [Thread-8] [12708 19] INFO  - ---Plugin tingyun-tomcat-plugin-5 is enabled. Loading.
+2020-07-24 14:08:46,869 [Thread-8] [12708 19] INFO  - ---Plugin tingyun-httpurlconnection-plugin is enabled. Loading.
+2020-07-24 14:08:46,877 [Thread-7] [12708 18] INFO  - ---Plugin tingyun-sun-jersey-server-plugin-1.19 is enabled. Loading.
+2020-07-24 14:08:46,919 [Thread-6] [12708 17] INFO  - ---Plugin tingyun-mongodb-plugin-2.9.3 is enabled. Loading.
+2020-07-24 14:08:46,944 [Thread-7] [12708 18] INFO  - ---Plugin tingyun-jdbc-mariadb-plugin-1.3.0 is enabled. Loading.
+2020-07-24 14:08:46,952 [Thread-7] [12708 18] INFO  - ---Plugin tingyun-jdbc-embedded-derby-plugin-10.2 is enabled. Loading.
+2020-07-24 14:08:46,954 [Thread-6] [12708 17] INFO  - ---Plugin tingyun-spymemcached-plugin-2.10.0 is enabled. Loading.
+2020-07-24 14:08:46,968 [Thread-7] [12708 18] INFO  - ---Plugin tingyun-ning-async-httpclient-plugin-1.6.0 is enabled. Loading.
+2020-07-24 14:08:47,029 [Thread-7] [12708 18] INFO  - ---Plugin tingyun-wildfly-plugin-8.0.0 is enabled. Loading.
+2020-07-24 14:08:47,155 [Thread-7] [12708 18] INFO  - ---Plugin tingyun-mongodb-plugin-2.12.0 is enabled. Loading.
+2020-07-24 14:08:47,247 [Thread-7] [12708 18] INFO  - ---Plugin tingyun-jedis-plugin-2.7.1 is enabled. Loading.
+2020-07-24 14:08:47,331 [Thread-7] [12708 18] INFO  - ---Plugin tingyun-weblogic-plugin-12 is enabled. Loading.
+2020-07-24 14:08:47,458 [Thread-7] [12708 18] INFO  - ---Plugin tingyun-spring-rabbitmq-plugin is enabled. Loading.
+2020-07-24 14:08:47,586 [main] [12708 1] INFO  - Loaded 126 internal plugins.
+2020-07-24 14:08:50,874 [main] [12708 1] INFO  - Loading built-in agent extensions
+2020-07-24 14:08:50,987 [main] [12708 1] INFO  - Add new external file ExternalFile D:\IDEAProjects\server-test-2\server-test-master\tingyun\extensions\tingyun-alibaba-rocketmq-plugin-3.2.6.jar
+2020-07-24 14:08:50,987 [main] [12708 1] INFO  - Add new external file ExternalFile D:\IDEAProjects\server-test-2\server-test-master\tingyun\extensions\tingyun-apache-dubbo-plugin-2.0.jar
+2020-07-24 14:08:50,987 [main] [12708 1] INFO  - Add new external file ExternalFile D:\IDEAProjects\server-test-2\server-test-master\tingyun\extensions\tingyun-apache-rocketmq-plugin-4.5.0.jar
+2020-07-24 14:08:50,987 [main] [12708 1] INFO  - Add new external file ExternalFile D:\IDEAProjects\server-test-2\server-test-master\tingyun\extensions\tingyun-asynchttpclient-plugin-2.0.32.jar
+2020-07-24 14:08:50,987 [main] [12708 1] INFO  - Add new external file ExternalFile D:\IDEAProjects\server-test-2\server-test-master\tingyun\extensions\tingyun-camel-plugin-2.12.jar
+2020-07-24 14:08:50,987 [main] [12708 1] INFO  - Add new external file ExternalFile D:\IDEAProjects\server-test-2\server-test-master\tingyun\extensions\tingyun-dubbo-plugin-2.0.jar
+2020-07-24 14:08:50,988 [main] [12708 1] INFO  - Add new external file ExternalFile D:\IDEAProjects\server-test-2\server-test-master\tingyun\extensions\tingyun-finagle-plugin-6.22.0.jar
+2020-07-24 14:08:50,988 [main] [12708 1] INFO  - Add new external file ExternalFile D:\IDEAProjects\server-test-2\server-test-master\tingyun\extensions\tingyun-finagle-plugin-6.35.jar
+2020-07-24 14:08:50,988 [main] [12708 1] INFO  - Add new external file ExternalFile D:\IDEAProjects\server-test-2\server-test-master\tingyun\extensions\tingyun-grpc-plugin-1.0.1.jar
+2020-07-24 14:08:50,988 [main] [12708 1] INFO  - Add new external file ExternalFile D:\IDEAProjects\server-test-2\server-test-master\tingyun\extensions\tingyun-grpc-plugin-1.6.1.jar
+2020-07-24 14:08:50,988 [main] [12708 1] INFO  - Add new external file ExternalFile D:\IDEAProjects\server-test-2\server-test-master\tingyun\extensions\tingyun-hystrix-plugin-1.4.jar
+2020-07-24 14:08:50,988 [main] [12708 1] INFO  - Add new external file ExternalFile D:\IDEAProjects\server-test-2\server-test-master\tingyun\extensions\tingyun-java.completable-future-jdk8-plugin.jar
+2020-07-24 14:08:50,988 [main] [12708 1] INFO  - Add new external file ExternalFile D:\IDEAProjects\server-test-2\server-test-master\tingyun\extensions\tingyun-java.completable-future-jdk8u40-plugin.jar
+2020-07-24 14:08:50,988 [main] [12708 1] INFO  - Add new external file ExternalFile D:\IDEAProjects\server-test-2\server-test-master\tingyun\extensions\tingyun-jdbc-c3p0-plugin-0.9.jar
+2020-07-24 14:08:50,988 [main] [12708 1] INFO  - Add new external file ExternalFile D:\IDEAProjects\server-test-2\server-test-master\tingyun\extensions\tingyun-jdbc-dm-plugin-7.jar
+2020-07-24 14:08:50,989 [main] [12708 1] INFO  - Add new external file ExternalFile D:\IDEAProjects\server-test-2\server-test-master\tingyun\extensions\tingyun-jdbc-druid-plugin.jar
+2020-07-24 14:08:50,989 [main] [12708 1] INFO  - Add new external file ExternalFile D:\IDEAProjects\server-test-2\server-test-master\tingyun\extensions\tingyun-jersey-client-plugin-2.0.jar
+2020-07-24 14:08:50,989 [main] [12708 1] INFO  - Add new external file ExternalFile D:\IDEAProjects\server-test-2\server-test-master\tingyun\extensions\tingyun-jersey-client-plugin-2.26.jar
+2020-07-24 14:08:50,989 [main] [12708 1] INFO  - Add new external file ExternalFile D:\IDEAProjects\server-test-2\server-test-master\tingyun\extensions\tingyun-jersey-plugin-1.0.jar
+2020-07-24 14:08:50,989 [main] [12708 1] INFO  - Add new external file ExternalFile D:\IDEAProjects\server-test-2\server-test-master\tingyun\extensions\tingyun-log4j-exception-plugin-1.2.jar
+2020-07-24 14:08:50,989 [main] [12708 1] INFO  - Add new external file ExternalFile D:\IDEAProjects\server-test-2\server-test-master\tingyun\extensions\tingyun-log4j-exception-plugin-2.0.jar
+2020-07-24 14:08:50,989 [main] [12708 1] INFO  - Add new external file ExternalFile D:\IDEAProjects\server-test-2\server-test-master\tingyun\extensions\tingyun-log4j-plugin-1.2.jar
+2020-07-24 14:08:50,989 [main] [12708 1] INFO  - Add new external file ExternalFile D:\IDEAProjects\server-test-2\server-test-master\tingyun\extensions\tingyun-log4j-plugin-2.0.0.jar
+2020-07-24 14:08:50,989 [main] [12708 1] INFO  - Add new external file ExternalFile D:\IDEAProjects\server-test-2\server-test-master\tingyun\extensions\tingyun-log4j-plugin-2.3.jar
+2020-07-24 14:08:50,989 [main] [12708 1] INFO  - Add new external file ExternalFile D:\IDEAProjects\server-test-2\server-test-master\tingyun\extensions\tingyun-logback-plugin-1.2.jar
+2020-07-24 14:08:50,990 [main] [12708 1] INFO  - Add new external file ExternalFile D:\IDEAProjects\server-test-2\server-test-master\tingyun\extensions\tingyun-mina-plugin-2.0.9.jar
+2020-07-24 14:08:50,990 [main] [12708 1] INFO  - Add new external file ExternalFile D:\IDEAProjects\server-test-2\server-test-master\tingyun\extensions\tingyun-okhttp-plugin-2.4.jar
+2020-07-24 14:08:50,990 [main] [12708 1] INFO  - Add new external file ExternalFile D:\IDEAProjects\server-test-2\server-test-master\tingyun\extensions\tingyun-okhttp-plugin-3.0.jar
+2020-07-24 14:08:50,990 [main] [12708 1] INFO  - Add new external file ExternalFile D:\IDEAProjects\server-test-2\server-test-master\tingyun\extensions\tingyun-okhttp-plugin-3.4.jar
+2020-07-24 14:08:50,990 [main] [12708 1] INFO  - Add new external file ExternalFile D:\IDEAProjects\server-test-2\server-test-master\tingyun\extensions\tingyun-okhttp-plugin-3.5.jar
+2020-07-24 14:08:50,990 [main] [12708 1] INFO  - Add new external file ExternalFile D:\IDEAProjects\server-test-2\server-test-master\tingyun\extensions\tingyun-okhttp-plugin-3.6.jar
+2020-07-24 14:08:50,990 [main] [12708 1] INFO  - Add new external file ExternalFile D:\IDEAProjects\server-test-2\server-test-master\tingyun\extensions\tingyun-okhttp-plugin-4.0.jar
+2020-07-24 14:08:50,990 [main] [12708 1] INFO  - Add new external file ExternalFile D:\IDEAProjects\server-test-2\server-test-master\tingyun\extensions\tingyun-pool-c3p0-plugin-0.9.jar
+2020-07-24 14:08:50,990 [main] [12708 1] INFO  - Add new external file ExternalFile D:\IDEAProjects\server-test-2\server-test-master\tingyun\extensions\tingyun-pool-druid-plugin-1.0.jar
+2020-07-24 14:08:50,990 [main] [12708 1] INFO  - Add new external file ExternalFile D:\IDEAProjects\server-test-2\server-test-master\tingyun\extensions\tingyun-pool-hikaricp-plugin-3.0.jar
+2020-07-24 14:08:50,991 [main] [12708 1] INFO  - Add new external file ExternalFile D:\IDEAProjects\server-test-2\server-test-master\tingyun\extensions\tingyun-pool-jedis-plugin-2.6.3.jar
+2020-07-24 14:08:50,991 [main] [12708 1] INFO  - Add new external file ExternalFile D:\IDEAProjects\server-test-2\server-test-master\tingyun\extensions\tingyun-pool-weblogic-plugin-10.jar
+2020-07-24 14:08:50,991 [main] [12708 1] INFO  - Add new external file ExternalFile D:\IDEAProjects\server-test-2\server-test-master\tingyun\extensions\tingyun-pool-weblogic-plugin-121.jar
+2020-07-24 14:08:50,991 [main] [12708 1] INFO  - Add new external file ExternalFile D:\IDEAProjects\server-test-2\server-test-master\tingyun\extensions\tingyun-pool-weblogic-plugin-122.jar
+2020-07-24 14:08:50,991 [main] [12708 1] INFO  - Add new external file ExternalFile D:\IDEAProjects\server-test-2\server-test-master\tingyun\extensions\tingyun-redisson-plugin-3.0.jar
+2020-07-24 14:08:50,991 [main] [12708 1] INFO  - Add new external file ExternalFile D:\IDEAProjects\server-test-2\server-test-master\tingyun\extensions\tingyun-slf4j-exception-plugin.jar
+2020-07-24 14:08:50,991 [main] [12708 1] INFO  - Add new external file ExternalFile D:\IDEAProjects\server-test-2\server-test-master\tingyun\extensions\tingyun-spring-annotation-plugin-2.5.jar
+2020-07-24 14:08:50,991 [main] [12708 1] INFO  - Add new external file ExternalFile D:\IDEAProjects\server-test-2\server-test-master\tingyun\extensions\tingyun-spring-aop-plugin.jar
+2020-07-24 14:08:50,991 [main] [12708 1] INFO  - Add new external file ExternalFile D:\IDEAProjects\server-test-2\server-test-master\tingyun\extensions\tingyun-springboot-webserver-plugin.jar
+2020-07-24 14:08:50,991 [main] [12708 1] INFO  - Add new external file ExternalFile D:\IDEAProjects\server-test-2\server-test-master\tingyun\extensions\tingyun-springcloud-openfeign-plugin-2.1.0.jar
+2020-07-24 14:08:50,992 [main] [12708 1] INFO  - Add new external file ExternalFile D:\IDEAProjects\server-test-2\server-test-master\tingyun\extensions\tingyun-struts-plugin-2.5.jar
+2020-07-24 14:08:50,992 [main] [12708 1] INFO  - Add new external file ExternalFile D:\IDEAProjects\server-test-2\server-test-master\tingyun\extensions\tingyun-thrift-plugin-0.5.jar
+2020-07-24 14:08:50,992 [main] [12708 1] INFO  - Add new external file ExternalFile D:\IDEAProjects\server-test-2\server-test-master\tingyun\extensions\tingyun-thrift-plugin-0.8.jar
+2020-07-24 14:08:50,992 [main] [12708 1] INFO  - Add new external file ExternalFile D:\IDEAProjects\server-test-2\server-test-master\tingyun\extensions\tingyun-tomcat-coyote-plugin.jar
+2020-07-24 14:08:50,992 [main] [12708 1] INFO  - Add new external file ExternalFile D:\IDEAProjects\server-test-2\server-test-master\tingyun\extensions\tingyun-tongweb-plugin-6.jar
+2020-07-24 14:08:50,992 [main] [12708 1] INFO  - Add new external file ExternalFile D:\IDEAProjects\server-test-2\server-test-master\tingyun\extensions\tingyun-xmlrpc-plugin.jar
+2020-07-24 14:08:51,224 [main] [12708 1] INFO  - External Plugin tingyun-alibaba-rocketmq-plugin-3.2.6 well be loaded.
+2020-07-24 14:08:51,837 [main] [12708 1] INFO  - External Plugin tingyun-apache-dubbo-plugin-2.0 well be loaded.
+2020-07-24 14:08:51,959 [main] [12708 1] INFO  - External Plugin tingyun-apache-rocketmq-plugin-4.5.0 well be loaded.
+2020-07-24 14:08:52,441 [main] [12708 1] INFO  - External Plugin tingyun-asynchttpclient-plugin-2.0.32 well be loaded.
+2020-07-24 14:08:53,193 [main] [12708 1] INFO  - External Plugin tingyun-camel-plugin-2.12 well be loaded.
+2020-07-24 14:08:53,201 [main] [12708 1] INFO  - External Plugin tingyun-dubbo-plugin-2.0 well be loaded.
+2020-07-24 14:08:53,307 [main] [12708 1] INFO  - External Plugin tingyun-finagle-plugin-6.22.0 well be loaded.
+2020-07-24 14:08:53,730 [main] [12708 1] INFO  - External Plugin tingyun-finagle-plugin-6.35 well be loaded.
+2020-07-24 14:08:53,991 [main] [12708 1] INFO  - External Plugin tingyun-grpc-plugin-1.0.1 well be loaded.
+2020-07-24 14:08:54,128 [main] [12708 1] INFO  - External Plugin tingyun-grpc-plugin-1.6.1 well be loaded.
+2020-07-24 14:08:54,341 [main] [12708 1] INFO  - External Plugin tingyun-hystrix-plugin-1.4 well be loaded.
+2020-07-24 14:08:54,391 [main] [12708 1] INFO  - External Plugin tingyun-java.completable-future-jdk8-plugin well be loaded.
+2020-07-24 14:08:54,554 [main] [12708 1] INFO  - External Plugin tingyun-java.completable-future-jdk8u40-plugin well be loaded.
+2020-07-24 14:08:54,600 [main] [12708 1] INFO  - External Plugin tingyun-jdbc-c3p0-plugin-0.9 well be loaded.
+2020-07-24 14:08:54,608 [main] [12708 1] INFO  - External Plugin tingyun-jdbc-dm-plugin-7 well be loaded.
+2020-07-24 14:08:54,613 [main] [12708 1] INFO  - External Plugin tingyun-jdbc-druid-plugin well be loaded.
+2020-07-24 14:08:54,620 [main] [12708 1] INFO  - External Plugin tingyun-jersey-client-plugin-2.0 well be loaded.
+2020-07-24 14:08:54,658 [main] [12708 1] INFO  - External Plugin tingyun-jersey-client-plugin-2.26 well be loaded.
+2020-07-24 14:08:54,694 [main] [12708 1] INFO  - External Plugin tingyun-jersey-plugin-1.0 well be loaded.
+2020-07-24 14:08:54,701 [main] [12708 1] INFO  - External Plugin tingyun-log4j-exception-plugin-1.2 well be loaded.
+2020-07-24 14:08:54,710 [main] [12708 1] INFO  - External Plugin tingyun-log4j-exception-plugin-2.0 well be loaded.
+2020-07-24 14:08:54,726 [main] [12708 1] INFO  - External Plugin tingyun-mina-plugin-2.0.9 well be loaded.
+2020-07-24 14:08:54,737 [main] [12708 1] INFO  - External Plugin tingyun-okhttp-plugin-2.4 well be loaded.
+2020-07-24 14:08:54,800 [main] [12708 1] INFO  - External Plugin tingyun-okhttp-plugin-3.0 well be loaded.
+2020-07-24 14:08:54,880 [main] [12708 1] INFO  - External Plugin tingyun-okhttp-plugin-3.4 well be loaded.
+2020-07-24 14:08:54,931 [main] [12708 1] INFO  - External Plugin tingyun-okhttp-plugin-3.5 well be loaded.
+2020-07-24 14:08:54,998 [main] [12708 1] INFO  - External Plugin tingyun-okhttp-plugin-3.6 well be loaded.
+2020-07-24 14:08:55,061 [main] [12708 1] INFO  - External Plugin tingyun-okhttp-plugin-4.0 well be loaded.
+2020-07-24 14:08:55,112 [main] [12708 1] INFO  - External Plugin tingyun-pool-c3p0-plugin-0.9 well be loaded.
+2020-07-24 14:08:55,132 [main] [12708 1] INFO  - External Plugin tingyun-pool-druid-plugin-1.0 well be loaded.
+2020-07-24 14:08:55,167 [main] [12708 1] INFO  - External Plugin tingyun-pool-hikaricp-plugin-3.0 well be loaded.
+2020-07-24 14:08:55,186 [main] [12708 1] INFO  - External Plugin tingyun-pool-jedis-plugin-2.6.3 well be loaded.
+2020-07-24 14:08:55,216 [main] [12708 1] INFO  - External Plugin tingyun-pool-weblogic-plugin-10 well be loaded.
+2020-07-24 14:08:55,246 [main] [12708 1] INFO  - External Plugin tingyun-pool-weblogic-plugin-121 well be loaded.
+2020-07-24 14:08:55,274 [main] [12708 1] INFO  - External Plugin tingyun-pool-weblogic-plugin-122 well be loaded.
+2020-07-24 14:08:55,299 [main] [12708 1] INFO  - External Plugin tingyun-redisson-plugin-3.0 well be loaded.
+2020-07-24 14:08:55,314 [main] [12708 1] INFO  - External Plugin tingyun-slf4j-exception-plugin well be loaded.
+2020-07-24 14:08:55,324 [main] [12708 1] INFO  - External Plugin tingyun-springboot-webserver-plugin well be loaded.
+2020-07-24 14:08:55,329 [main] [12708 1] INFO  - External Plugin tingyun-springcloud-openfeign-plugin-2.1.0 well be loaded.
+2020-07-24 14:08:55,358 [main] [12708 1] INFO  - External Plugin tingyun-struts-plugin-2.5 well be loaded.
+2020-07-24 14:08:55,381 [main] [12708 1] INFO  - External Plugin tingyun-thrift-plugin-0.5 well be loaded.
+2020-07-24 14:08:55,398 [main] [12708 1] INFO  - External Plugin tingyun-thrift-plugin-0.8 well be loaded.
+2020-07-24 14:08:55,430 [main] [12708 1] INFO  - External Plugin tingyun-tomcat-coyote-plugin well be loaded.
+2020-07-24 14:08:55,435 [main] [12708 1] INFO  - External Plugin tingyun-tongweb-plugin-6 well be loaded.
+2020-07-24 14:08:55,447 [main] [12708 1] INFO  - External Plugin tingyun-xmlrpc-plugin well be loaded.
+2020-07-24 14:08:55,463 [main] [12708 1] INFO  - ClassWeaveService removing 0 weave packages.
+2020-07-24 14:08:56,428 [main] [12708 1] INFO  - Setting protocol to "http"
+2020-07-24 14:08:57,403 [main] [12708 1] INFO  - Configuration file is D:\IDEAProjects\server-test-2\server-test-master\tingyun\.\tingyun.properties
+2020-07-24 14:08:57,428 [main] [12708 1] INFO  - Tingyun Agent V3.4.5 has started.
+2020-07-24 14:08:57,428 [main] [12708 1] INFO  - Agent class loader: com.tingyun.starter.a@7f560810
+2020-07-24 14:08:57,428 [main] [12708 1] INFO  - Tingyun Java Agent premain startup complete in 17169ms
+2020-07-24 14:08:57,437 [Tingyun-SampleRate-checker_ 1] [12708 49] WARN  - No EventDataBlockProducer of this application(mp-app1) was found
+2020-07-24 14:08:57,685 [main] [12708 1] INFO  - ClassLoaderClassTransformer patched BoostrapPlaceholder(class com.tingyun.weave.a.a$1) -- className:javax/management/remote/rmi/NoCallStackClassLoader
+2020-07-24 14:08:57,986 [RMI TCP Connection(1)-192.168.5.114] [12708 56] INFO  - ClassLoaderClassTransformer patched BoostrapPlaceholder(class com.tingyun.weave.a.a$1) -- className:com/sun/jmx/remote/util/ClassLoaderWithRepository
+2020-07-24 14:08:57,988 [RMI TCP Connection(1)-192.168.5.114] [12708 56] INFO  - ClassLoader transformer: classloaders to skip contains javax/management/remote/rmi/RMIConnectionImpl$CombinedClassLoader
+2020-07-24 14:08:57,990 [RMI TCP Connection(1)-192.168.5.114] [12708 56] INFO  - ClassLoaderClassTransformer patched BoostrapPlaceholder(class com.tingyun.weave.a.a$1) -- className:javax/management/remote/rmi/RMIConnectionImpl$CombinedClassLoader$ClassLoaderWrapper
+2020-07-24 14:08:58,713 [Tingyun Connection Service 1] [12708 45] WARN  - Socket exception. com.tingyun.agent.libs.org.apache.http.conn.HttpHostConnectException: Connect to 10.128.1.120:7766 [/10.128.1.120] failed: Connection refused: connect, Please check your network / proxy settings.
+2020-07-24 14:08:58,716 [Tingyun Connection Service 1] [12708 45] WARN  - Redirect failed.
+com.tingyun.agent.c.d.f: Failed to redirect.
+	at com.tingyun.agent.c.i.b(SourceFile:164)
+	at com.tingyun.agent.c.f.b(SourceFile:246)
+	at com.tingyun.agent.c.f$b.run(SourceFile:62)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.tingyun.agent.libs.org.apache.http.conn.HttpHostConnectException: Connect to 10.128.1.120:7766 [/10.128.1.120] failed: Connection refused: connect
+	at com.tingyun.agent.libs.org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(SourceFile:148)
+	at com.tingyun.agent.libs.org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(SourceFile:344)
+	at com.tingyun.agent.libs.org.apache.http.impl.execchain.MainClientExec.establishRoute(SourceFile:370)
+	at com.tingyun.agent.libs.org.apache.http.impl.execchain.MainClientExec.execute(SourceFile:226)
+	at com.tingyun.agent.libs.org.apache.http.impl.execchain.ProtocolExec.execute(SourceFile:185)
+	at com.tingyun.agent.libs.org.apache.http.impl.execchain.RetryExec.execute(SourceFile:89)
+	at com.tingyun.agent.libs.org.apache.http.impl.execchain.RedirectExec.execute(SourceFile:107)
+	at com.tingyun.agent.libs.org.apache.http.impl.client.InternalHttpClient.doExecute(SourceFile:185)
+	at com.tingyun.agent.libs.org.apache.http.impl.client.CloseableHttpClient.execute(SourceFile:83)
+	at com.tingyun.agent.c.e.b.c(SourceFile:364)
+	at com.tingyun.agent.c.e.b.b(SourceFile:295)
+	at com.tingyun.agent.c.e.b.a(SourceFile:246)
+	at com.tingyun.agent.c.e.b.a(SourceFile:226)
+	at com.tingyun.agent.c.e.b.a(SourceFile:123)
+	at com.tingyun.agent.c.m.a(SourceFile:83)
+	at com.tingyun.agent.c.i.b(SourceFile:162)
+	... 7 common frames omitted
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:606)
+	at com.tingyun.agent.libs.org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(SourceFile:75)
+	at com.tingyun.agent.libs.org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(SourceFile:131)
+	... 22 common frames omitted
+2020-07-24 14:09:00,333 [main] [12708 1] INFO  - ClassLoaderClassTransformer patched sun.misc.Launcher$AppClassLoader@18b4aac2(class sun.misc.Launcher$AppClassLoader) -- className:org/apache/catalina/loader/WebappClassLoaderBase
+2020-07-24 14:09:01,590 [RMI TCP Connection(1)-192.168.5.114] [12708 56] INFO  - ClassLoaderClassTransformer patched BoostrapPlaceholder(class com.tingyun.weave.a.a$1) -- className:com/sun/jmx/remote/util/OrderClassLoaders
+2020-07-24 14:09:02,439 [Tingyun-SampleRate-checker_ 1] [12708 49] WARN  - No EventDataBlockProducer of this application(mp-app1) was found
+2020-07-24 14:09:07,441 [Tingyun-SampleRate-checker_ 1] [12708 49] WARN  - No EventDataBlockProducer of this application(mp-app1) was found
+2020-07-24 14:09:09,855 [Tingyun Connection Service 1] [12708 45] WARN  - Socket exception. com.tingyun.agent.libs.org.apache.http.conn.HttpHostConnectException: Connect to 10.128.1.120:7766 [/10.128.1.120] failed: Connection refused: connect, Please check your network / proxy settings.
+2020-07-24 14:09:09,856 [Tingyun Connection Service 1] [12708 45] WARN  - Redirect failed.
+com.tingyun.agent.c.d.f: Failed to redirect.
+	at com.tingyun.agent.c.i.b(SourceFile:164)
+	at com.tingyun.agent.c.f.b(SourceFile:246)
+	at com.tingyun.agent.c.f$b.run(SourceFile:62)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.tingyun.agent.libs.org.apache.http.conn.HttpHostConnectException: Connect to 10.128.1.120:7766 [/10.128.1.120] failed: Connection refused: connect
+	at com.tingyun.agent.libs.org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(SourceFile:148)
+	at com.tingyun.agent.libs.org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(SourceFile:344)
+	at com.tingyun.agent.libs.org.apache.http.impl.execchain.MainClientExec.establishRoute(SourceFile:370)
+	at com.tingyun.agent.libs.org.apache.http.impl.execchain.MainClientExec.execute(SourceFile:226)
+	at com.tingyun.agent.libs.org.apache.http.impl.execchain.ProtocolExec.execute(SourceFile:185)
+	at com.tingyun.agent.libs.org.apache.http.impl.execchain.RetryExec.execute(SourceFile:89)
+	at com.tingyun.agent.libs.org.apache.http.impl.execchain.RedirectExec.execute(SourceFile:107)
+	at com.tingyun.agent.libs.org.apache.http.impl.client.InternalHttpClient.doExecute(SourceFile:185)
+	at com.tingyun.agent.libs.org.apache.http.impl.client.CloseableHttpClient.execute(SourceFile:83)
+	at com.tingyun.agent.c.e.b.c(SourceFile:364)
+	at com.tingyun.agent.c.e.b.b(SourceFile:295)
+	at com.tingyun.agent.c.e.b.a(SourceFile:246)
+	at com.tingyun.agent.c.e.b.a(SourceFile:226)
+	at com.tingyun.agent.c.e.b.a(SourceFile:123)
+	at com.tingyun.agent.c.m.a(SourceFile:83)
+	at com.tingyun.agent.c.i.b(SourceFile:162)
+	... 7 common frames omitted
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:606)
+	at com.tingyun.agent.libs.org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(SourceFile:75)
+	at com.tingyun.agent.libs.org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(SourceFile:131)
+	... 22 common frames omitted
+2020-07-24 14:09:12,442 [Tingyun-SampleRate-checker_ 1] [12708 49] WARN  - No EventDataBlockProducer of this application(mp-app1) was found
+2020-07-24 14:09:17,442 [Tingyun-SampleRate-checker_ 1] [12708 49] WARN  - No EventDataBlockProducer of this application(mp-app1) was found
+2020-07-24 14:09:21,003 [Tingyun Connection Service 1] [12708 45] WARN  - Socket exception. com.tingyun.agent.libs.org.apache.http.conn.HttpHostConnectException: Connect to 10.128.1.120:7766 [/10.128.1.120] failed: Connection refused: connect, Please check your network / proxy settings.
+2020-07-24 14:09:21,004 [Tingyun Connection Service 1] [12708 45] WARN  - Redirect failed.
+com.tingyun.agent.c.d.f: Failed to redirect.
+	at com.tingyun.agent.c.i.b(SourceFile:164)
+	at com.tingyun.agent.c.f.b(SourceFile:246)
+	at com.tingyun.agent.c.f$b.run(SourceFile:62)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.tingyun.agent.libs.org.apache.http.conn.HttpHostConnectException: Connect to 10.128.1.120:7766 [/10.128.1.120] failed: Connection refused: connect
+	at com.tingyun.agent.libs.org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(SourceFile:148)
+	at com.tingyun.agent.libs.org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(SourceFile:344)
+	at com.tingyun.agent.libs.org.apache.http.impl.execchain.MainClientExec.establishRoute(SourceFile:370)
+	at com.tingyun.agent.libs.org.apache.http.impl.execchain.MainClientExec.execute(SourceFile:226)
+	at com.tingyun.agent.libs.org.apache.http.impl.execchain.ProtocolExec.execute(SourceFile:185)
+	at com.tingyun.agent.libs.org.apache.http.impl.execchain.RetryExec.execute(SourceFile:89)
+	at com.tingyun.agent.libs.org.apache.http.impl.execchain.RedirectExec.execute(SourceFile:107)
+	at com.tingyun.agent.libs.org.apache.http.impl.client.InternalHttpClient.doExecute(SourceFile:185)
+	at com.tingyun.agent.libs.org.apache.http.impl.client.CloseableHttpClient.execute(SourceFile:83)
+	at com.tingyun.agent.c.e.b.c(SourceFile:364)
+	at com.tingyun.agent.c.e.b.b(SourceFile:295)
+	at com.tingyun.agent.c.e.b.a(SourceFile:246)
+	at com.tingyun.agent.c.e.b.a(SourceFile:226)
+	at com.tingyun.agent.c.e.b.a(SourceFile:123)
+	at com.tingyun.agent.c.m.a(SourceFile:83)
+	at com.tingyun.agent.c.i.b(SourceFile:162)
+	... 7 common frames omitted
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:606)
+	at com.tingyun.agent.libs.org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(SourceFile:75)
+	at com.tingyun.agent.libs.org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(SourceFile:131)
+	... 22 common frames omitted
+2020-07-24 14:09:22,444 [Tingyun-SampleRate-checker_ 1] [12708 49] WARN  - No EventDataBlockProducer of this application(mp-app1) was found
+2020-07-24 14:09:27,445 [Tingyun-SampleRate-checker_ 1] [12708 49] WARN  - No EventDataBlockProducer of this application(mp-app1) was found
+2020-07-24 14:09:32,144 [Tingyun Connection Service 1] [12708 45] WARN  - Socket exception. com.tingyun.agent.libs.org.apache.http.conn.HttpHostConnectException: Connect to 10.128.1.120:7766 [/10.128.1.120] failed: Connection refused: connect, Please check your network / proxy settings.
+2020-07-24 14:09:32,145 [Tingyun Connection Service 1] [12708 45] WARN  - Redirect failed.
+com.tingyun.agent.c.d.f: Failed to redirect.
+	at com.tingyun.agent.c.i.b(SourceFile:164)
+	at com.tingyun.agent.c.f.b(SourceFile:246)
+	at com.tingyun.agent.c.f$b.run(SourceFile:62)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.tingyun.agent.libs.org.apache.http.conn.HttpHostConnectException: Connect to 10.128.1.120:7766 [/10.128.1.120] failed: Connection refused: connect
+	at com.tingyun.agent.libs.org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(SourceFile:148)
+	at com.tingyun.agent.libs.org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(SourceFile:344)
+	at com.tingyun.agent.libs.org.apache.http.impl.execchain.MainClientExec.establishRoute(SourceFile:370)
+	at com.tingyun.agent.libs.org.apache.http.impl.execchain.MainClientExec.execute(SourceFile:226)
+	at com.tingyun.agent.libs.org.apache.http.impl.execchain.ProtocolExec.execute(SourceFile:185)
+	at com.tingyun.agent.libs.org.apache.http.impl.execchain.RetryExec.execute(SourceFile:89)
+	at com.tingyun.agent.libs.org.apache.http.impl.execchain.RedirectExec.execute(SourceFile:107)
+	at com.tingyun.agent.libs.org.apache.http.impl.client.InternalHttpClient.doExecute(SourceFile:185)
+	at com.tingyun.agent.libs.org.apache.http.impl.client.CloseableHttpClient.execute(SourceFile:83)
+	at com.tingyun.agent.c.e.b.c(SourceFile:364)
+	at com.tingyun.agent.c.e.b.b(SourceFile:295)
+	at com.tingyun.agent.c.e.b.a(SourceFile:246)
+	at com.tingyun.agent.c.e.b.a(SourceFile:226)
+	at com.tingyun.agent.c.e.b.a(SourceFile:123)
+	at com.tingyun.agent.c.m.a(SourceFile:83)
+	at com.tingyun.agent.c.i.b(SourceFile:162)
+	... 7 common frames omitted
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:606)
+	at com.tingyun.agent.libs.org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(SourceFile:75)
+	at com.tingyun.agent.libs.org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(SourceFile:131)
+	... 22 common frames omitted
+2020-07-24 14:09:32,446 [Tingyun-SampleRate-checker_ 1] [12708 49] WARN  - No EventDataBlockProducer of this application(mp-app1) was found
+2020-07-24 14:09:37,447 [Tingyun-SampleRate-checker_ 1] [12708 49] WARN  - No EventDataBlockProducer of this application(mp-app1) was found
+2020-07-24 14:09:42,448 [Tingyun-SampleRate-checker_ 1] [12708 49] WARN  - No EventDataBlockProducer of this application(mp-app1) was found
+2020-07-24 14:09:43,281 [Tingyun Connection Service 1] [12708 45] WARN  - Socket exception. com.tingyun.agent.libs.org.apache.http.conn.HttpHostConnectException: Connect to 10.128.1.120:7766 [/10.128.1.120] failed: Connection refused: connect, Please check your network / proxy settings.
+2020-07-24 14:09:43,281 [Tingyun Connection Service 1] [12708 45] WARN  - Redirect failed.
+com.tingyun.agent.c.d.f: Failed to redirect.
+	at com.tingyun.agent.c.i.b(SourceFile:164)
+	at com.tingyun.agent.c.f.b(SourceFile:246)
+	at com.tingyun.agent.c.f$b.run(SourceFile:62)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.tingyun.agent.libs.org.apache.http.conn.HttpHostConnectException: Connect to 10.128.1.120:7766 [/10.128.1.120] failed: Connection refused: connect
+	at com.tingyun.agent.libs.org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(SourceFile:148)
+	at com.tingyun.agent.libs.org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(SourceFile:344)
+	at com.tingyun.agent.libs.org.apache.http.impl.execchain.MainClientExec.establishRoute(SourceFile:370)
+	at com.tingyun.agent.libs.org.apache.http.impl.execchain.MainClientExec.execute(SourceFile:226)
+	at com.tingyun.agent.libs.org.apache.http.impl.execchain.ProtocolExec.execute(SourceFile:185)
+	at com.tingyun.agent.libs.org.apache.http.impl.execchain.RetryExec.execute(SourceFile:89)
+	at com.tingyun.agent.libs.org.apache.http.impl.execchain.RedirectExec.execute(SourceFile:107)
+	at com.tingyun.agent.libs.org.apache.http.impl.client.InternalHttpClient.doExecute(SourceFile:185)
+	at com.tingyun.agent.libs.org.apache.http.impl.client.CloseableHttpClient.execute(SourceFile:83)
+	at com.tingyun.agent.c.e.b.c(SourceFile:364)
+	at com.tingyun.agent.c.e.b.b(SourceFile:295)
+	at com.tingyun.agent.c.e.b.a(SourceFile:246)
+	at com.tingyun.agent.c.e.b.a(SourceFile:226)
+	at com.tingyun.agent.c.e.b.a(SourceFile:123)
+	at com.tingyun.agent.c.m.a(SourceFile:83)
+	at com.tingyun.agent.c.i.b(SourceFile:162)
+	... 7 common frames omitted
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:606)
+	at com.tingyun.agent.libs.org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(SourceFile:75)
+	at com.tingyun.agent.libs.org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(SourceFile:131)
+	... 22 common frames omitted
+2020-07-24 14:09:47,449 [Tingyun-SampleRate-checker_ 1] [12708 49] WARN  - No EventDataBlockProducer of this application(mp-app1) was found
+2020-07-24 14:09:52,449 [Tingyun-SampleRate-checker_ 1] [12708 49] WARN  - No EventDataBlockProducer of this application(mp-app1) was found
+2020-07-24 14:09:54,418 [Tingyun Connection Service 1] [12708 45] WARN  - Socket exception. com.tingyun.agent.libs.org.apache.http.conn.HttpHostConnectException: Connect to 10.128.1.120:7766 [/10.128.1.120] failed: Connection refused: connect, Please check your network / proxy settings.
+2020-07-24 14:09:54,420 [Tingyun Connection Service 1] [12708 45] WARN  - Redirect failed.
+com.tingyun.agent.c.d.f: Failed to redirect.
+	at com.tingyun.agent.c.i.b(SourceFile:164)
+	at com.tingyun.agent.c.f.b(SourceFile:246)
+	at com.tingyun.agent.c.f$b.run(SourceFile:62)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.tingyun.agent.libs.org.apache.http.conn.HttpHostConnectException: Connect to 10.128.1.120:7766 [/10.128.1.120] failed: Connection refused: connect
+	at com.tingyun.agent.libs.org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(SourceFile:148)
+	at com.tingyun.agent.libs.org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(SourceFile:344)
+	at com.tingyun.agent.libs.org.apache.http.impl.execchain.MainClientExec.establishRoute(SourceFile:370)
+	at com.tingyun.agent.libs.org.apache.http.impl.execchain.MainClientExec.execute(SourceFile:226)
+	at com.tingyun.agent.libs.org.apache.http.impl.execchain.ProtocolExec.execute(SourceFile:185)
+	at com.tingyun.agent.libs.org.apache.http.impl.execchain.RetryExec.execute(SourceFile:89)
+	at com.tingyun.agent.libs.org.apache.http.impl.execchain.RedirectExec.execute(SourceFile:107)
+	at com.tingyun.agent.libs.org.apache.http.impl.client.InternalHttpClient.doExecute(SourceFile:185)
+	at com.tingyun.agent.libs.org.apache.http.impl.client.CloseableHttpClient.execute(SourceFile:83)
+	at com.tingyun.agent.c.e.b.c(SourceFile:364)
+	at com.tingyun.agent.c.e.b.b(SourceFile:295)
+	at com.tingyun.agent.c.e.b.a(SourceFile:246)
+	at com.tingyun.agent.c.e.b.a(SourceFile:226)
+	at com.tingyun.agent.c.e.b.a(SourceFile:123)
+	at com.tingyun.agent.c.m.a(SourceFile:83)
+	at com.tingyun.agent.c.i.b(SourceFile:162)
+	... 7 common frames omitted
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:606)
+	at com.tingyun.agent.libs.org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(SourceFile:75)
+	at com.tingyun.agent.libs.org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(SourceFile:131)
+	... 22 common frames omitted
+2020-07-24 14:09:57,450 [Tingyun-SampleRate-checker_ 1] [12708 49] WARN  - No EventDataBlockProducer of this application(mp-app1) was found
+2020-07-24 14:10:02,451 [Tingyun-SampleRate-checker_ 1] [12708 49] WARN  - No EventDataBlockProducer of this application(mp-app1) was found
+2020-07-24 14:10:05,555 [Tingyun Connection Service 1] [12708 45] WARN  - Socket exception. com.tingyun.agent.libs.org.apache.http.conn.HttpHostConnectException: Connect to 10.128.1.120:7766 [/10.128.1.120] failed: Connection refused: connect, Please check your network / proxy settings.
+2020-07-24 14:10:05,556 [Tingyun Connection Service 1] [12708 45] WARN  - Redirect failed.
+com.tingyun.agent.c.d.f: Failed to redirect.
+	at com.tingyun.agent.c.i.b(SourceFile:164)
+	at com.tingyun.agent.c.f.b(SourceFile:246)
+	at com.tingyun.agent.c.f$b.run(SourceFile:62)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.tingyun.agent.libs.org.apache.http.conn.HttpHostConnectException: Connect to 10.128.1.120:7766 [/10.128.1.120] failed: Connection refused: connect
+	at com.tingyun.agent.libs.org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(SourceFile:148)
+	at com.tingyun.agent.libs.org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(SourceFile:344)
+	at com.tingyun.agent.libs.org.apache.http.impl.execchain.MainClientExec.establishRoute(SourceFile:370)
+	at com.tingyun.agent.libs.org.apache.http.impl.execchain.MainClientExec.execute(SourceFile:226)
+	at com.tingyun.agent.libs.org.apache.http.impl.execchain.ProtocolExec.execute(SourceFile:185)
+	at com.tingyun.agent.libs.org.apache.http.impl.execchain.RetryExec.execute(SourceFile:89)
+	at com.tingyun.agent.libs.org.apache.http.impl.execchain.RedirectExec.execute(SourceFile:107)
+	at com.tingyun.agent.libs.org.apache.http.impl.client.InternalHttpClient.doExecute(SourceFile:185)
+	at com.tingyun.agent.libs.org.apache.http.impl.client.CloseableHttpClient.execute(SourceFile:83)
+	at com.tingyun.agent.c.e.b.c(SourceFile:364)
+	at com.tingyun.agent.c.e.b.b(SourceFile:295)
+	at com.tingyun.agent.c.e.b.a(SourceFile:246)
+	at com.tingyun.agent.c.e.b.a(SourceFile:226)
+	at com.tingyun.agent.c.e.b.a(SourceFile:123)
+	at com.tingyun.agent.c.m.a(SourceFile:83)
+	at com.tingyun.agent.c.i.b(SourceFile:162)
+	... 7 common frames omitted
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:606)
+	at com.tingyun.agent.libs.org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(SourceFile:75)
+	at com.tingyun.agent.libs.org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(SourceFile:131)
+	... 22 common frames omitted
+2020-07-24 14:10:07,451 [Tingyun-SampleRate-checker_ 1] [12708 49] WARN  - No EventDataBlockProducer of this application(mp-app1) was found
+2020-07-24 14:10:16,689 [Tingyun Connection Service 1] [12708 45] WARN  - Socket exception. com.tingyun.agent.libs.org.apache.http.conn.HttpHostConnectException: Connect to 10.128.1.120:7766 [/10.128.1.120] failed: Connection refused: connect, Please check your network / proxy settings.
+2020-07-24 14:10:16,689 [Tingyun Connection Service 1] [12708 45] WARN  - Redirect failed.
+com.tingyun.agent.c.d.f: Failed to redirect.
+	at com.tingyun.agent.c.i.b(SourceFile:164)
+	at com.tingyun.agent.c.f.b(SourceFile:246)
+	at com.tingyun.agent.c.f$b.run(SourceFile:62)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.tingyun.agent.libs.org.apache.http.conn.HttpHostConnectException: Connect to 10.128.1.120:7766 [/10.128.1.120] failed: Connection refused: connect
+	at com.tingyun.agent.libs.org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(SourceFile:148)
+	at com.tingyun.agent.libs.org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(SourceFile:344)
+	at com.tingyun.agent.libs.org.apache.http.impl.execchain.MainClientExec.establishRoute(SourceFile:370)
+	at com.tingyun.agent.libs.org.apache.http.impl.execchain.MainClientExec.execute(SourceFile:226)
+	at com.tingyun.agent.libs.org.apache.http.impl.execchain.ProtocolExec.execute(SourceFile:185)
+	at com.tingyun.agent.libs.org.apache.http.impl.execchain.RetryExec.execute(SourceFile:89)
+	at com.tingyun.agent.libs.org.apache.http.impl.execchain.RedirectExec.execute(SourceFile:107)
+	at com.tingyun.agent.libs.org.apache.http.impl.client.InternalHttpClient.doExecute(SourceFile:185)
+	at com.tingyun.agent.libs.org.apache.http.impl.client.CloseableHttpClient.execute(SourceFile:83)
+	at com.tingyun.agent.c.e.b.c(SourceFile:364)
+	at com.tingyun.agent.c.e.b.b(SourceFile:295)
+	at com.tingyun.agent.c.e.b.a(SourceFile:246)
+	at com.tingyun.agent.c.e.b.a(SourceFile:226)
+	at com.tingyun.agent.c.e.b.a(SourceFile:123)
+	at com.tingyun.agent.c.m.a(SourceFile:83)
+	at com.tingyun.agent.c.i.b(SourceFile:162)
+	... 7 common frames omitted
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:606)
+	at com.tingyun.agent.libs.org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(SourceFile:75)
+	at com.tingyun.agent.libs.org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(SourceFile:131)
+	... 22 common frames omitted
+2020-07-24 14:10:27,825 [Tingyun Connection Service 1] [12708 45] WARN  - Socket exception. com.tingyun.agent.libs.org.apache.http.conn.HttpHostConnectException: Connect to 10.128.1.120:7766 [/10.128.1.120] failed: Connection refused: connect, Please check your network / proxy settings.
+2020-07-24 14:10:27,826 [Tingyun Connection Service 1] [12708 45] WARN  - Redirect failed.
+com.tingyun.agent.c.d.f: Failed to redirect.
+	at com.tingyun.agent.c.i.b(SourceFile:164)
+	at com.tingyun.agent.c.f.b(SourceFile:246)
+	at com.tingyun.agent.c.f$b.run(SourceFile:62)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.tingyun.agent.libs.org.apache.http.conn.HttpHostConnectException: Connect to 10.128.1.120:7766 [/10.128.1.120] failed: Connection refused: connect
+	at com.tingyun.agent.libs.org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(SourceFile:148)
+	at com.tingyun.agent.libs.org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(SourceFile:344)
+	at com.tingyun.agent.libs.org.apache.http.impl.execchain.MainClientExec.establishRoute(SourceFile:370)
+	at com.tingyun.agent.libs.org.apache.http.impl.execchain.MainClientExec.execute(SourceFile:226)
+	at com.tingyun.agent.libs.org.apache.http.impl.execchain.ProtocolExec.execute(SourceFile:185)
+	at com.tingyun.agent.libs.org.apache.http.impl.execchain.RetryExec.execute(SourceFile:89)
+	at com.tingyun.agent.libs.org.apache.http.impl.execchain.RedirectExec.execute(SourceFile:107)
+	at com.tingyun.agent.libs.org.apache.http.impl.client.InternalHttpClient.doExecute(SourceFile:185)
+	at com.tingyun.agent.libs.org.apache.http.impl.client.CloseableHttpClient.execute(SourceFile:83)
+	at com.tingyun.agent.c.e.b.c(SourceFile:364)
+	at com.tingyun.agent.c.e.b.b(SourceFile:295)
+	at com.tingyun.agent.c.e.b.a(SourceFile:246)
+	at com.tingyun.agent.c.e.b.a(SourceFile:226)
+	at com.tingyun.agent.c.e.b.a(SourceFile:123)
+	at com.tingyun.agent.c.m.a(SourceFile:83)
+	at com.tingyun.agent.c.i.b(SourceFile:162)
+	... 7 common frames omitted
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:606)
+	at com.tingyun.agent.libs.org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(SourceFile:75)
+	at com.tingyun.agent.libs.org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(SourceFile:131)
+	... 22 common frames omitted
+2020-07-24 14:10:38,960 [Tingyun Connection Service 1] [12708 45] WARN  - Socket exception. com.tingyun.agent.libs.org.apache.http.conn.HttpHostConnectException: Connect to 10.128.1.120:7766 [/10.128.1.120] failed: Connection refused: connect, Please check your network / proxy settings.
+2020-07-24 14:10:38,961 [Tingyun Connection Service 1] [12708 45] WARN  - Redirect failed.
+com.tingyun.agent.c.d.f: Failed to redirect.
+	at com.tingyun.agent.c.i.b(SourceFile:164)
+	at com.tingyun.agent.c.f.b(SourceFile:246)
+	at com.tingyun.agent.c.f$b.run(SourceFile:62)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.tingyun.agent.libs.org.apache.http.conn.HttpHostConnectException: Connect to 10.128.1.120:7766 [/10.128.1.120] failed: Connection refused: connect
+	at com.tingyun.agent.libs.org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(SourceFile:148)
+	at com.tingyun.agent.libs.org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(SourceFile:344)
+	at com.tingyun.agent.libs.org.apache.http.impl.execchain.MainClientExec.establishRoute(SourceFile:370)
+	at com.tingyun.agent.libs.org.apache.http.impl.execchain.MainClientExec.execute(SourceFile:226)
+	at com.tingyun.agent.libs.org.apache.http.impl.execchain.ProtocolExec.execute(SourceFile:185)
+	at com.tingyun.agent.libs.org.apache.http.impl.execchain.RetryExec.execute(SourceFile:89)
+	at com.tingyun.agent.libs.org.apache.http.impl.execchain.RedirectExec.execute(SourceFile:107)
+	at com.tingyun.agent.libs.org.apache.http.impl.client.InternalHttpClient.doExecute(SourceFile:185)
+	at com.tingyun.agent.libs.org.apache.http.impl.client.CloseableHttpClient.execute(SourceFile:83)
+	at com.tingyun.agent.c.e.b.c(SourceFile:364)
+	at com.tingyun.agent.c.e.b.b(SourceFile:295)
+	at com.tingyun.agent.c.e.b.a(SourceFile:246)
+	at com.tingyun.agent.c.e.b.a(SourceFile:226)
+	at com.tingyun.agent.c.e.b.a(SourceFile:123)
+	at com.tingyun.agent.c.m.a(SourceFile:83)
+	at com.tingyun.agent.c.i.b(SourceFile:162)
+	... 7 common frames omitted
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:606)
+	at com.tingyun.agent.libs.org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(SourceFile:75)
+	at com.tingyun.agent.libs.org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(SourceFile:131)
+	... 22 common frames omitted
+2020-07-24 14:10:50,095 [Tingyun Connection Service 1] [12708 45] WARN  - Socket exception. com.tingyun.agent.libs.org.apache.http.conn.HttpHostConnectException: Connect to 10.128.1.120:7766 [/10.128.1.120] failed: Connection refused: connect, Please check your network / proxy settings.
+2020-07-24 14:10:50,096 [Tingyun Connection Service 1] [12708 45] WARN  - Redirect failed.
+com.tingyun.agent.c.d.f: Failed to redirect.
+	at com.tingyun.agent.c.i.b(SourceFile:164)
+	at com.tingyun.agent.c.f.b(SourceFile:246)
+	at com.tingyun.agent.c.f$b.run(SourceFile:62)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.tingyun.agent.libs.org.apache.http.conn.HttpHostConnectException: Connect to 10.128.1.120:7766 [/10.128.1.120] failed: Connection refused: connect
+	at com.tingyun.agent.libs.org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(SourceFile:148)
+	at com.tingyun.agent.libs.org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(SourceFile:344)
+	at com.tingyun.agent.libs.org.apache.http.impl.execchain.MainClientExec.establishRoute(SourceFile:370)
+	at com.tingyun.agent.libs.org.apache.http.impl.execchain.MainClientExec.execute(SourceFile:226)
+	at com.tingyun.agent.libs.org.apache.http.impl.execchain.ProtocolExec.execute(SourceFile:185)
+	at com.tingyun.agent.libs.org.apache.http.impl.execchain.RetryExec.execute(SourceFile:89)
+	at com.tingyun.agent.libs.org.apache.http.impl.execchain.RedirectExec.execute(SourceFile:107)
+	at com.tingyun.agent.libs.org.apache.http.impl.client.InternalHttpClient.doExecute(SourceFile:185)
+	at com.tingyun.agent.libs.org.apache.http.impl.client.CloseableHttpClient.execute(SourceFile:83)
+	at com.tingyun.agent.c.e.b.c(SourceFile:364)
+	at com.tingyun.agent.c.e.b.b(SourceFile:295)
+	at com.tingyun.agent.c.e.b.a(SourceFile:246)
+	at com.tingyun.agent.c.e.b.a(SourceFile:226)
+	at com.tingyun.agent.c.e.b.a(SourceFile:123)
+	at com.tingyun.agent.c.m.a(SourceFile:83)
+	at com.tingyun.agent.c.i.b(SourceFile:162)
+	... 7 common frames omitted
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:606)
+	at com.tingyun.agent.libs.org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(SourceFile:75)
+	at com.tingyun.agent.libs.org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(SourceFile:131)
+	... 22 common frames omitted
+2020-07-24 14:11:01,315 [Tingyun Connection Service 1] [12708 45] WARN  - Socket exception. com.tingyun.agent.libs.org.apache.http.conn.HttpHostConnectException: Connect to 10.128.1.120:7766 [/10.128.1.120] failed: Connection refused: connect, Please check your network / proxy settings.
+2020-07-24 14:11:01,316 [Tingyun Connection Service 1] [12708 45] WARN  - Redirect failed.
+com.tingyun.agent.c.d.f: Failed to redirect.
+	at com.tingyun.agent.c.i.b(SourceFile:164)
+	at com.tingyun.agent.c.f.b(SourceFile:246)
+	at com.tingyun.agent.c.f$b.run(SourceFile:62)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.tingyun.agent.libs.org.apache.http.conn.HttpHostConnectException: Connect to 10.128.1.120:7766 [/10.128.1.120] failed: Connection refused: connect
+	at com.tingyun.agent.libs.org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(SourceFile:148)
+	at com.tingyun.agent.libs.org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(SourceFile:344)
+	at com.tingyun.agent.libs.org.apache.http.impl.execchain.MainClientExec.establishRoute(SourceFile:370)
+	at com.tingyun.agent.libs.org.apache.http.impl.execchain.MainClientExec.execute(SourceFile:226)
+	at com.tingyun.agent.libs.org.apache.http.impl.execchain.ProtocolExec.execute(SourceFile:185)
+	at com.tingyun.agent.libs.org.apache.http.impl.execchain.RetryExec.execute(SourceFile:89)
+	at com.tingyun.agent.libs.org.apache.http.impl.execchain.RedirectExec.execute(SourceFile:107)
+	at com.tingyun.agent.libs.org.apache.http.impl.client.InternalHttpClient.doExecute(SourceFile:185)
+	at com.tingyun.agent.libs.org.apache.http.impl.client.CloseableHttpClient.execute(SourceFile:83)
+	at com.tingyun.agent.c.e.b.c(SourceFile:364)
+	at com.tingyun.agent.c.e.b.b(SourceFile:295)
+	at com.tingyun.agent.c.e.b.a(SourceFile:246)
+	at com.tingyun.agent.c.e.b.a(SourceFile:226)
+	at com.tingyun.agent.c.e.b.a(SourceFile:123)
+	at com.tingyun.agent.c.m.a(SourceFile:83)
+	at com.tingyun.agent.c.i.b(SourceFile:162)
+	... 7 common frames omitted
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:606)
+	at com.tingyun.agent.libs.org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(SourceFile:75)
+	at com.tingyun.agent.libs.org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(SourceFile:131)
+	... 22 common frames omitted
+2020-07-24 14:11:12,455 [Tingyun Connection Service 1] [12708 45] WARN  - Socket exception. com.tingyun.agent.libs.org.apache.http.conn.HttpHostConnectException: Connect to 10.128.1.120:7766 [/10.128.1.120] failed: Connection refused: connect, Please check your network / proxy settings.
+2020-07-24 14:11:12,456 [Tingyun Connection Service 1] [12708 45] WARN  - Redirect failed.
+com.tingyun.agent.c.d.f: Failed to redirect.
+	at com.tingyun.agent.c.i.b(SourceFile:164)
+	at com.tingyun.agent.c.f.b(SourceFile:246)
+	at com.tingyun.agent.c.f$b.run(SourceFile:62)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.tingyun.agent.libs.org.apache.http.conn.HttpHostConnectException: Connect to 10.128.1.120:7766 [/10.128.1.120] failed: Connection refused: connect
+	at com.tingyun.agent.libs.org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(SourceFile:148)
+	at com.tingyun.agent.libs.org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(SourceFile:344)
+	at com.tingyun.agent.libs.org.apache.http.impl.execchain.MainClientExec.establishRoute(SourceFile:370)
+	at com.tingyun.agent.libs.org.apache.http.impl.execchain.MainClientExec.execute(SourceFile:226)
+	at com.tingyun.agent.libs.org.apache.http.impl.execchain.ProtocolExec.execute(SourceFile:185)
+	at com.tingyun.agent.libs.org.apache.http.impl.execchain.RetryExec.execute(SourceFile:89)
+	at com.tingyun.agent.libs.org.apache.http.impl.execchain.RedirectExec.execute(SourceFile:107)
+	at com.tingyun.agent.libs.org.apache.http.impl.client.InternalHttpClient.doExecute(SourceFile:185)
+	at com.tingyun.agent.libs.org.apache.http.impl.client.CloseableHttpClient.execute(SourceFile:83)
+	at com.tingyun.agent.c.e.b.c(SourceFile:364)
+	at com.tingyun.agent.c.e.b.b(SourceFile:295)
+	at com.tingyun.agent.c.e.b.a(SourceFile:246)
+	at com.tingyun.agent.c.e.b.a(SourceFile:226)
+	at com.tingyun.agent.c.e.b.a(SourceFile:123)
+	at com.tingyun.agent.c.m.a(SourceFile:83)
+	at com.tingyun.agent.c.i.b(SourceFile:162)
+	... 7 common frames omitted
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:606)
+	at com.tingyun.agent.libs.org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(SourceFile:75)
+	at com.tingyun.agent.libs.org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(SourceFile:131)
+	... 22 common frames omitted
+2020-07-24 14:11:23,591 [Tingyun Connection Service 1] [12708 45] WARN  - Socket exception. com.tingyun.agent.libs.org.apache.http.conn.HttpHostConnectException: Connect to 10.128.1.120:7766 [/10.128.1.120] failed: Connection refused: connect, Please check your network / proxy settings.
+2020-07-24 14:11:23,592 [Tingyun Connection Service 1] [12708 45] WARN  - Redirect failed.
+com.tingyun.agent.c.d.f: Failed to redirect.
+	at com.tingyun.agent.c.i.b(SourceFile:164)
+	at com.tingyun.agent.c.f.b(SourceFile:246)
+	at com.tingyun.agent.c.f$b.run(SourceFile:62)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.tingyun.agent.libs.org.apache.http.conn.HttpHostConnectException: Connect to 10.128.1.120:7766 [/10.128.1.120] failed: Connection refused: connect
+	at com.tingyun.agent.libs.org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(SourceFile:148)
+	at com.tingyun.agent.libs.org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(SourceFile:344)
+	at com.tingyun.agent.libs.org.apache.http.impl.execchain.MainClientExec.establishRoute(SourceFile:370)
+	at com.tingyun.agent.libs.org.apache.http.impl.execchain.MainClientExec.execute(SourceFile:226)
+	at com.tingyun.agent.libs.org.apache.http.impl.execchain.ProtocolExec.execute(SourceFile:185)
+	at com.tingyun.agent.libs.org.apache.http.impl.execchain.RetryExec.execute(SourceFile:89)
+	at com.tingyun.agent.libs.org.apache.http.impl.execchain.RedirectExec.execute(SourceFile:107)
+	at com.tingyun.agent.libs.org.apache.http.impl.client.InternalHttpClient.doExecute(SourceFile:185)
+	at com.tingyun.agent.libs.org.apache.http.impl.client.CloseableHttpClient.execute(SourceFile:83)
+	at com.tingyun.agent.c.e.b.c(SourceFile:364)
+	at com.tingyun.agent.c.e.b.b(SourceFile:295)
+	at com.tingyun.agent.c.e.b.a(SourceFile:246)
+	at com.tingyun.agent.c.e.b.a(SourceFile:226)
+	at com.tingyun.agent.c.e.b.a(SourceFile:123)
+	at com.tingyun.agent.c.m.a(SourceFile:83)
+	at com.tingyun.agent.c.i.b(SourceFile:162)
+	... 7 common frames omitted
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:606)
+	at com.tingyun.agent.libs.org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(SourceFile:75)
+	at com.tingyun.agent.libs.org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(SourceFile:131)
+	... 22 common frames omitted
+2020-07-24 14:11:34,726 [Tingyun Connection Service 1] [12708 45] WARN  - Socket exception. com.tingyun.agent.libs.org.apache.http.conn.HttpHostConnectException: Connect to 10.128.1.120:7766 [/10.128.1.120] failed: Connection refused: connect, Please check your network / proxy settings.
+2020-07-24 14:11:34,726 [Tingyun Connection Service 1] [12708 45] WARN  - Redirect failed.
+com.tingyun.agent.c.d.f: Failed to redirect.
+	at com.tingyun.agent.c.i.b(SourceFile:164)
+	at com.tingyun.agent.c.f.b(SourceFile:246)
+	at com.tingyun.agent.c.f$b.run(SourceFile:62)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.tingyun.agent.libs.org.apache.http.conn.HttpHostConnectException: Connect to 10.128.1.120:7766 [/10.128.1.120] failed: Connection refused: connect
+	at com.tingyun.agent.libs.org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(SourceFile:148)
+	at com.tingyun.agent.libs.org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(SourceFile:344)
+	at com.tingyun.agent.libs.org.apache.http.impl.execchain.MainClientExec.establishRoute(SourceFile:370)
+	at com.tingyun.agent.libs.org.apache.http.impl.execchain.MainClientExec.execute(SourceFile:226)
+	at com.tingyun.agent.libs.org.apache.http.impl.execchain.ProtocolExec.execute(SourceFile:185)
+	at com.tingyun.agent.libs.org.apache.http.impl.execchain.RetryExec.execute(SourceFile:89)
+	at com.tingyun.agent.libs.org.apache.http.impl.execchain.RedirectExec.execute(SourceFile:107)
+	at com.tingyun.agent.libs.org.apache.http.impl.client.InternalHttpClient.doExecute(SourceFile:185)
+	at com.tingyun.agent.libs.org.apache.http.impl.client.CloseableHttpClient.execute(SourceFile:83)
+	at com.tingyun.agent.c.e.b.c(SourceFile:364)
+	at com.tingyun.agent.c.e.b.b(SourceFile:295)
+	at com.tingyun.agent.c.e.b.a(SourceFile:246)
+	at com.tingyun.agent.c.e.b.a(SourceFile:226)
+	at com.tingyun.agent.c.e.b.a(SourceFile:123)
+	at com.tingyun.agent.c.m.a(SourceFile:83)
+	at com.tingyun.agent.c.i.b(SourceFile:162)
+	... 7 common frames omitted
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:606)
+	at com.tingyun.agent.libs.org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(SourceFile:75)
+	at com.tingyun.agent.libs.org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(SourceFile:131)
+	... 22 common frames omitted
+2020-07-24 14:11:45,859 [Tingyun Connection Service 1] [12708 45] WARN  - Socket exception. com.tingyun.agent.libs.org.apache.http.conn.HttpHostConnectException: Connect to 10.128.1.120:7766 [/10.128.1.120] failed: Connection refused: connect, Please check your network / proxy settings.
+2020-07-24 14:11:45,859 [Tingyun Connection Service 1] [12708 45] WARN  - Redirect failed.
+com.tingyun.agent.c.d.f: Failed to redirect.
+	at com.tingyun.agent.c.i.b(SourceFile:164)
+	at com.tingyun.agent.c.f.b(SourceFile:246)
+	at com.tingyun.agent.c.f$b.run(SourceFile:62)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.tingyun.agent.libs.org.apache.http.conn.HttpHostConnectException: Connect to 10.128.1.120:7766 [/10.128.1.120] failed: Connection refused: connect
+	at com.tingyun.agent.libs.org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(SourceFile:148)
+	at com.tingyun.agent.libs.org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(SourceFile:344)
+	at com.tingyun.agent.libs.org.apache.http.impl.execchain.MainClientExec.establishRoute(SourceFile:370)
+	at com.tingyun.agent.libs.org.apache.http.impl.execchain.MainClientExec.execute(SourceFile:226)
+	at com.tingyun.agent.libs.org.apache.http.impl.execchain.ProtocolExec.execute(SourceFile:185)
+	at com.tingyun.agent.libs.org.apache.http.impl.execchain.RetryExec.execute(SourceFile:89)
+	at com.tingyun.agent.libs.org.apache.http.impl.execchain.RedirectExec.execute(SourceFile:107)
+	at com.tingyun.agent.libs.org.apache.http.impl.client.InternalHttpClient.doExecute(SourceFile:185)
+	at com.tingyun.agent.libs.org.apache.http.impl.client.CloseableHttpClient.execute(SourceFile:83)
+	at com.tingyun.agent.c.e.b.c(SourceFile:364)
+	at com.tingyun.agent.c.e.b.b(SourceFile:295)
+	at com.tingyun.agent.c.e.b.a(SourceFile:246)
+	at com.tingyun.agent.c.e.b.a(SourceFile:226)
+	at com.tingyun.agent.c.e.b.a(SourceFile:123)
+	at com.tingyun.agent.c.m.a(SourceFile:83)
+	at com.tingyun.agent.c.i.b(SourceFile:162)
+	... 7 common frames omitted
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:606)
+	at com.tingyun.agent.libs.org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(SourceFile:75)
+	at com.tingyun.agent.libs.org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(SourceFile:131)
+	... 22 common frames omitted
+2020-07-24 14:11:52,859 [Tingyun Agent Shutdown] [12708 10] INFO  - JVM is shutting down
+2020-07-24 14:11:52,861 [Tingyun Retransform Task] [12708 28] INFO  - The retransform task has been interrupted
+2020-07-24 14:11:52,862 [Tingyun Agent Shutdown] [12708 10] INFO  - Tingyun Agent has shutdown
+2020-07-24 14:11:52,862 [Tingyun EventData Service] [12708 44] WARN  - EventDataTask was interrupted, no longger reported EventData
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2088)
+	at java.util.concurrent.ArrayBlockingQueue.poll(ArrayBlockingQueue.java:418)
+	at com.tingyun.agent.c.c.b.a(SourceFile:54)
+	at com.tingyun.agent.c.c.d.run(SourceFile:31)

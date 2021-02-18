@@ -1,0 +1,821 @@
+2020-07-29 18:38:01,786 [main] [3788 1] INFO  - Writing to Tingyun log file: D:\IDEAProjects\server-test-2\server-test-master\tingyun-agent-java-3.4.5-2\tingyun\logs\tingyun_agent.log
+2020-07-29 18:38:01,786 [main] [3788 1] INFO  - JRE vendor Oracle Corporation version 1.8.0_241
+2020-07-29 18:38:01,786 [main] [3788 1] INFO  - JVM vendor Oracle Corporation Java HotSpot(TM) 64-Bit Server VM version 25.241-b07
+2020-07-29 18:38:01,786 [main] [3788 1] INFO  - OS Windows 10 version 10.0 arch amd64
+2020-07-29 18:38:01,787 [main] [3788 1] INFO  - Agent Host: DESKTOP-MCCERJJ
+2020-07-29 18:38:01,817 [main] [3788 1] INFO  - ClassLoaders will be to skip: [com/ibm/oti/vm/BootstrapClassLoader, jdk/internal/loader/BuiltinClassLoader, sun/reflect/misc/MethodUtil, com/ibm/oti/vm/AbstractClassLoader, weblogic/utils/classloaders/GenericClassLoader, com/ibm/jvm/ClassLoader, com/tingyun/agent/libs/com/alibaba/fastjson/util/ASMClassLoader, com/collaxa/cube/engine/deployment/BPELClassLoader, groovy/lang/GroovyClassLoader, groovy/lang/GroovyClassLoader$InnerLoader, gw/internal/gosu/compiler/SingleServingGosuClassLoader, org/codehaus/groovy/reflection/ClassLoaderForClassArtifacts, org/codehaus/groovy/reflection/SunClassLoader, org/codehaus/groovy/runtime/callsite/CallSiteClassLoader, org/mvel2/optimizers/impl/asm/ASMAccessorOptimizer$ContextClassLoader, org/springframework/context/support/ContextTypeMatchClassLoader, org/springframework/data/convert/ClassGeneratingEntityInstantiator$ObjectInstantiatorClassGenerator, javax/management/remote/rmi/RMIConnectionImpl$CombinedClassLoader, com/tingyun/starter/AgentClassLoader]
+2020-07-29 18:38:01,987 [main] [3788 1] INFO  - ClassLoaderClassTransformer patched com.tingyun.starter.AgentClassLoader@337d0578(class com.tingyun.starter.AgentClassLoader) -- className:com/tingyun/weave/a/a$1
+2020-07-29 18:38:02,007 [main] [3788 1] INFO  - ClassLoaderClassTransformer patched com.tingyun.starter.AgentClassLoader@337d0578(class com.tingyun.starter.AgentClassLoader) -- className:com/tingyun/weave/a/aa$2
+2020-07-29 18:38:02,042 [main] [3788 1] INFO  - ClassLoaderClassTransformer patched BoostrapPlaceholder(class com.tingyun.weave.a.a$1) -- className:java/util/ResourceBundle$RBClassLoader
+2020-07-29 18:38:02,064 [main] [3788 1] INFO  - ClassLoaderClassTransformer patched BoostrapPlaceholder(class com.tingyun.weave.a.a$1) -- className:sun/misc/Launcher$ExtClassLoader
+2020-07-29 18:38:02,088 [main] [3788 1] INFO  - ClassLoaderClassTransformer patched BoostrapPlaceholder(class com.tingyun.weave.a.a$1) -- className:sun/misc/Launcher$AppClassLoader
+2020-07-29 18:38:02,117 [main] [3788 1] INFO  - ClassLoaderClassTransformer patched BoostrapPlaceholder(class com.tingyun.weave.a.a$1) -- className:java/net/URLClassLoader
+2020-07-29 18:38:02,142 [main] [3788 1] INFO  - ClassLoaderClassTransformer patched BoostrapPlaceholder(class com.tingyun.weave.a.a$1) -- className:sun/reflect/DelegatingClassLoader
+2020-07-29 18:38:02,159 [main] [3788 1] INFO  - ClassLoaderClassTransformer patched BoostrapPlaceholder(class com.tingyun.weave.a.a$1) -- className:java/security/SecureClassLoader
+2020-07-29 18:38:02,209 [main] [3788 1] INFO  - ClassLoaderClassTransformer patched BoostrapPlaceholder(class com.tingyun.weave.a.a$1) -- className:java/lang/ClassLoader
+2020-07-29 18:38:02,672 [Thread-5] [3788 16] INFO  - ---Plugin tingyun-mongodb-plugin-2.6.3 is enabled. Loading.
+2020-07-29 18:38:02,672 [Thread-8] [3788 19] INFO  - ---Plugin tingyun-jetty-plugin-9.3 is enabled. Loading.
+2020-07-29 18:38:02,672 [Thread-6] [3788 17] INFO  - ---Plugin tingyun-webclient-plugin-1.0 is enabled. Loading.
+2020-07-29 18:38:02,672 [Thread-3] [3788 14] INFO  - ---Plugin tingyun-jdbc-mysql-plugin-3.0 is enabled. Loading.
+2020-07-29 18:38:02,673 [Thread-7] [3788 18] INFO  - ---Plugin tingyun-play-plugin-2.4 is enabled. Loading.
+2020-07-29 18:38:02,673 [Thread-2] [3788 13] INFO  - ---Plugin tingyun-play-exception-plugin-1.2 is enabled. Loading.
+2020-07-29 18:38:02,674 [Thread-1] [3788 12] INFO  - ---Plugin tingyun-weblogic-plugin-12.2.1.2 is enabled. Loading.
+2020-07-29 18:38:02,674 [Thread-4] [3788 15] INFO  - ---Plugin tingyun-jdbc-batch-plugin is enabled. Loading.
+2020-07-29 18:38:02,773 [Thread-3] [3788 14] INFO  - ---Plugin tingyun-jdbc-hsqldb-plugin-1.7 is enabled. Loading.
+2020-07-29 18:38:02,773 [Thread-2] [3788 13] INFO  - ---Plugin tingyun-spring-ws-plugin-2 is enabled. Loading.
+2020-07-29 18:38:02,829 [Thread-3] [3788 14] INFO  - ---Plugin tingyun-jms-plugin-1.1 is enabled. Loading.
+2020-07-29 18:38:02,829 [Thread-7] [3788 18] INFO  - ---Plugin tingyun-jdbc-plugin is enabled. Loading.
+2020-07-29 18:38:02,829 [Thread-4] [3788 15] INFO  - ---Plugin tingyun-websphere-plugin-7 is enabled. Loading.
+2020-07-29 18:38:02,842 [Thread-5] [3788 16] INFO  - ---Plugin tingyun-spring-plugin-4.2 is enabled. Loading.
+2020-07-29 18:38:02,920 [Thread-2] [3788 13] INFO  - ---Plugin tingyun-jdbc-mysql-multihost-connection-plugin-6.0.2 is enabled. Loading.
+2020-07-29 18:38:02,975 [Thread-2] [3788 13] INFO  - ---Plugin tingyun-jdbc-postgresql-plugin-9.4.1208 is enabled. Loading.
+2020-07-29 18:38:03,001 [Thread-6] [3788 17] INFO  - ---Plugin tingyun-httpclient-plugin-3.1 is enabled. Loading.
+2020-07-29 18:38:03,012 [Thread-5] [3788 16] INFO  - ---Plugin tingyun-jdbc-sybase-plugin-6 is enabled. Loading.
+2020-07-29 18:38:03,027 [Thread-5] [3788 16] INFO  - ---Plugin tingyun-play-plugin-2.2 is enabled. Loading.
+2020-07-29 18:38:03,029 [Thread-4] [3788 15] INFO  - ---Plugin tingyun-spring-plugin-4.0 is enabled. Loading.
+2020-07-29 18:38:03,057 [Thread-4] [3788 15] INFO  - ---Plugin tingyun-jdbc-hsqldb-plugin-2.2 is enabled. Loading.
+2020-07-29 18:38:03,059 [Thread-2] [3788 13] INFO  - ---Plugin tingyun-wildfly-port-plugin-8 is enabled. Loading.
+2020-07-29 18:38:03,128 [Thread-5] [3788 16] INFO  - ---Plugin tingyun-jetty-plugin-9 is enabled. Loading.
+2020-07-29 18:38:03,160 [Thread-4] [3788 15] INFO  - ---Plugin tingyun-thread-plugin is enabled. Loading.
+2020-07-29 18:38:03,182 [Thread-2] [3788 13] INFO  - ---Plugin tingyun-jboss-ejb-plugin is enabled. Loading.
+2020-07-29 18:38:03,186 [Thread-1] [3788 12] INFO  - ---Plugin tingyun-jersey-plugin-2.0 is enabled. Loading.
+2020-07-29 18:38:03,201 [Thread-6] [3788 17] INFO  - ---Plugin tingyun-weblogic-ejb-plugin is enabled. Loading.
+2020-07-29 18:38:03,220 [Thread-4] [3788 15] INFO  - ---Plugin tingyun-netty-plugin-3.4 is disabled. Skipping.
+2020-07-29 18:38:03,222 [Thread-4] [3788 15] INFO  - ---Plugin tingyun-reactor-netty-plugin-0.8 is enabled. Loading.
+2020-07-29 18:38:03,269 [Thread-3] [3788 14] INFO  - ---Plugin tingyun-websphere-jmx-plugin is enabled. Loading.
+2020-07-29 18:38:03,280 [Thread-3] [3788 14] INFO  - ---Plugin tingyun-spring-kafka-plugin is enabled. Loading.
+2020-07-29 18:38:03,281 [Thread-8] [3788 19] INFO  - ---Plugin tingyun-scala-plugin-2.9 is enabled. Loading.
+2020-07-29 18:38:03,341 [Thread-3] [3788 14] INFO  - ---Plugin tingyun-jdbc-socket-plugin is enabled. Loading.
+2020-07-29 18:38:03,342 [Thread-2] [3788 13] INFO  - ---Plugin tingyun-websphere-ejb-plugin is enabled. Loading.
+2020-07-29 18:38:03,347 [Thread-4] [3788 15] INFO  - ---Plugin tingyun-resin-plugin-4.0.27 is enabled. Loading.
+2020-07-29 18:38:03,363 [Thread-3] [3788 14] INFO  - ---Plugin tingyun-glassfish-plugin-4 is enabled. Loading.
+2020-07-29 18:38:03,363 [Thread-2] [3788 13] INFO  - ---Plugin tingyun-spring-gateway-plugin-2.0.1 is enabled. Loading.
+2020-07-29 18:38:03,393 [Thread-6] [3788 17] INFO  - ---Plugin tingyun-spring-plugin-4.3 is enabled. Loading.
+2020-07-29 18:38:03,401 [Thread-8] [3788 19] INFO  - ---Plugin tingyun-jedis-plugin-2.7.2 is enabled. Loading.
+2020-07-29 18:38:03,501 [Thread-1] [3788 12] INFO  - ---Plugin tingyun-mongodb-plugin-2.14.2 is enabled. Loading.
+2020-07-29 18:38:03,512 [Thread-6] [3788 17] INFO  - ---Plugin tingyun-jdbc-ojdbc7-plugin-12.1.0.2 is enabled. Loading.
+2020-07-29 18:38:03,540 [Thread-7] [3788 18] INFO  - ---Plugin tingyun-resteasy-plugin-3.0 is enabled. Loading.
+2020-07-29 18:38:03,558 [Thread-7] [3788 18] INFO  - ---Plugin tingyun-wildfly-ex-plugin-8 is enabled. Loading.
+2020-07-29 18:38:03,621 [Thread-2] [3788 13] INFO  - ---Plugin tingyun-kafka-plugin-2.3 is enabled. Loading.
+2020-07-29 18:38:03,625 [Thread-6] [3788 17] INFO  - ---Plugin tingyun-resteasy-plugin-2.2 is enabled. Loading.
+2020-07-29 18:38:03,632 [Thread-6] [3788 17] INFO  - ---Plugin tingyun-mongodb-plugin-2.7.3 is enabled. Loading.
+2020-07-29 18:38:03,640 [Thread-8] [3788 19] INFO  - ---Plugin tingyun-jdbc-embedded-derby-plugin-10.10 is enabled. Loading.
+2020-07-29 18:38:03,644 [Thread-7] [3788 18] INFO  - ---Plugin tingyun-jetty-plugin-9.1 is enabled. Loading.
+2020-07-29 18:38:03,704 [Thread-5] [3788 16] INFO  - ---Plugin tingyun-jdbc-ojdbc-plugin is enabled. Loading.
+2020-07-29 18:38:03,725 [Thread-8] [3788 19] INFO  - ---Plugin tingyun-rabbit-amqp-plugin-3.5 is enabled. Loading.
+2020-07-29 18:38:03,774 [Thread-5] [3788 16] INFO  - ---Plugin tingyun-resin-plugin-4.0.49 is enabled. Loading.
+2020-07-29 18:38:03,789 [Thread-6] [3788 17] INFO  - ---Plugin tingyun-play-plugin-2.3 is enabled. Loading.
+2020-07-29 18:38:03,833 [Thread-1] [3788 12] INFO  - ---Plugin tingyun-jdbc-embedded-derby-plugin-10.11 is enabled. Loading.
+2020-07-29 18:38:03,876 [Thread-3] [3788 14] INFO  - ---Plugin tingyun-akka-plugin-2.2 is enabled. Loading.
+2020-07-29 18:38:03,887 [Thread-2] [3788 13] INFO  - ---Plugin tingyun-jetty-servlet-plugin-9 is enabled. Loading.
+2020-07-29 18:38:03,897 [Thread-2] [3788 13] INFO  - ---Plugin tingyun-resin-plugin-4.0.12 is enabled. Loading.
+2020-07-29 18:38:03,907 [Thread-6] [3788 17] INFO  - ---Plugin tingyun-netty-plugin-4.0.0 is disabled. Skipping.
+2020-07-29 18:38:03,908 [Thread-6] [3788 17] INFO  - ---Plugin tingyun-huawei-support-plugin is enabled. Loading.
+2020-07-29 18:38:03,924 [Thread-1] [3788 12] INFO  - ---Plugin tingyun-akka-plugin-2.0 is enabled. Loading.
+2020-07-29 18:38:03,981 [Thread-6] [3788 17] INFO  - ---Plugin tingyun-whalin-memcached-plugin-3.0.0 is enabled. Loading.
+2020-07-29 18:38:03,991 [Thread-8] [3788 19] INFO  - ---Plugin tingyun-webflux-plugin-5.0.0 is enabled. Loading.
+2020-07-29 18:38:04,114 [Thread-3] [3788 14] INFO  - ---Plugin tingyun-jetty-plugin-7 is enabled. Loading.
+2020-07-29 18:38:04,132 [Thread-4] [3788 15] INFO  - ---Plugin tingyun-tomcat-rum-plugin-8 is enabled. Loading.
+2020-07-29 18:38:04,145 [Thread-7] [3788 18] INFO  - ---Plugin tingyun-webflux-plugin-5.1.0 is enabled. Loading.
+2020-07-29 18:38:04,163 [Thread-1] [3788 12] INFO  - ---Plugin tingyun-ejb-plugin-3.0 is enabled. Loading.
+2020-07-29 18:38:04,175 [Thread-1] [3788 12] INFO  - ---Plugin tingyun-ning-async-httpclient-plugin-1.8.16 is enabled. Loading.
+2020-07-29 18:38:04,222 [Thread-4] [3788 15] INFO  - ---Plugin tingyun-jetty-plugin-7.6 is enabled. Loading.
+2020-07-29 18:38:04,255 [Thread-6] [3788 17] INFO  - ---Plugin tingyun-jedis-plugin-1.5.2 is enabled. Loading.
+2020-07-29 18:38:04,336 [Thread-1] [3788 12] INFO  - ---Plugin tingyun-jdbc-postgresql-plugin-9.4.1207 is enabled. Loading.
+2020-07-29 18:38:04,373 [Thread-6] [3788 17] INFO  - ---Plugin tingyun-jdbc-driver-plugin is enabled. Loading.
+2020-07-29 18:38:04,422 [Thread-6] [3788 17] INFO  - ---Plugin tingyun-cxf-plugin-2.7 is enabled. Loading.
+2020-07-29 18:38:04,426 [Thread-1] [3788 12] INFO  - ---Plugin tingyun-resin-plugin-3 is enabled. Loading.
+2020-07-29 18:38:04,453 [Thread-5] [3788 16] INFO  - ---Plugin tingyun-jdbc-db2-plugin is enabled. Loading.
+2020-07-29 18:38:04,410 [Thread-2] [3788 13] INFO  - ---Plugin tingyun-jdbc-h2-plugin is enabled. Loading.
+2020-07-29 18:38:04,545 [Thread-2] [3788 13] INFO  - ---Plugin tingyun-tomcat-plugin-7 is enabled. Loading.
+2020-07-29 18:38:04,554 [Thread-5] [3788 16] INFO  - ---Plugin tingyun-netty-plugin-3.8 is disabled. Skipping.
+2020-07-29 18:38:04,556 [Thread-5] [3788 16] INFO  - ---Plugin tingyun-axis-plugin-2.0 is enabled. Loading.
+2020-07-29 18:38:04,645 [Thread-5] [3788 16] INFO  - ---Plugin tingyun-tomcat-7-request-listener-plugin is enabled. Loading.
+2020-07-29 18:38:04,682 [Thread-5] [3788 16] INFO  - ---Plugin tingyun-websphere-plugin-8 is enabled. Loading.
+2020-07-29 18:38:04,712 [Thread-1] [3788 12] INFO  - ---Plugin tingyun-servlet-plugin-2.4 is enabled. Loading.
+2020-07-29 18:38:04,739 [Thread-6] [3788 17] INFO  - ---Plugin tingyun-jdbc-jtds-plugin is enabled. Loading.
+2020-07-29 18:38:04,741 [Thread-2] [3788 13] INFO  - ---Plugin tingyun-glassfish-plugin-3.1 is enabled. Loading.
+2020-07-29 18:38:04,754 [Thread-4] [3788 15] INFO  - ---Plugin tingyun-jdbc-mysql-plugin-6.0 is enabled. Loading.
+2020-07-29 18:38:04,773 [Thread-6] [3788 17] INFO  - ---Plugin tingyun-jetty-plugin-9.0.3 is enabled. Loading.
+2020-07-29 18:38:04,788 [Thread-3] [3788 14] INFO  - ---Plugin tingyun-resin-plugin-4.0.18 is enabled. Loading.
+2020-07-29 18:38:04,809 [Thread-4] [3788 15] INFO  - ---Plugin tingyun-jdbc-sqlserver-plugin is enabled. Loading.
+2020-07-29 18:38:04,833 [Thread-4] [3788 15] INFO  - ---Plugin tingyun-axis-plugin-1.0 is enabled. Loading.
+2020-07-29 18:38:04,929 [Thread-4] [3788 15] INFO  - ---Plugin tingyun-glassfish-jersey-plugin-2.9 is enabled. Loading.
+2020-07-29 18:38:04,932 [Thread-5] [3788 16] INFO  - ---Plugin tingyun-httpclient-plugin-3.0 is enabled. Loading.
+2020-07-29 18:38:04,961 [Thread-2] [3788 13] INFO  - ---Plugin tingyun-akka-plugin-2.1 is enabled. Loading.
+2020-07-29 18:38:04,984 [Thread-1] [3788 12] INFO  - ---Plugin tingyun-jdbc-mysql-multihost-connection-plugin-5.1.3 is enabled. Loading.
+2020-07-29 18:38:05,036 [Thread-4] [3788 15] INFO  - ---Plugin tingyun-play-plugin-2.1 is enabled. Loading.
+2020-07-29 18:38:05,047 [Thread-1] [3788 12] INFO  - ---Plugin tingyun-spring-gateway-plugin-2.0.0 is enabled. Loading.
+2020-07-29 18:38:05,074 [Thread-5] [3788 16] INFO  - ---Plugin tingyun-quartz-plugin-2.0.0 is enabled. Loading.
+2020-07-29 18:38:05,090 [Thread-5] [3788 16] INFO  - ---Plugin tingyun-jdbc-informix-plugin is enabled. Loading.
+2020-07-29 18:38:05,097 [Thread-5] [3788 16] INFO  - ---Plugin tingyun-reactor-netty-plugin-0.7 is enabled. Loading.
+2020-07-29 18:38:05,097 [Thread-4] [3788 15] INFO  - ---Plugin tingyun-jsp-plugin-2.0 is enabled. Loading.
+2020-07-29 18:38:05,111 [Thread-2] [3788 13] INFO  - ---Plugin tingyun-jetty-plugin-6 is enabled. Loading.
+2020-07-29 18:38:05,179 [Thread-1] [3788 12] INFO  - ---Plugin tingyun-javax.xml-plugin is enabled. Loading.
+2020-07-29 18:38:05,214 [Thread-2] [3788 13] INFO  - ---Plugin tingyun-mongodb-plugin-3.0 is enabled. Loading.
+2020-07-29 18:38:05,230 [Thread-1] [3788 12] INFO  - ---Plugin tingyun-wildfly-plugin-8 is enabled. Loading.
+2020-07-29 18:38:05,232 [Thread-3] [3788 14] INFO  - ---Plugin tingyun-jboss-plugin-7 is enabled. Loading.
+2020-07-29 18:38:05,453 [Thread-3] [3788 14] INFO  - ---Plugin tingyun-mongodb-plugin-3.1 is enabled. Loading.
+2020-07-29 18:38:05,468 [Thread-8] [3788 19] INFO  - ---Plugin tingyun-sun-jersey-server-plugin-1.19 is enabled. Loading.
+2020-07-29 18:38:05,541 [Thread-1] [3788 12] INFO  - ---Plugin tingyun-kafka-plugin-2.0 is enabled. Loading.
+2020-07-29 18:38:05,595 [Thread-7] [3788 18] INFO  - ---Plugin tingyun-cxf-plugin-3.1 is enabled. Loading.
+2020-07-29 18:38:05,599 [Thread-3] [3788 14] INFO  - ---Plugin tingyun-spring-gateway-plugin-2.1.0 is enabled. Loading.
+2020-07-29 18:38:05,622 [Thread-8] [3788 19] INFO  - ---Plugin tingyun-jdbc-postgresql-plugin-8.0 is enabled. Loading.
+2020-07-29 18:38:05,713 [Thread-8] [3788 19] INFO  - ---Plugin tingyun-ning-async-httpclient-plugin-1.6.0 is enabled. Loading.
+2020-07-29 18:38:05,744 [Thread-3] [3788 14] INFO  - ---Plugin tingyun-play-plugin-2.0 is enabled. Loading.
+2020-07-29 18:38:05,752 [Thread-1] [3788 12] INFO  - ---Plugin tingyun-tomcat-plugin-5 is enabled. Loading.
+2020-07-29 18:38:05,777 [Thread-3] [3788 14] INFO  - ---Plugin tingyun-tomcat-rum-plugin-7 is enabled. Loading.
+2020-07-29 18:38:05,779 [Thread-7] [3788 18] INFO  - ---Plugin tingyun-httpclient-plugin-4.0 is enabled. Loading.
+2020-07-29 18:38:05,780 [Thread-8] [3788 19] INFO  - ---Plugin tingyun-wildfly-plugin-8.0.0 is enabled. Loading.
+2020-07-29 18:38:05,793 [Thread-3] [3788 14] INFO  - ---Plugin tingyun-xmemcached-plugin-1.4.3 is enabled. Loading.
+2020-07-29 18:38:05,818 [Thread-3] [3788 14] INFO  - ---Plugin tingyun-spring-plugin-3.0 is enabled. Loading.
+2020-07-29 18:38:05,845 [Thread-1] [3788 12] INFO  - ---Plugin tingyun-jetty-plugin-9.4 is enabled. Loading.
+2020-07-29 18:38:06,043 [Thread-8] [3788 19] INFO  - ---Plugin tingyun-cxf-plugin-2.2.5 is enabled. Loading.
+2020-07-29 18:38:06,059 [Thread-7] [3788 18] INFO  - ---Plugin tingyun-jdbc-mariadb-plugin-1.3.0 is enabled. Loading.
+2020-07-29 18:38:06,069 [Thread-7] [3788 18] INFO  - ---Plugin tingyun-rabbit-amqp-plugin-5 is enabled. Loading.
+2020-07-29 18:38:06,129 [Thread-8] [3788 19] INFO  - ---Plugin tingyun-mongodb-plugin-2.12.0 is enabled. Loading.
+2020-07-29 18:38:06,238 [Thread-8] [3788 19] INFO  - ---Plugin tingyun-weblogic-plugin-12 is enabled. Loading.
+2020-07-29 18:38:06,272 [Thread-7] [3788 18] INFO  - ---Plugin tingyun-jdbc-embedded-derby-plugin-10.2 is enabled. Loading.
+2020-07-29 18:38:06,297 [Thread-7] [3788 18] INFO  - ---Plugin tingyun-jedis-plugin-2.7.1 is enabled. Loading.
+2020-07-29 18:38:06,394 [Thread-7] [3788 18] INFO  - ---Plugin tingyun-netty-plugin-4.0.8 is disabled. Skipping.
+2020-07-29 18:38:06,397 [Thread-7] [3788 18] INFO  - ---Plugin tingyun-weblogic-plugin-10 is enabled. Loading.
+2020-07-29 18:38:06,570 [Thread-8] [3788 19] INFO  - ---Plugin tingyun-jdbc-mysql-connection-plugin-5.1 is enabled. Loading.
+2020-07-29 18:38:06,585 [Thread-8] [3788 19] INFO  - ---Plugin tingyun-httpurlconnection-plugin is enabled. Loading.
+2020-07-29 18:38:06,715 [Thread-8] [3788 19] INFO  - ---Plugin tingyun-spring-rabbitmq-plugin is enabled. Loading.
+2020-07-29 18:38:06,880 [Thread-7] [3788 18] INFO  - ---Plugin tingyun-mongodb-plugin-2.9.3 is enabled. Loading.
+2020-07-29 18:38:06,996 [Thread-7] [3788 18] INFO  - ---Plugin tingyun-spymemcached-plugin-2.10.0 is enabled. Loading.
+2020-07-29 18:38:07,790 [main] [3788 1] INFO  - Loaded 127 internal plugins.
+2020-07-29 18:38:10,491 [main] [3788 1] INFO  - Loading built-in agent extensions
+2020-07-29 18:38:10,667 [main] [3788 1] INFO  - Add new external file ExternalFile D:\IDEAProjects\server-test-2\server-test-master\tingyun-agent-java-3.4.5-2\tingyun\extensions\tingyun-alibaba-rocketmq-plugin-3.2.6.jar
+2020-07-29 18:38:10,668 [main] [3788 1] INFO  - Add new external file ExternalFile D:\IDEAProjects\server-test-2\server-test-master\tingyun-agent-java-3.4.5-2\tingyun\extensions\tingyun-apache-dubbo-plugin-2.0.jar
+2020-07-29 18:38:10,668 [main] [3788 1] INFO  - Add new external file ExternalFile D:\IDEAProjects\server-test-2\server-test-master\tingyun-agent-java-3.4.5-2\tingyun\extensions\tingyun-apache-rocketmq-plugin-4.5.0.jar
+2020-07-29 18:38:10,668 [main] [3788 1] INFO  - Add new external file ExternalFile D:\IDEAProjects\server-test-2\server-test-master\tingyun-agent-java-3.4.5-2\tingyun\extensions\tingyun-asynchttpclient-plugin-2.0.32.jar
+2020-07-29 18:38:10,670 [main] [3788 1] INFO  - Add new external file ExternalFile D:\IDEAProjects\server-test-2\server-test-master\tingyun-agent-java-3.4.5-2\tingyun\extensions\tingyun-camel-plugin-2.12.jar
+2020-07-29 18:38:10,671 [main] [3788 1] INFO  - Add new external file ExternalFile D:\IDEAProjects\server-test-2\server-test-master\tingyun-agent-java-3.4.5-2\tingyun\extensions\tingyun-dubbo-plugin-2.0.jar
+2020-07-29 18:38:10,671 [main] [3788 1] INFO  - Add new external file ExternalFile D:\IDEAProjects\server-test-2\server-test-master\tingyun-agent-java-3.4.5-2\tingyun\extensions\tingyun-finagle-plugin-6.22.0.jar
+2020-07-29 18:38:10,672 [main] [3788 1] INFO  - Add new external file ExternalFile D:\IDEAProjects\server-test-2\server-test-master\tingyun-agent-java-3.4.5-2\tingyun\extensions\tingyun-finagle-plugin-6.35.jar
+2020-07-29 18:38:10,672 [main] [3788 1] INFO  - Add new external file ExternalFile D:\IDEAProjects\server-test-2\server-test-master\tingyun-agent-java-3.4.5-2\tingyun\extensions\tingyun-grpc-plugin-1.0.1.jar
+2020-07-29 18:38:10,672 [main] [3788 1] INFO  - Add new external file ExternalFile D:\IDEAProjects\server-test-2\server-test-master\tingyun-agent-java-3.4.5-2\tingyun\extensions\tingyun-grpc-plugin-1.6.1.jar
+2020-07-29 18:38:10,672 [main] [3788 1] INFO  - Add new external file ExternalFile D:\IDEAProjects\server-test-2\server-test-master\tingyun-agent-java-3.4.5-2\tingyun\extensions\tingyun-hystrix-plugin-1.4.jar
+2020-07-29 18:38:10,673 [main] [3788 1] INFO  - Add new external file ExternalFile D:\IDEAProjects\server-test-2\server-test-master\tingyun-agent-java-3.4.5-2\tingyun\extensions\tingyun-java.completable-future-jdk8-plugin.jar
+2020-07-29 18:38:10,674 [main] [3788 1] INFO  - Add new external file ExternalFile D:\IDEAProjects\server-test-2\server-test-master\tingyun-agent-java-3.4.5-2\tingyun\extensions\tingyun-java.completable-future-jdk8u40-plugin.jar
+2020-07-29 18:38:10,675 [main] [3788 1] INFO  - Add new external file ExternalFile D:\IDEAProjects\server-test-2\server-test-master\tingyun-agent-java-3.4.5-2\tingyun\extensions\tingyun-jdbc-c3p0-plugin-0.9.jar
+2020-07-29 18:38:10,675 [main] [3788 1] INFO  - Add new external file ExternalFile D:\IDEAProjects\server-test-2\server-test-master\tingyun-agent-java-3.4.5-2\tingyun\extensions\tingyun-jdbc-dm-plugin-7.jar
+2020-07-29 18:38:10,675 [main] [3788 1] INFO  - Add new external file ExternalFile D:\IDEAProjects\server-test-2\server-test-master\tingyun-agent-java-3.4.5-2\tingyun\extensions\tingyun-jdbc-druid-plugin.jar
+2020-07-29 18:38:10,675 [main] [3788 1] INFO  - Add new external file ExternalFile D:\IDEAProjects\server-test-2\server-test-master\tingyun-agent-java-3.4.5-2\tingyun\extensions\tingyun-jersey-client-plugin-2.0.jar
+2020-07-29 18:38:10,675 [main] [3788 1] INFO  - Add new external file ExternalFile D:\IDEAProjects\server-test-2\server-test-master\tingyun-agent-java-3.4.5-2\tingyun\extensions\tingyun-jersey-client-plugin-2.26.jar
+2020-07-29 18:38:10,675 [main] [3788 1] INFO  - Add new external file ExternalFile D:\IDEAProjects\server-test-2\server-test-master\tingyun-agent-java-3.4.5-2\tingyun\extensions\tingyun-jersey-plugin-1.0.jar
+2020-07-29 18:38:10,675 [main] [3788 1] INFO  - Add new external file ExternalFile D:\IDEAProjects\server-test-2\server-test-master\tingyun-agent-java-3.4.5-2\tingyun\extensions\tingyun-log4j-exception-plugin-1.2.jar
+2020-07-29 18:38:10,675 [main] [3788 1] INFO  - Add new external file ExternalFile D:\IDEAProjects\server-test-2\server-test-master\tingyun-agent-java-3.4.5-2\tingyun\extensions\tingyun-log4j-exception-plugin-2.0.jar
+2020-07-29 18:38:10,676 [main] [3788 1] INFO  - Add new external file ExternalFile D:\IDEAProjects\server-test-2\server-test-master\tingyun-agent-java-3.4.5-2\tingyun\extensions\tingyun-log4j-plugin-1.2.jar
+2020-07-29 18:38:10,676 [main] [3788 1] INFO  - Add new external file ExternalFile D:\IDEAProjects\server-test-2\server-test-master\tingyun-agent-java-3.4.5-2\tingyun\extensions\tingyun-log4j-plugin-2.0.0.jar
+2020-07-29 18:38:10,676 [main] [3788 1] INFO  - Add new external file ExternalFile D:\IDEAProjects\server-test-2\server-test-master\tingyun-agent-java-3.4.5-2\tingyun\extensions\tingyun-log4j-plugin-2.3.jar
+2020-07-29 18:38:10,676 [main] [3788 1] INFO  - Add new external file ExternalFile D:\IDEAProjects\server-test-2\server-test-master\tingyun-agent-java-3.4.5-2\tingyun\extensions\tingyun-logback-plugin-1.2.jar
+2020-07-29 18:38:10,676 [main] [3788 1] INFO  - Add new external file ExternalFile D:\IDEAProjects\server-test-2\server-test-master\tingyun-agent-java-3.4.5-2\tingyun\extensions\tingyun-mina-plugin-2.0.9.jar
+2020-07-29 18:38:10,676 [main] [3788 1] INFO  - Add new external file ExternalFile D:\IDEAProjects\server-test-2\server-test-master\tingyun-agent-java-3.4.5-2\tingyun\extensions\tingyun-okhttp-plugin-2.4.jar
+2020-07-29 18:38:10,676 [main] [3788 1] INFO  - Add new external file ExternalFile D:\IDEAProjects\server-test-2\server-test-master\tingyun-agent-java-3.4.5-2\tingyun\extensions\tingyun-okhttp-plugin-3.0.jar
+2020-07-29 18:38:10,676 [main] [3788 1] INFO  - Add new external file ExternalFile D:\IDEAProjects\server-test-2\server-test-master\tingyun-agent-java-3.4.5-2\tingyun\extensions\tingyun-okhttp-plugin-3.4.jar
+2020-07-29 18:38:10,676 [main] [3788 1] INFO  - Add new external file ExternalFile D:\IDEAProjects\server-test-2\server-test-master\tingyun-agent-java-3.4.5-2\tingyun\extensions\tingyun-okhttp-plugin-3.5.jar
+2020-07-29 18:38:10,676 [main] [3788 1] INFO  - Add new external file ExternalFile D:\IDEAProjects\server-test-2\server-test-master\tingyun-agent-java-3.4.5-2\tingyun\extensions\tingyun-okhttp-plugin-3.6.jar
+2020-07-29 18:38:10,677 [main] [3788 1] INFO  - Add new external file ExternalFile D:\IDEAProjects\server-test-2\server-test-master\tingyun-agent-java-3.4.5-2\tingyun\extensions\tingyun-okhttp-plugin-4.0.jar
+2020-07-29 18:38:10,677 [main] [3788 1] INFO  - Add new external file ExternalFile D:\IDEAProjects\server-test-2\server-test-master\tingyun-agent-java-3.4.5-2\tingyun\extensions\tingyun-pool-c3p0-plugin-0.9.jar
+2020-07-29 18:38:10,677 [main] [3788 1] INFO  - Add new external file ExternalFile D:\IDEAProjects\server-test-2\server-test-master\tingyun-agent-java-3.4.5-2\tingyun\extensions\tingyun-pool-druid-plugin-1.0.jar
+2020-07-29 18:38:10,677 [main] [3788 1] INFO  - Add new external file ExternalFile D:\IDEAProjects\server-test-2\server-test-master\tingyun-agent-java-3.4.5-2\tingyun\extensions\tingyun-pool-hikaricp-plugin-3.0.jar
+2020-07-29 18:38:10,677 [main] [3788 1] INFO  - Add new external file ExternalFile D:\IDEAProjects\server-test-2\server-test-master\tingyun-agent-java-3.4.5-2\tingyun\extensions\tingyun-pool-jedis-plugin-2.6.3.jar
+2020-07-29 18:38:10,677 [main] [3788 1] INFO  - Add new external file ExternalFile D:\IDEAProjects\server-test-2\server-test-master\tingyun-agent-java-3.4.5-2\tingyun\extensions\tingyun-pool-weblogic-plugin-10.jar
+2020-07-29 18:38:10,677 [main] [3788 1] INFO  - Add new external file ExternalFile D:\IDEAProjects\server-test-2\server-test-master\tingyun-agent-java-3.4.5-2\tingyun\extensions\tingyun-pool-weblogic-plugin-121.jar
+2020-07-29 18:38:10,677 [main] [3788 1] INFO  - Add new external file ExternalFile D:\IDEAProjects\server-test-2\server-test-master\tingyun-agent-java-3.4.5-2\tingyun\extensions\tingyun-pool-weblogic-plugin-122.jar
+2020-07-29 18:38:10,677 [main] [3788 1] INFO  - Add new external file ExternalFile D:\IDEAProjects\server-test-2\server-test-master\tingyun-agent-java-3.4.5-2\tingyun\extensions\tingyun-redisson-plugin-3.0.jar
+2020-07-29 18:38:10,677 [main] [3788 1] INFO  - Add new external file ExternalFile D:\IDEAProjects\server-test-2\server-test-master\tingyun-agent-java-3.4.5-2\tingyun\extensions\tingyun-slf4j-exception-plugin.jar
+2020-07-29 18:38:10,677 [main] [3788 1] INFO  - Add new external file ExternalFile D:\IDEAProjects\server-test-2\server-test-master\tingyun-agent-java-3.4.5-2\tingyun\extensions\tingyun-spring-annotation-plugin-2.5.jar
+2020-07-29 18:38:10,678 [main] [3788 1] INFO  - Add new external file ExternalFile D:\IDEAProjects\server-test-2\server-test-master\tingyun-agent-java-3.4.5-2\tingyun\extensions\tingyun-spring-aop-plugin.jar
+2020-07-29 18:38:10,678 [main] [3788 1] INFO  - Add new external file ExternalFile D:\IDEAProjects\server-test-2\server-test-master\tingyun-agent-java-3.4.5-2\tingyun\extensions\tingyun-spring-patch-plugin-4.3.jar
+2020-07-29 18:38:10,678 [main] [3788 1] INFO  - Add new external file ExternalFile D:\IDEAProjects\server-test-2\server-test-master\tingyun-agent-java-3.4.5-2\tingyun\extensions\tingyun-springboot-webserver-plugin.jar
+2020-07-29 18:38:10,678 [main] [3788 1] INFO  - Add new external file ExternalFile D:\IDEAProjects\server-test-2\server-test-master\tingyun-agent-java-3.4.5-2\tingyun\extensions\tingyun-springcloud-openfeign-plugin-2.1.0.jar
+2020-07-29 18:38:10,678 [main] [3788 1] INFO  - Add new external file ExternalFile D:\IDEAProjects\server-test-2\server-test-master\tingyun-agent-java-3.4.5-2\tingyun\extensions\tingyun-struts-plugin-2.5.jar
+2020-07-29 18:38:10,678 [main] [3788 1] INFO  - Add new external file ExternalFile D:\IDEAProjects\server-test-2\server-test-master\tingyun-agent-java-3.4.5-2\tingyun\extensions\tingyun-thrift-plugin-0.5.jar
+2020-07-29 18:38:10,678 [main] [3788 1] INFO  - Add new external file ExternalFile D:\IDEAProjects\server-test-2\server-test-master\tingyun-agent-java-3.4.5-2\tingyun\extensions\tingyun-thrift-plugin-0.8.jar
+2020-07-29 18:38:10,678 [main] [3788 1] INFO  - Add new external file ExternalFile D:\IDEAProjects\server-test-2\server-test-master\tingyun-agent-java-3.4.5-2\tingyun\extensions\tingyun-tomcat-coyote-plugin.jar
+2020-07-29 18:38:10,678 [main] [3788 1] INFO  - Add new external file ExternalFile D:\IDEAProjects\server-test-2\server-test-master\tingyun-agent-java-3.4.5-2\tingyun\extensions\tingyun-tongweb-plugin-6.jar
+2020-07-29 18:38:10,678 [main] [3788 1] INFO  - Add new external file ExternalFile D:\IDEAProjects\server-test-2\server-test-master\tingyun-agent-java-3.4.5-2\tingyun\extensions\tingyun-xmlrpc-plugin.jar
+2020-07-29 18:38:11,133 [main] [3788 1] INFO  - External Plugin tingyun-alibaba-rocketmq-plugin-3.2.6 well be loaded.
+2020-07-29 18:38:11,751 [main] [3788 1] INFO  - External Plugin tingyun-apache-dubbo-plugin-2.0 well be loaded.
+2020-07-29 18:38:11,895 [main] [3788 1] INFO  - External Plugin tingyun-apache-rocketmq-plugin-4.5.0 well be loaded.
+2020-07-29 18:38:12,434 [main] [3788 1] INFO  - External Plugin tingyun-asynchttpclient-plugin-2.0.32 well be loaded.
+2020-07-29 18:38:12,516 [main] [3788 1] INFO  - External Plugin tingyun-camel-plugin-2.12 well be loaded.
+2020-07-29 18:38:12,529 [main] [3788 1] INFO  - External Plugin tingyun-dubbo-plugin-2.0 well be loaded.
+2020-07-29 18:38:12,627 [main] [3788 1] INFO  - External Plugin tingyun-finagle-plugin-6.22.0 well be loaded.
+2020-07-29 18:38:12,980 [main] [3788 1] INFO  - External Plugin tingyun-finagle-plugin-6.35 well be loaded.
+2020-07-29 18:38:13,301 [main] [3788 1] INFO  - External Plugin tingyun-grpc-plugin-1.0.1 well be loaded.
+2020-07-29 18:38:13,581 [main] [3788 1] INFO  - External Plugin tingyun-grpc-plugin-1.6.1 well be loaded.
+2020-07-29 18:38:13,992 [main] [3788 1] INFO  - External Plugin tingyun-hystrix-plugin-1.4 well be loaded.
+2020-07-29 18:38:14,060 [main] [3788 1] INFO  - External Plugin tingyun-java.completable-future-jdk8-plugin well be loaded.
+2020-07-29 18:38:14,301 [main] [3788 1] INFO  - External Plugin tingyun-java.completable-future-jdk8u40-plugin well be loaded.
+2020-07-29 18:38:14,380 [main] [3788 1] INFO  - External Plugin tingyun-jdbc-c3p0-plugin-0.9 well be loaded.
+2020-07-29 18:38:14,395 [main] [3788 1] INFO  - External Plugin tingyun-jdbc-dm-plugin-7 well be loaded.
+2020-07-29 18:38:14,403 [main] [3788 1] INFO  - External Plugin tingyun-jdbc-druid-plugin well be loaded.
+2020-07-29 18:38:14,411 [main] [3788 1] INFO  - External Plugin tingyun-jersey-client-plugin-2.0 well be loaded.
+2020-07-29 18:38:14,469 [main] [3788 1] INFO  - External Plugin tingyun-jersey-client-plugin-2.26 well be loaded.
+2020-07-29 18:38:14,518 [main] [3788 1] INFO  - External Plugin tingyun-jersey-plugin-1.0 well be loaded.
+2020-07-29 18:38:14,528 [main] [3788 1] INFO  - External Plugin tingyun-log4j-exception-plugin-1.2 well be loaded.
+2020-07-29 18:38:14,539 [main] [3788 1] INFO  - External Plugin tingyun-log4j-exception-plugin-2.0 well be loaded.
+2020-07-29 18:38:14,566 [main] [3788 1] INFO  - External Plugin tingyun-mina-plugin-2.0.9 well be loaded.
+2020-07-29 18:38:14,581 [main] [3788 1] INFO  - External Plugin tingyun-okhttp-plugin-2.4 well be loaded.
+2020-07-29 18:38:14,663 [main] [3788 1] INFO  - External Plugin tingyun-okhttp-plugin-3.0 well be loaded.
+2020-07-29 18:38:14,766 [main] [3788 1] INFO  - External Plugin tingyun-okhttp-plugin-3.4 well be loaded.
+2020-07-29 18:38:14,844 [main] [3788 1] INFO  - External Plugin tingyun-okhttp-plugin-3.5 well be loaded.
+2020-07-29 18:38:14,955 [main] [3788 1] INFO  - External Plugin tingyun-okhttp-plugin-3.6 well be loaded.
+2020-07-29 18:38:15,039 [main] [3788 1] INFO  - External Plugin tingyun-okhttp-plugin-4.0 well be loaded.
+2020-07-29 18:38:15,097 [main] [3788 1] INFO  - External Plugin tingyun-pool-c3p0-plugin-0.9 well be loaded.
+2020-07-29 18:38:15,114 [main] [3788 1] INFO  - External Plugin tingyun-pool-druid-plugin-1.0 well be loaded.
+2020-07-29 18:38:15,134 [main] [3788 1] INFO  - External Plugin tingyun-pool-hikaricp-plugin-3.0 well be loaded.
+2020-07-29 18:38:15,162 [main] [3788 1] INFO  - External Plugin tingyun-pool-jedis-plugin-2.6.3 well be loaded.
+2020-07-29 18:38:15,204 [main] [3788 1] INFO  - External Plugin tingyun-pool-weblogic-plugin-10 well be loaded.
+2020-07-29 18:38:15,235 [main] [3788 1] INFO  - External Plugin tingyun-pool-weblogic-plugin-121 well be loaded.
+2020-07-29 18:38:15,270 [main] [3788 1] INFO  - External Plugin tingyun-pool-weblogic-plugin-122 well be loaded.
+2020-07-29 18:38:15,300 [main] [3788 1] INFO  - External Plugin tingyun-redisson-plugin-3.0 well be loaded.
+2020-07-29 18:38:15,318 [main] [3788 1] INFO  - External Plugin tingyun-slf4j-exception-plugin well be loaded.
+2020-07-29 18:38:15,333 [main] [3788 1] INFO  - External Plugin tingyun-spring-patch-plugin-4.3 well be loaded.
+2020-07-29 18:38:15,344 [main] [3788 1] INFO  - External Plugin tingyun-springboot-webserver-plugin well be loaded.
+2020-07-29 18:38:15,349 [main] [3788 1] INFO  - External Plugin tingyun-springcloud-openfeign-plugin-2.1.0 well be loaded.
+2020-07-29 18:38:15,385 [main] [3788 1] INFO  - External Plugin tingyun-struts-plugin-2.5 well be loaded.
+2020-07-29 18:38:15,415 [main] [3788 1] INFO  - External Plugin tingyun-thrift-plugin-0.5 well be loaded.
+2020-07-29 18:38:15,437 [main] [3788 1] INFO  - External Plugin tingyun-thrift-plugin-0.8 well be loaded.
+2020-07-29 18:38:15,476 [main] [3788 1] INFO  - External Plugin tingyun-tomcat-coyote-plugin well be loaded.
+2020-07-29 18:38:15,483 [main] [3788 1] INFO  - External Plugin tingyun-tongweb-plugin-6 well be loaded.
+2020-07-29 18:38:15,497 [main] [3788 1] INFO  - External Plugin tingyun-xmlrpc-plugin well be loaded.
+2020-07-29 18:38:15,520 [main] [3788 1] INFO  - ClassWeaveService removing 0 weave packages.
+2020-07-29 18:38:17,009 [main] [3788 1] INFO  - Setting protocol to "http"
+2020-07-29 18:38:18,429 [main] [3788 1] INFO  - Configuration file is D:\IDEAProjects\server-test-2\server-test-master\tingyun-agent-java-3.4.5-2\tingyun\.\tingyun.properties
+2020-07-29 18:38:18,445 [main] [3788 1] INFO  - Tingyun Agent V3.4.5 has started.
+2020-07-29 18:38:18,445 [main] [3788 1] INFO  - Agent class loader: com.tingyun.starter.AgentClassLoader@337d0578
+2020-07-29 18:38:18,445 [main] [3788 1] INFO  - Tingyun Java Agent premain startup complete in 18282ms
+2020-07-29 18:38:18,456 [Tingyun-SampleRate-checker_ 1] [3788 49] WARN  - No EventDataBlockProducer of this application(wjn_app007) was found
+2020-07-29 18:38:18,916 [Tingyun Connection Service 1] [3788 45] INFO  - Application[wjn_app007] will register to Collector[10.128.2.29:7667].
+2020-07-29 18:38:18,932 [main] [3788 1] INFO  - ClassLoaderClassTransformer patched BoostrapPlaceholder(class com.tingyun.weave.a.a$1) -- className:javax/management/remote/rmi/NoCallStackClassLoader
+2020-07-29 18:38:19,121 [RMI TCP Connection(1)-192.168.5.114] [3788 56] INFO  - ClassLoaderClassTransformer patched BoostrapPlaceholder(class com.tingyun.weave.a.a$1) -- className:com/sun/jmx/remote/util/ClassLoaderWithRepository
+2020-07-29 18:38:19,123 [RMI TCP Connection(1)-192.168.5.114] [3788 56] INFO  - ClassLoader transformer: classloaders to skip contains javax/management/remote/rmi/RMIConnectionImpl$CombinedClassLoader
+2020-07-29 18:38:19,125 [RMI TCP Connection(1)-192.168.5.114] [3788 56] INFO  - ClassLoaderClassTransformer patched BoostrapPlaceholder(class com.tingyun.weave.a.a$1) -- className:javax/management/remote/rmi/RMIConnectionImpl$CombinedClassLoader$ClassLoaderWrapper
+2020-07-29 18:38:22,065 [main] [3788 1] INFO  - ClassLoaderClassTransformer patched sun.misc.Launcher$AppClassLoader@18b4aac2(class sun.misc.Launcher$AppClassLoader) -- className:org/apache/catalina/loader/WebappClassLoaderBase
+2020-07-29 18:38:23,440 [RMI TCP Connection(2)-192.168.5.114] [3788 89] INFO  - ClassLoaderClassTransformer patched BoostrapPlaceholder(class com.tingyun.weave.a.a$1) -- className:com/sun/jmx/remote/util/OrderClassLoaders
+2020-07-29 18:38:24,922 [Tingyun Connection Service 1] [3788 45] INFO  - Application[wjn_app007] had fetch port.
+2020-07-29 18:38:25,148 [Tingyun Connection Service 1] [3788 45] INFO  - Sent JSON(init) to: http://10.128.2.29:7667/init?license=9OgQXob4VGGFFYcm&version=3.2.0 {"agentPremainTime":18282,"firstRun":true,"environment":{"container":{"logical_processors":4,"hostname":"DESKTOP-MCCERJJ","total_ram_mib":16246},"system":{"sun.desktop":"windows","awt.toolkit":"sun.awt.windows.WToolkit","file.encoding.pkg":"sun.io","java.specification.version":"1.8","sun.cpu.isalist":"amd64","sun.jnu.encoding":"GBK","java.class.path":"C:\\Program Files\\Java\\jdk1.8.0_241\\jre\\lib\\charsets.jar;C:\\Program Files\\Java\\jdk1.8.0_241\\jre\\lib\\deploy.jar;C:\\Program Files\\Java\\jdk1.8.0_241\\jre\\lib\\ext\\access-bridge-64.jar;C:\\Program Files\\Java\\jdk1.8.0_241\\jre\\lib\\ext\\cldrdata.jar;C:\\Program Files\\Java\\jdk1.8.0_241\\jre\\lib\\ext\\dnsns.jar;C:\\Program Files\\Java\\jdk1.8.0_241\\jre\\lib\\ext\\jaccess.jar;C:\\Program Files\\Java\\jdk1.8.0_241\\jre\\lib\\ext\\jfxrt.jar;C:\\Program Files\\Java\\jdk1.8.0_241\\jre\\lib\\ext\\localedata.jar;C:\\Program Files\\Java\\jdk1.8.0_241\\jre\\lib\\ext\\nashorn.jar;C:\\Program Files\\Java\\jdk1.8.0_241\\jre\\lib\\ext\\sunec.jar;C:\\Program Files\\Java\\jdk1.8.0_241\\jre\\lib\\ext\\sunjce_provider.jar;C:\\Program Files\\Java\\jdk1.8.0_241\\jre\\lib\\ext\\sunmscapi.jar;C:\\Program Files\\Java\\jdk1.8.0_241\\jre\\lib\\ext\\sunpkcs11.jar;C:\\Program Files\\Java\\jdk1.8.0_241\\jre\\lib\\ext\\zipfs.jar;C:\\Program Files\\Java\\jdk1.8.0_241\\jre\\lib\\javaws.jar;C:\\Program Files\\Java\\jdk1.8.0_241\\jre\\lib\\jce.jar;C:\\Program Files\\Java\\jdk1.8.0_241\\jre\\lib\\jfr.jar;C:\\Program Files\\Java\\jdk1.8.0_241\\jre\\lib\\jfxswt.jar;C:\\Program Files\\Java\\jdk1.8.0_241\\jre\\lib\\jsse.jar;C:\\Program Files\\Java\\jdk1.8.0_241\\jre\\lib\\management-agent.jar;C:\\Program Files\\Java\\jdk1.8.0_241\\jre\\lib\\plugin.jar;C:\\Program Files\\Java\\jdk1.8.0_241\\jre\\lib\\resources.jar;C:\\Program Files\\Java\\jdk1.8.0_241\\jre\\lib\\rt.jar;D:\\IDEAProjects\\server-test-2\\server-test-master\\target\\classes;D:\\Development\\repository\\org\\springframework\\boot\\spring-boot-starter-logging\\2.2.1.RELEASE\\spring-boot-starter-logging-2.2.1.RELEASE.jar;D:\\Development\\repository\\ch\\qos\\logback\\logback-classic\\1.2.3\\logback-classic-1.2.3.jar;D:\\Development\\repository\\ch\\qos\\logback\\logback-core\\1.2.3\\logback-core-1.2.3.jar;D:\\Development\\repository\\org\\slf4j\\slf4j-api\\1.7.29\\slf4j-api-1.7.29.jar;D:\\Development\\repository\\org\\apache\\logging\\log4j\\log4j-to-slf4j\\2.12.1\\log4j-to-slf4j-2.12.1.jar;D:\\Development\\repository\\org\\apache\\logging\\log4j\\log4j-api\\2.12.1\\log4j-api-2.12.1.jar;D:\\Development\\repository\\org\\slf4j\\jul-to-slf4j\\1.7.29\\jul-to-slf4j-1.7.29.jar;D:\\Development\\repository\\org\\springframework\\boot\\spring-boot-starter-web\\2.2.1.RELEASE\\spring-boot-starter-web-2.2.1.RELEASE.jar;D:\\Development\\repository\\org\\springframework\\boot\\spring-boot-starter\\2.2.1.RELEASE\\spring-boot-starter-2.2.1.RELEASE.jar;D:\\Development\\repository\\org\\springframework\\boot\\spring-boot\\2.2.1.RELEASE\\spring-boot-2.2.1.RELEASE.jar;D:\\Development\\repository\\org\\springframework\\boot\\spring-boot-autoconfigure\\2.2.1.RELEASE\\spring-boot-autoconfigure-2.2.1.RELEASE.jar;D:\\Development\\repository\\jakarta\\annotation\\jakarta.annotation-api\\1.3.5\\jakarta.annotation-api-1.3.5.jar;D:\\Development\\repository\\org\\yaml\\snakeyaml\\1.25\\snakeyaml-1.25.jar;D:\\Development\\repository\\org\\springframework\\boot\\spring-boot-starter-json\\2.2.1.RELEASE\\spring-boot-starter-json-2.2.1.RELEASE.jar;D:\\Development\\repository\\com\\fasterxml\\jackson\\core\\jackson-databind\\2.10.0\\jackson-databind-2.10.0.jar;D:\\Development\\repository\\com\\fasterxml\\jackson\\core\\jackson-annotations\\2.10.0\\jackson-annotations-2.10.0.jar;D:\\Development\\repository\\com\\fasterxml\\jackson\\core\\jackson-core\\2.10.0\\jackson-core-2.10.0.jar;D:\\Development\\repository\\com\\fasterxml\\jackson\\datatype\\jackson-datatype-jdk8\\2.10.0\\jackson-datatype-jdk8-2.10.0.jar;D:\\Development\\repository\\com\\fasterxml\\jackson\\datatype\\jackson-datatype-jsr310\\2.10.0\\jackson-datatype-jsr310-2.10.0.jar;D:\\Development\\repository\\com\\fasterxml\\jackson\\module\\jackson-module-parameter-names\\2.10.0\\jackson-module-parameter-names-2.10.0.jar;D:\\Development\\repository\\org\\springframework\\boot\\spring-boot-starter-tomcat\\2.2.1.RELEASE\\spring-boot-starter-tomcat-2.2.1.RELEASE.jar;D:\\Development\\repository\\org\\apache\\tomcat\\embed\\tomcat-embed-core\\9.0.27\\tomcat-embed-core-9.0.27.jar;D:\\Development\\repository\\org\\apache\\tomcat\\embed\\tomcat-embed-el\\9.0.27\\tomcat-embed-el-9.0.27.jar;D:\\Development\\repository\\org\\apache\\tomcat\\embed\\tomcat-embed-websocket\\9.0.27\\tomcat-embed-websocket-9.0.27.jar;D:\\Development\\repository\\org\\springframework\\boot\\spring-boot-starter-validation\\2.2.1.RELEASE\\spring-boot-starter-validation-2.2.1.RELEASE.jar;D:\\Development\\repository\\jakarta\\validation\\jakarta.validation-api\\2.0.1\\jakarta.validation-api-2.0.1.jar;D:\\Development\\repository\\org\\hibernate\\validator\\hibernate-validator\\6.0.18.Final\\hibernate-validator-6.0.18.Final.jar;D:\\Development\\repository\\org\\jboss\\logging\\jboss-logging\\3.4.1.Final\\jboss-logging-3.4.1.Final.jar;D:\\Development\\repository\\com\\fasterxml\\classmate\\1.5.1\\classmate-1.5.1.jar;D:\\Development\\repository\\org\\springframework\\spring-web\\5.2.1.RELEASE\\spring-web-5.2.1.RELEASE.jar;D:\\Development\\repository\\org\\springframework\\spring-beans\\5.2.1.RELEASE\\spring-beans-5.2.1.RELEASE.jar;D:\\Development\\repository\\org\\springframework\\spring-webmvc\\5.2.1.RELEASE\\spring-webmvc-5.2.1.RELEASE.jar;D:\\Development\\repository\\org\\springframework\\spring-aop\\5.2.1.RELEASE\\spring-aop-5.2.1.RELEASE.jar;D:\\Development\\repository\\org\\springframework\\spring-context\\5.2.1.RELEASE\\spring-context-5.2.1.RELEASE.jar;D:\\Development\\repository\\org\\springframework\\spring-expression\\5.2.1.RELEASE\\spring-expression-5.2.1.RELEASE.jar;D:\\Development\\repository\\org\\projectlombok\\lombok\\1.18.10\\lombok-1.18.10.jar;D:\\Development\\repository\\org\\springframework\\spring-core\\5.2.1.RELEASE\\spring-core-5.2.1.RELEASE.jar;D:\\Development\\repository\\org\\springframework\\spring-jcl\\5.2.1.RELEASE\\spring-jcl-5.2.1.RELEASE.jar;D:\\IntelliJ IDEA 2019.3.4\\lib\\idea_rt.jar;D:\\IDEAProjects\\server-test-2\\server-test-master\\tingyun-agent-java-3.4.5-2\\tingyun\\tingyun-agent-java.jar;C:\\Users\\wjn\\.IntelliJIdea2019.3\\system\\captureAgent\\debugger-agent.jar","java.vm.vendor":"Oracle Corporation","sun.arch.data.model":"64","user.variant":"","java.vendor.url":"http:\/\/java.oracle.com\/","user.timezone":"Asia\/Shanghai","os.name":"Windows 10","java.vm.specification.version":"1.8","user.country":"CN","sun.java.launcher":"SUN_STANDARD","sun.boot.library.path":"C:\\Program Files\\Java\\jdk1.8.0_241\\jre\\bin","sun.java.command":"com.tingyun.servertest.ServerTestApplication","spring.application.admin.enabled":"true","com.sun.management.jmxremote":"","spring.liveBeansView.mbeanDomain":"","sun.cpu.endian":"little","user.home":"C:\\Users\\wjn","user.language":"zh","java.specification.vendor":"Oracle Corporation","java.home":"C:\\Program Files\\Java\\jdk1.8.0_241\\jre","spring.output.ansi.enabled":"always","file.separator":"\\","line.separator":"\r\n","java.vm.specification.vendor":"Oracle Corporation","java.specification.name":"Java Platform API Specification","java.awt.graphicsenv":"sun.awt.Win32GraphicsEnvironment","sun.boot.class.path":"C:\\Program Files\\Java\\jdk1.8.0_241\\jre\\lib\\resources.jar;C:\\Program Files\\Java\\jdk1.8.0_241\\jre\\lib\\rt.jar;C:\\Program Files\\Java\\jdk1.8.0_241\\jre\\lib\\sunrsasign.jar;C:\\Program Files\\Java\\jdk1.8.0_241\\jre\\lib\\jsse.jar;C:\\Program Files\\Java\\jdk1.8.0_241\\jre\\lib\\jce.jar;C:\\Program Files\\Java\\jdk1.8.0_241\\jre\\lib\\charsets.jar;C:\\Program Files\\Java\\jdk1.8.0_241\\jre\\lib\\jfr.jar;C:\\Program Files\\Java\\jdk1.8.0_241\\jre\\classes","user.script":"","sun.management.compiler":"HotSpot 64-Bit Tiered Compilers","java.runtime.version":"1.8.0_241-b07","user.name":"wjn","spring.jmx.enabled":"true","path.separator":";","os.version":"10.0","java.endorsed.dirs":"C:\\Program Files\\Java\\jdk1.8.0_241\\jre\\lib\\endorsed","java.runtime.name":"Java(TM) SE Runtime Environment","file.encoding":"UTF-8","java.vm.name":"Java HotSpot(TM) 64-Bit Server VM","java.vendor.url.bug":"http:\/\/bugreport.sun.com\/bugreport\/","java.io.tmpdir":"C:\\Users\\wjn\\AppData\\Local\\Temp\\","java.version":"1.8.0_241","user.dir":"D:\\IDEAProjects\\server-test-2","os.arch":"amd64","java.vm.specification.name":"Java Virtual Machine Specification","java.awt.printerjob":"sun.awt.windows.WPrinterJob","sun.os.patch.level":"","java.library.path":"C:\\Program Files\\Java\\jdk1.8.0_241\\bin;C:\\Windows\\Sun\\Java\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Program Files (x86)\\NetSarang\\Xshell 6\\;C:\\Program Files\\VanDyke Software\\Clients\\;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NetSarang\\Xftp 6\\;C:\\Python27;C:\\Python27\\Scripts\\;C:\\Python38-32\\Scripts\\;C:\\Python38-32\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\nodejs\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Java\\jdk1.8.0_241\\bin;C:\\Program Files\\Java\\jdk1.8.0_241\\jre\\bin;C:\\Users\\wjn\\AppData\\Local\\Programs\\Fiddler;D:\\IntelliJ IDEA 2019.3.4\\bin;;C:\\Users\\wjn\\AppData\\Roaming\\npm;D:\\software\\Microsoft VS Code\\bin;.","java.vm.info":"mixed mode","java.vendor":"Oracle Corporation","java.vm.version":"25.241-b07","java.ext.dirs":"C:\\Program Files\\Java\\jdk1.8.0_241\\jre\\lib\\ext;C:\\Windows\\Sun\\Java\\lib\\ext","sun.io.unicode.encoding":"UnicodeLittle","java.class.version":"52.0"},"meta":{"Log path":"D:\\IDEAProjects\\server-test-2\\server-test-master\\tingyun-agent-java-3.4.5-2\\tingyun\\logs\\tingyun_agent.log","JVM arguments":"-agentlib:jdwp=transport=dt_socket,address=127.0.0.1:62048,suspend=y,server=n\n-javaagent:D:\\IDEAProjects\\server-test-2\\server-test-master\\tingyun-agent-java-3.4.5-2\\tingyun\\tingyun-agent-java.jar\n-XX:TieredStopAtLevel=1\n-Xverify:none\n-Dspring.output.ansi.enabled=always\n-Dcom.sun.management.jmxremote\n-Dspring.jmx.enabled=true\n-Dspring.liveBeansView.mbeanDomain\n-Dspring.application.admin.enabled=true\n-javaagent:C:\\Users\\wjn\\.IntelliJIdea2019.3\\system\\captureAgent\\debugger-agent.jar\n-Dfile.encoding=UTF-8\n","CurrentThreadCpuTimeSupported":true,"Physical Processors":null,"pid":3788,"Logical Processors":"4","Dispatcher":"Apache Tomcat","Java VM version":"25.241-b07","ThreadCpuTimeSupported":true,"Java vendor":"Oracle Corporation","Total Physical Memory (MB)":null,"readonly":false,"CurrentThreadCpuTimeEnabled":true,"UUID":"a6cd2eec-a3f5-4586-8d9b-1d14e2ce2ca8","Java version":"1.8.0_241","Framework":"java","Heap initial (MB)":"254.0","OS":"Windows 10","ThreadContentionMonitoringEnabled":false,"Dispatcher Version":"9.0.27","Heap Max (MB)":"3611.0","Server port":8089,"OS version":"10.0","Arch":"amd64","Java VM":"Java HotSpot(TM) 64-Bit Server VM","ThreadCpuTimeEnabled":true,"Built-At":"2020-07-22 18:43:19"},"env":{"USERDOMAIN_ROAMINGPROFILE":"DESKTOP-MCCERJJ","LOCALAPPDATA":"C:\\Users\\wjn\\AppData\\Local","PROCESSOR_LEVEL":"6","IntelliJ IDEA":"D:\\IntelliJ IDEA 2019.3.4\\bin;","USERDOMAIN":"DESKTOP-MCCERJJ","FPS_BROWSER_APP_PROFILE_STRING":"Internet Explorer","LOGONSERVER":"\\\\DESKTOP-MCCERJJ","JAVA_HOME":"C:\\Program Files\\Java\\jdk1.8.0_241","SESSIONNAME":"Console","ALLUSERSPROFILE":"C:\\ProgramData","PROCESSOR_ARCHITECTURE":"AMD64","PSModulePath":"C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\","SystemDrive":"C:","OneDrive":"C:\\Users\\wjn\\OneDrive","APPDATA":"C:\\Users\\wjn\\AppData\\Roaming","USERNAME":"wjn","ProgramFiles(x86)":"C:\\Program Files (x86)","CommonProgramFiles":"C:\\Program Files\\Common Files","Path":"C:\\Program Files (x86)\\NetSarang\\Xshell 6\\;C:\\Program Files\\VanDyke Software\\Clients\\;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NetSarang\\Xftp 6\\;C:\\Python27;C:\\Python27\\Scripts\\;C:\\Python38-32\\Scripts\\;C:\\Python38-32\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\nodejs\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Java\\jdk1.8.0_241\\bin;C:\\Program Files\\Java\\jdk1.8.0_241\\jre\\bin;C:\\Users\\wjn\\AppData\\Local\\Programs\\Fiddler;D:\\IntelliJ IDEA 2019.3.4\\bin;;C:\\Users\\wjn\\AppData\\Roaming\\npm;D:\\software\\Microsoft VS Code\\bin","FPS_BROWSER_USER_PROFILE_STRING":"Default","PATHEXT":".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW","PyCharm":"D:\\Program Files\\PyCharm\\bin;","OS":"Windows_NT","COMPUTERNAME":"DESKTOP-MCCERJJ","PROCESSOR_REVISION":"3c03","CommonProgramW6432":"C:\\Program Files\\Common Files","ComSpec":"C:\\Windows\\system32\\cmd.exe","ProgramData":"C:\\ProgramData","ProgramW6432":"C:\\Program Files","HOMEPATH":"\\Users\\wjn","SystemRoot":"C:\\Windows","TEMP":"C:\\Users\\wjn\\AppData\\Local\\Temp","HOMEDRIVE":"C:","PROCESSOR_IDENTIFIER":"Intel64 Family 6 Model 60 Stepping 3, GenuineIntel","USERPROFILE":"C:\\Users\\wjn","TMP":"C:\\Users\\wjn\\AppData\\Local\\Temp","CommonProgramFiles(x86)":"C:\\Program Files (x86)\\Common Files","ProgramFiles":"C:\\Program Files","PUBLIC":"C:\\Users\\Public","NUMBER_OF_PROCESSORS":"4","windir":"C:\\Windows","=::":"::\\","IDEA_INITIAL_DIRECTORY":"C:\\Windows\\system32"},"config":{"class_transformer.tingyun-log4j-plugin-1.2.enabled":false,"class_transformer.tingyun-logback-plugin-1.2.enabled":false,"class_transformer.tingyun-log4j-plugin-2.3.enabled":false,"agent_log_file_size":102400,"agent_log_level":"info","class_transformer.tingyun-spring-annotation-plugin-2.5.enabled":false,"license_key":"9OgQXob4VGGFFYcm","app_name":"wjn_app007","class_transformer.tingyun-spring-aop-plugin.enabled":false,"class_transformer.tingyun-log4j-plugin-2.0.0.enabled":false,"agent_log_file_count":10,"transaction_tracer.enabled":true,"collector.addresses":"10.128.2.29:7667"}},"port":8089,"appName":"wjn_app007","host":"DESKTOP-MCCERJJ","agentVersion":"3.4.5","idc":"","language":"java"}
+2020-07-29 18:38:25,149 [Tingyun Connection Service 1] [3788 45] INFO  - Received JSON(init): {"result":{"idSecret":"k-hdMrt6Xeg#0ESPp25Ldyk","sessionKey":"1330","appId":1636,"config":{"business_id.rules":"[]","hotspot.black_list":"","hotspot.enabled":false,"auto_action_naming":true,"mq.enabled":false,"user_info.rules":"{\"list\":[]}","apm_data.rules":"[]","error_collector.ignored_exception_classes":"","function.rules":"[]","agent_enabled":true,"action_tracer.max":2000,"log_tracking":false,"globalApdexThresholdEnabled":0,"data_item.rules":"{\"requestHeader\":[\"Referer\",\"User-Agent\"]}","quantile":"[50,80,95,99]","appId":1636,"ignore_static_resources":true,"error_collector.ignored_status_codes":"401","globalApdexThreshold":0,"custom_data.max":1000,"hotspot.white_list":"","hotspot.rules":"[]","action_tracer.stack_trace_threshold":1000,"rum.sample_ratio":1.0,"custom_data.rules":"[]","thrift.enabled":false,"function.fetch_enabled":true,"action_tracer.capture_params":true,"business_data.rules":"[]","resource_breaker":{"sample_memory":70,"disable_memory":80,"sample_gcCPUTime":10,"sample_rate":50,"disable_gcCPUTime":20,"enabled":true,"sample_cpu":80,"disable_cpu":90},"nosql.rules":"[]","data.rules":"[]","action_tracer.ignored_params":"","action_tracer.enabled":true,"business_error.rules":"[]","action_tracer.action_threshold":2000,"action_tracer.rules":"[]","hotspot.interval":10,"error_collector.enabled":true,"error_collector.stack_enabled":false,"action_tracer.stack_enabled":true,"mTime":1596019098,"hotspot.period":60,"action_tracer.obfuscate_sql":true,"rum.mode":"off","apdex.threshold":500}},"status":"success"}
+2020-07-29 18:38:25,150 [Tingyun Connection Service 1] [3788 45] INFO  - Tingyun Agent enabled for: wjn_app007.
+2020-07-29 18:38:25,151 [Tingyun Connection Service 1] [3788 45] INFO  - Application[wjn_app007] has been registered.
+2020-07-29 18:38:25,163 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - Real user monitoring is enabled with auto instrumentation for application "wjn_app007"
+2020-07-29 18:38:55,163 [Tingyun Harvest Service 1] [3788 94] INFO  - Starting harvest for wjn_app007
+2020-07-29 18:38:55,163 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - GetCommandEvents Harvest: Starting...
+2020-07-29 18:38:55,187 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - JVM Harvest: Starting...
+2020-07-29 18:38:55,188 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - JVM Harvest: 122 metrics will be sent.
+2020-07-29 18:38:55,249 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - Received JSON(getCmd): {"result":{},"status":"success"}
+2020-07-29 18:38:55,285 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - JVM Harvest: End...
+2020-07-29 18:38:55,288 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - Harvest finished for wjn_app007 in 125 milliseconds.
+2020-07-29 18:38:55,614 [Tingyun Jar Collector Service] [3788 93] INFO  - Jar Harvest. 88 jars will be sent. 
+2020-07-29 18:39:25,373 [Tingyun Jar Collector Service] [3788 93] INFO  - Jar Harvest. 12 jars will be sent. 
+2020-07-29 18:39:55,162 [Tingyun Harvest Service 1] [3788 94] INFO  - Starting harvest for wjn_app007
+2020-07-29 18:39:55,162 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - GetCommandEvents Harvest: Starting...
+2020-07-29 18:39:55,196 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - JVM Harvest: Starting...
+2020-07-29 18:39:55,197 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - JVM Harvest: 83 metrics will be sent.
+2020-07-29 18:39:55,247 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - Received JSON(getCmd): {"result":{},"status":"success"}
+2020-07-29 18:39:55,255 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - JVM Harvest: End...
+2020-07-29 18:39:55,257 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - Harvest finished for wjn_app007 in 95 milliseconds.
+2020-07-29 18:40:55,161 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - GetCommandEvents Harvest: Starting...
+2020-07-29 18:40:55,161 [Tingyun Harvest Service 1] [3788 94] INFO  - Starting harvest for wjn_app007
+2020-07-29 18:40:55,200 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - JVM Harvest: Starting...
+2020-07-29 18:40:55,204 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - JVM Harvest: 209 metrics will be sent.
+2020-07-29 18:40:55,255 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - Received JSON(getCmd): {"result":{},"status":"success"}
+2020-07-29 18:40:55,263 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - JVM Harvest: End...
+2020-07-29 18:40:55,264 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - Harvest finished for wjn_app007 in 102 milliseconds.
+2020-07-29 18:41:25,161 [Tingyun Jar Collector Service] [3788 93] INFO  - Jar Harvest. 1 jars will be sent. 
+2020-07-29 18:41:55,162 [Tingyun Harvest Service 1] [3788 94] INFO  - Starting harvest for wjn_app007
+2020-07-29 18:41:55,162 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - GetCommandEvents Harvest: Starting...
+2020-07-29 18:41:55,192 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - JVM Harvest: Starting...
+2020-07-29 18:41:55,193 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - JVM Harvest: 209 metrics will be sent.
+2020-07-29 18:41:55,245 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - Received JSON(getCmd): {"result":{},"status":"success"}
+2020-07-29 18:41:55,249 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - JVM Harvest: End...
+2020-07-29 18:41:55,252 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - Harvest finished for wjn_app007 in 90 milliseconds.
+2020-07-29 18:42:55,162 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - GetCommandEvents Harvest: Starting...
+2020-07-29 18:42:55,162 [Tingyun Harvest Service 1] [3788 94] INFO  - Starting harvest for wjn_app007
+2020-07-29 18:42:55,194 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - JVM Harvest: Starting...
+2020-07-29 18:42:55,195 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - JVM Harvest: 208 metrics will be sent.
+2020-07-29 18:42:55,249 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - JVM Harvest: End...
+2020-07-29 18:42:55,252 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - Harvest finished for wjn_app007 in 90 milliseconds.
+2020-07-29 18:42:55,253 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - Received JSON(getCmd): {"result":{},"status":"success"}
+2020-07-29 18:43:55,162 [Tingyun Harvest Service 1] [3788 94] INFO  - Starting harvest for wjn_app007
+2020-07-29 18:43:55,162 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - GetCommandEvents Harvest: Starting...
+2020-07-29 18:43:55,199 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - JVM Harvest: Starting...
+2020-07-29 18:43:55,200 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - JVM Harvest: 208 metrics will be sent.
+2020-07-29 18:43:55,257 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - Received JSON(getCmd): {"result":{},"status":"success"}
+2020-07-29 18:43:55,264 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - JVM Harvest: End...
+2020-07-29 18:43:55,267 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - Harvest finished for wjn_app007 in 105 milliseconds.
+2020-07-29 18:44:55,161 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - GetCommandEvents Harvest: Starting...
+2020-07-29 18:44:55,161 [Tingyun Harvest Service 1] [3788 94] INFO  - Starting harvest for wjn_app007
+2020-07-29 18:44:55,182 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - JVM Harvest: Starting...
+2020-07-29 18:44:55,183 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - JVM Harvest: 208 metrics will be sent.
+2020-07-29 18:44:55,238 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - JVM Harvest: End...
+2020-07-29 18:44:55,239 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - Harvest finished for wjn_app007 in 78 milliseconds.
+2020-07-29 18:44:55,253 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - Received JSON(getCmd): {"result":{},"status":"success"}
+2020-07-29 18:45:55,161 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - GetCommandEvents Harvest: Starting...
+2020-07-29 18:45:55,161 [Tingyun Harvest Service 1] [3788 94] INFO  - Starting harvest for wjn_app007
+2020-07-29 18:45:55,197 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - JVM Harvest: Starting...
+2020-07-29 18:45:55,198 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - JVM Harvest: 208 metrics will be sent.
+2020-07-29 18:45:55,281 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - Received JSON(getCmd): {"result":{},"status":"success"}
+2020-07-29 18:45:55,287 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - JVM Harvest: End...
+2020-07-29 18:45:55,291 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - Harvest finished for wjn_app007 in 130 milliseconds.
+2020-07-29 18:46:55,162 [Tingyun Harvest Service 1] [3788 94] INFO  - Starting harvest for wjn_app007
+2020-07-29 18:46:55,162 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - GetCommandEvents Harvest: Starting...
+2020-07-29 18:46:55,197 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - JVM Harvest: Starting...
+2020-07-29 18:46:55,198 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - JVM Harvest: 208 metrics will be sent.
+2020-07-29 18:46:55,244 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - Received JSON(getCmd): {"result":{},"status":"success"}
+2020-07-29 18:46:55,258 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - JVM Harvest: End...
+2020-07-29 18:46:55,262 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - Harvest finished for wjn_app007 in 100 milliseconds.
+2020-07-29 18:47:55,162 [Tingyun Harvest Service 1] [3788 94] INFO  - Starting harvest for wjn_app007
+2020-07-29 18:47:55,162 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - GetCommandEvents Harvest: Starting...
+2020-07-29 18:47:55,202 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - JVM Harvest: Starting...
+2020-07-29 18:47:55,202 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - JVM Harvest: 208 metrics will be sent.
+2020-07-29 18:47:55,254 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - Received JSON(getCmd): {"result":{},"status":"success"}
+2020-07-29 18:47:55,258 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - JVM Harvest: End...
+2020-07-29 18:47:55,262 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - Harvest finished for wjn_app007 in 100 milliseconds.
+2020-07-29 18:48:55,162 [Tingyun Harvest Service 1] [3788 94] INFO  - Starting harvest for wjn_app007
+2020-07-29 18:48:55,162 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - GetCommandEvents Harvest: Starting...
+2020-07-29 18:48:55,196 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - JVM Harvest: Starting...
+2020-07-29 18:48:55,198 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - JVM Harvest: 208 metrics will be sent.
+2020-07-29 18:48:55,250 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - Received JSON(getCmd): {"result":{},"status":"success"}
+2020-07-29 18:48:55,256 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - JVM Harvest: End...
+2020-07-29 18:48:55,261 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - Harvest finished for wjn_app007 in 99 milliseconds.
+2020-07-29 18:49:55,162 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - GetCommandEvents Harvest: Starting...
+2020-07-29 18:49:55,162 [Tingyun Harvest Service 1] [3788 94] INFO  - Starting harvest for wjn_app007
+2020-07-29 18:49:55,170 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - JVM Harvest: Starting...
+2020-07-29 18:49:55,170 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - JVM Harvest: 208 metrics will be sent.
+2020-07-29 18:49:55,220 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - JVM Harvest: End...
+2020-07-29 18:49:55,221 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - Harvest finished for wjn_app007 in 59 milliseconds.
+2020-07-29 18:49:55,252 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - Received JSON(getCmd): {"result":{},"status":"success"}
+2020-07-29 18:50:55,162 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - GetCommandEvents Harvest: Starting...
+2020-07-29 18:50:55,162 [Tingyun Harvest Service 1] [3788 94] INFO  - Starting harvest for wjn_app007
+2020-07-29 18:50:55,172 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - JVM Harvest: Starting...
+2020-07-29 18:50:55,173 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - JVM Harvest: 208 metrics will be sent.
+2020-07-29 18:50:55,226 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - JVM Harvest: End...
+2020-07-29 18:50:55,229 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - Harvest finished for wjn_app007 in 67 milliseconds.
+2020-07-29 18:50:55,252 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - Received JSON(getCmd): {"result":{},"status":"success"}
+2020-07-29 18:51:55,162 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - GetCommandEvents Harvest: Starting...
+2020-07-29 18:51:55,162 [Tingyun Harvest Service 1] [3788 94] INFO  - Starting harvest for wjn_app007
+2020-07-29 18:51:55,172 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - JVM Harvest: Starting...
+2020-07-29 18:51:55,172 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - JVM Harvest: 208 metrics will be sent.
+2020-07-29 18:51:55,222 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - JVM Harvest: End...
+2020-07-29 18:51:55,223 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - Harvest finished for wjn_app007 in 61 milliseconds.
+2020-07-29 18:51:55,243 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - Received JSON(getCmd): {"result":{},"status":"success"}
+2020-07-29 18:52:55,161 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - GetCommandEvents Harvest: Starting...
+2020-07-29 18:52:55,161 [Tingyun Harvest Service 1] [3788 94] INFO  - Starting harvest for wjn_app007
+2020-07-29 18:52:55,195 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - JVM Harvest: Starting...
+2020-07-29 18:52:55,196 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - JVM Harvest: 208 metrics will be sent.
+2020-07-29 18:52:55,255 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - Received JSON(getCmd): {"result":{},"status":"success"}
+2020-07-29 18:52:55,256 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - JVM Harvest: End...
+2020-07-29 18:52:55,258 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - Harvest finished for wjn_app007 in 96 milliseconds.
+2020-07-29 18:53:55,162 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - GetCommandEvents Harvest: Starting...
+2020-07-29 18:53:55,162 [Tingyun Harvest Service 1] [3788 94] INFO  - Starting harvest for wjn_app007
+2020-07-29 18:53:55,172 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - JVM Harvest: Starting...
+2020-07-29 18:53:55,173 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - JVM Harvest: 208 metrics will be sent.
+2020-07-29 18:53:55,223 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - JVM Harvest: End...
+2020-07-29 18:53:55,225 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - Harvest finished for wjn_app007 in 63 milliseconds.
+2020-07-29 18:53:55,255 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - Received JSON(getCmd): {"result":{},"status":"success"}
+2020-07-29 18:54:25,161 [Tingyun Jar Collector Service] [3788 93] INFO  - Jar Harvest. 1 jars will be sent. 
+2020-07-29 18:54:55,162 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - GetCommandEvents Harvest: Starting...
+2020-07-29 18:54:55,162 [Tingyun Harvest Service 1] [3788 94] INFO  - Starting harvest for wjn_app007
+2020-07-29 18:54:55,182 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - JVM Harvest: Starting...
+2020-07-29 18:54:55,182 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - JVM Harvest: 209 metrics will be sent.
+2020-07-29 18:54:55,234 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - JVM Harvest: End...
+2020-07-29 18:54:55,235 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - Harvest finished for wjn_app007 in 73 milliseconds.
+2020-07-29 18:54:55,249 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - Received JSON(getCmd): {"result":{},"status":"success"}
+2020-07-29 18:55:55,162 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - GetCommandEvents Harvest: Starting...
+2020-07-29 18:55:55,162 [Tingyun Harvest Service 1] [3788 94] INFO  - Starting harvest for wjn_app007
+2020-07-29 18:55:55,186 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - JVM Harvest: Starting...
+2020-07-29 18:55:55,186 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - JVM Harvest: 208 metrics will be sent.
+2020-07-29 18:55:55,235 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - JVM Harvest: End...
+2020-07-29 18:55:55,236 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - Harvest finished for wjn_app007 in 73 milliseconds.
+2020-07-29 18:55:55,247 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - Received JSON(getCmd): {"result":{},"status":"success"}
+2020-07-29 18:56:55,162 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - GetCommandEvents Harvest: Starting...
+2020-07-29 18:56:55,162 [Tingyun Harvest Service 1] [3788 94] INFO  - Starting harvest for wjn_app007
+2020-07-29 18:56:55,194 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - JVM Harvest: Starting...
+2020-07-29 18:56:55,194 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - JVM Harvest: 208 metrics will be sent.
+2020-07-29 18:56:55,246 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - Received JSON(getCmd): {"result":{},"status":"success"}
+2020-07-29 18:56:55,253 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - JVM Harvest: End...
+2020-07-29 18:56:55,257 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - Harvest finished for wjn_app007 in 95 milliseconds.
+2020-07-29 18:57:55,162 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - GetCommandEvents Harvest: Starting...
+2020-07-29 18:57:55,162 [Tingyun Harvest Service 1] [3788 94] INFO  - Starting harvest for wjn_app007
+2020-07-29 18:57:55,196 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - JVM Harvest: Starting...
+2020-07-29 18:57:55,197 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - JVM Harvest: 208 metrics will be sent.
+2020-07-29 18:57:55,249 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - Received JSON(getCmd): {"result":{},"status":"success"}
+2020-07-29 18:57:55,256 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - JVM Harvest: End...
+2020-07-29 18:57:55,260 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - Harvest finished for wjn_app007 in 98 milliseconds.
+2020-07-29 18:58:55,162 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - GetCommandEvents Harvest: Starting...
+2020-07-29 18:58:55,162 [Tingyun Harvest Service 1] [3788 94] INFO  - Starting harvest for wjn_app007
+2020-07-29 18:58:55,182 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - JVM Harvest: Starting...
+2020-07-29 18:58:55,183 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - JVM Harvest: 208 metrics will be sent.
+2020-07-29 18:58:55,263 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - JVM Harvest: End...
+2020-07-29 18:58:55,265 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - Harvest finished for wjn_app007 in 103 milliseconds.
+2020-07-29 18:58:55,270 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - Received JSON(getCmd): {"result":{},"status":"success"}
+2020-07-29 18:59:55,162 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - GetCommandEvents Harvest: Starting...
+2020-07-29 18:59:55,162 [Tingyun Harvest Service 1] [3788 94] INFO  - Starting harvest for wjn_app007
+2020-07-29 18:59:55,195 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - JVM Harvest: Starting...
+2020-07-29 18:59:55,196 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - JVM Harvest: 208 metrics will be sent.
+2020-07-29 18:59:55,252 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - JVM Harvest: End...
+2020-07-29 18:59:55,257 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - Harvest finished for wjn_app007 in 94 milliseconds.
+2020-07-29 18:59:55,257 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - Received JSON(getCmd): {"result":{},"status":"success"}
+2020-07-29 19:00:55,162 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - GetCommandEvents Harvest: Starting...
+2020-07-29 19:00:55,162 [Tingyun Harvest Service 1] [3788 94] INFO  - Starting harvest for wjn_app007
+2020-07-29 19:00:55,196 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - JVM Harvest: Starting...
+2020-07-29 19:00:55,197 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - JVM Harvest: 208 metrics will be sent.
+2020-07-29 19:00:55,249 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - Received JSON(getCmd): {"result":{},"status":"success"}
+2020-07-29 19:00:55,257 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - JVM Harvest: End...
+2020-07-29 19:00:55,260 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - Harvest finished for wjn_app007 in 97 milliseconds.
+2020-07-29 19:01:55,162 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - GetCommandEvents Harvest: Starting...
+2020-07-29 19:01:55,162 [Tingyun Harvest Service 1] [3788 94] INFO  - Starting harvest for wjn_app007
+2020-07-29 19:01:55,198 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - JVM Harvest: Starting...
+2020-07-29 19:01:55,199 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - JVM Harvest: 208 metrics will be sent.
+2020-07-29 19:01:55,244 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - Received JSON(getCmd): {"result":{},"status":"success"}
+2020-07-29 19:01:55,256 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - JVM Harvest: End...
+2020-07-29 19:01:55,259 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - Harvest finished for wjn_app007 in 97 milliseconds.
+2020-07-29 19:02:55,162 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - GetCommandEvents Harvest: Starting...
+2020-07-29 19:02:55,162 [Tingyun Harvest Service 1] [3788 94] INFO  - Starting harvest for wjn_app007
+2020-07-29 19:02:55,196 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - JVM Harvest: Starting...
+2020-07-29 19:02:55,197 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - JVM Harvest: 208 metrics will be sent.
+2020-07-29 19:02:55,253 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - Received JSON(getCmd): {"result":{},"status":"success"}
+2020-07-29 19:02:55,255 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - JVM Harvest: End...
+2020-07-29 19:02:55,260 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - Harvest finished for wjn_app007 in 98 milliseconds.
+2020-07-29 19:03:55,162 [Tingyun Harvest Service 1] [3788 94] INFO  - Starting harvest for wjn_app007
+2020-07-29 19:03:55,162 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - GetCommandEvents Harvest: Starting...
+2020-07-29 19:03:55,196 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - JVM Harvest: Starting...
+2020-07-29 19:03:55,196 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - JVM Harvest: 208 metrics will be sent.
+2020-07-29 19:03:55,321 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - Received JSON(getCmd): {"result":{},"status":"success"}
+2020-07-29 19:03:55,328 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - JVM Harvest: End...
+2020-07-29 19:03:55,330 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - Harvest finished for wjn_app007 in 168 milliseconds.
+2020-07-29 19:04:55,161 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - GetCommandEvents Harvest: Starting...
+2020-07-29 19:04:55,161 [Tingyun Harvest Service 1] [3788 94] INFO  - Starting harvest for wjn_app007
+2020-07-29 19:04:55,189 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - JVM Harvest: Starting...
+2020-07-29 19:04:55,190 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - JVM Harvest: 208 metrics will be sent.
+2020-07-29 19:04:55,246 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - JVM Harvest: End...
+2020-07-29 19:04:55,250 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - Harvest finished for wjn_app007 in 89 milliseconds.
+2020-07-29 19:04:55,252 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - Received JSON(getCmd): {"result":{},"status":"success"}
+2020-07-29 19:05:55,161 [Tingyun Harvest Service 1] [3788 94] INFO  - Starting harvest for wjn_app007
+2020-07-29 19:05:55,161 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - GetCommandEvents Harvest: Starting...
+2020-07-29 19:05:55,194 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - JVM Harvest: Starting...
+2020-07-29 19:05:55,195 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - JVM Harvest: 208 metrics will be sent.
+2020-07-29 19:05:55,249 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - Received JSON(getCmd): {"result":{},"status":"success"}
+2020-07-29 19:05:55,251 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - JVM Harvest: End...
+2020-07-29 19:05:55,256 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - Harvest finished for wjn_app007 in 95 milliseconds.
+2020-07-29 19:06:55,162 [Tingyun Harvest Service 1] [3788 94] INFO  - Starting harvest for wjn_app007
+2020-07-29 19:06:55,162 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - GetCommandEvents Harvest: Starting...
+2020-07-29 19:06:55,192 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - JVM Harvest: Starting...
+2020-07-29 19:06:55,192 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - JVM Harvest: 208 metrics will be sent.
+2020-07-29 19:06:55,244 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - JVM Harvest: End...
+2020-07-29 19:06:55,248 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - Harvest finished for wjn_app007 in 86 milliseconds.
+2020-07-29 19:06:55,249 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - Received JSON(getCmd): {"result":{},"status":"success"}
+2020-07-29 19:07:25,160 [Tingyun Jar Collector Service] [3788 93] INFO  - Jar Harvest. 1 jars will be sent. 
+2020-07-29 19:07:55,161 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - GetCommandEvents Harvest: Starting...
+2020-07-29 19:07:55,161 [Tingyun Harvest Service 1] [3788 94] INFO  - Starting harvest for wjn_app007
+2020-07-29 19:07:55,198 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - JVM Harvest: Starting...
+2020-07-29 19:07:55,198 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - JVM Harvest: 209 metrics will be sent.
+2020-07-29 19:07:55,256 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - Received JSON(getCmd): {"result":{},"status":"success"}
+2020-07-29 19:07:55,258 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - JVM Harvest: End...
+2020-07-29 19:07:55,263 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - Harvest finished for wjn_app007 in 101 milliseconds.
+2020-07-29 19:08:55,162 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - GetCommandEvents Harvest: Starting...
+2020-07-29 19:08:55,162 [Tingyun Harvest Service 1] [3788 94] INFO  - Starting harvest for wjn_app007
+2020-07-29 19:08:55,174 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - JVM Harvest: Starting...
+2020-07-29 19:08:55,174 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - JVM Harvest: 208 metrics will be sent.
+2020-07-29 19:08:55,227 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - JVM Harvest: End...
+2020-07-29 19:08:55,228 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - Harvest finished for wjn_app007 in 66 milliseconds.
+2020-07-29 19:08:55,246 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - Received JSON(getCmd): {"result":{},"status":"success"}
+2020-07-29 19:09:55,161 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - GetCommandEvents Harvest: Starting...
+2020-07-29 19:09:55,161 [Tingyun Harvest Service 1] [3788 94] INFO  - Starting harvest for wjn_app007
+2020-07-29 19:09:55,168 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - JVM Harvest: Starting...
+2020-07-29 19:09:55,168 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - JVM Harvest: 208 metrics will be sent.
+2020-07-29 19:09:55,218 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - JVM Harvest: End...
+2020-07-29 19:09:55,219 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - Harvest finished for wjn_app007 in 57 milliseconds.
+2020-07-29 19:09:55,263 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - Received JSON(getCmd): {"result":{},"status":"success"}
+2020-07-29 19:10:55,161 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - GetCommandEvents Harvest: Starting...
+2020-07-29 19:10:55,161 [Tingyun Harvest Service 1] [3788 94] INFO  - Starting harvest for wjn_app007
+2020-07-29 19:10:55,180 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - JVM Harvest: Starting...
+2020-07-29 19:10:55,181 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - JVM Harvest: 208 metrics will be sent.
+2020-07-29 19:10:55,232 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - JVM Harvest: End...
+2020-07-29 19:10:55,235 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - Harvest finished for wjn_app007 in 74 milliseconds.
+2020-07-29 19:10:55,245 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - Received JSON(getCmd): {"result":{},"status":"success"}
+2020-07-29 19:11:55,161 [Tingyun Harvest Service 1] [3788 94] INFO  - Starting harvest for wjn_app007
+2020-07-29 19:11:55,161 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - GetCommandEvents Harvest: Starting...
+2020-07-29 19:11:55,195 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - JVM Harvest: Starting...
+2020-07-29 19:11:55,195 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - JVM Harvest: 208 metrics will be sent.
+2020-07-29 19:11:55,239 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - Received JSON(getCmd): {"result":{},"status":"success"}
+2020-07-29 19:11:55,254 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - JVM Harvest: End...
+2020-07-29 19:11:55,257 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - Harvest finished for wjn_app007 in 95 milliseconds.
+2020-07-29 19:12:55,162 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - GetCommandEvents Harvest: Starting...
+2020-07-29 19:12:55,162 [Tingyun Harvest Service 1] [3788 94] INFO  - Starting harvest for wjn_app007
+2020-07-29 19:12:55,188 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - JVM Harvest: Starting...
+2020-07-29 19:12:55,189 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - JVM Harvest: 208 metrics will be sent.
+2020-07-29 19:12:55,242 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - JVM Harvest: End...
+2020-07-29 19:12:55,244 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - Harvest finished for wjn_app007 in 82 milliseconds.
+2020-07-29 19:12:55,248 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - Received JSON(getCmd): {"result":{},"status":"success"}
+2020-07-29 19:13:55,162 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - GetCommandEvents Harvest: Starting...
+2020-07-29 19:13:55,162 [Tingyun Harvest Service 1] [3788 94] INFO  - Starting harvest for wjn_app007
+2020-07-29 19:13:55,169 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - JVM Harvest: Starting...
+2020-07-29 19:13:55,170 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - JVM Harvest: 208 metrics will be sent.
+2020-07-29 19:13:55,235 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - JVM Harvest: End...
+2020-07-29 19:13:55,237 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - Harvest finished for wjn_app007 in 75 milliseconds.
+2020-07-29 19:13:55,250 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - Received JSON(getCmd): {"result":{},"status":"success"}
+2020-07-29 19:14:55,162 [Tingyun Harvest Service 1] [3788 94] INFO  - Starting harvest for wjn_app007
+2020-07-29 19:14:55,162 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - GetCommandEvents Harvest: Starting...
+2020-07-29 19:14:55,193 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - JVM Harvest: Starting...
+2020-07-29 19:14:55,194 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - JVM Harvest: 208 metrics will be sent.
+2020-07-29 19:14:55,247 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - JVM Harvest: End...
+2020-07-29 19:14:55,251 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - Harvest finished for wjn_app007 in 87 milliseconds.
+2020-07-29 19:14:55,254 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - Received JSON(getCmd): {"result":{},"status":"success"}
+2020-07-29 19:15:55,162 [Tingyun Harvest Service 1] [3788 94] INFO  - Starting harvest for wjn_app007
+2020-07-29 19:15:55,162 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - GetCommandEvents Harvest: Starting...
+2020-07-29 19:15:55,180 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - JVM Harvest: Starting...
+2020-07-29 19:15:55,180 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - JVM Harvest: 208 metrics will be sent.
+2020-07-29 19:15:55,233 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - JVM Harvest: End...
+2020-07-29 19:15:55,236 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - Harvest finished for wjn_app007 in 74 milliseconds.
+2020-07-29 19:15:55,255 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - Received JSON(getCmd): {"result":{},"status":"success"}
+2020-07-29 19:16:55,162 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - GetCommandEvents Harvest: Starting...
+2020-07-29 19:16:55,162 [Tingyun Harvest Service 1] [3788 94] INFO  - Starting harvest for wjn_app007
+2020-07-29 19:16:55,170 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - JVM Harvest: Starting...
+2020-07-29 19:16:55,170 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - JVM Harvest: 208 metrics will be sent.
+2020-07-29 19:16:55,225 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - JVM Harvest: End...
+2020-07-29 19:16:55,226 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - Harvest finished for wjn_app007 in 64 milliseconds.
+2020-07-29 19:16:55,248 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - Received JSON(getCmd): {"result":{},"status":"success"}
+2020-07-29 19:17:55,161 [Tingyun Harvest Service 1] [3788 94] INFO  - Starting harvest for wjn_app007
+2020-07-29 19:17:55,161 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - GetCommandEvents Harvest: Starting...
+2020-07-29 19:17:55,191 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - JVM Harvest: Starting...
+2020-07-29 19:17:55,191 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - JVM Harvest: 210 metrics will be sent.
+2020-07-29 19:17:55,246 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - JVM Harvest: End...
+2020-07-29 19:17:55,250 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - Harvest finished for wjn_app007 in 88 milliseconds.
+2020-07-29 19:17:55,251 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - Received JSON(getCmd): {"result":{},"status":"success"}
+2020-07-29 19:18:55,162 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - GetCommandEvents Harvest: Starting...
+2020-07-29 19:18:55,162 [Tingyun Harvest Service 1] [3788 94] INFO  - Starting harvest for wjn_app007
+2020-07-29 19:18:55,190 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - JVM Harvest: Starting...
+2020-07-29 19:18:55,190 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - JVM Harvest: 208 metrics will be sent.
+2020-07-29 19:18:55,241 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - JVM Harvest: End...
+2020-07-29 19:18:55,244 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - Harvest finished for wjn_app007 in 82 milliseconds.
+2020-07-29 19:18:55,249 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - Received JSON(getCmd): {"result":{},"status":"success"}
+2020-07-29 19:19:55,162 [Tingyun Harvest Service 1] [3788 94] INFO  - Starting harvest for wjn_app007
+2020-07-29 19:19:55,162 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - GetCommandEvents Harvest: Starting...
+2020-07-29 19:19:55,189 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - JVM Harvest: Starting...
+2020-07-29 19:19:55,189 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - JVM Harvest: 208 metrics will be sent.
+2020-07-29 19:19:55,240 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - JVM Harvest: End...
+2020-07-29 19:19:55,243 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - Harvest finished for wjn_app007 in 81 milliseconds.
+2020-07-29 19:19:55,249 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - Received JSON(getCmd): {"result":{},"status":"success"}
+2020-07-29 19:20:55,162 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - GetCommandEvents Harvest: Starting...
+2020-07-29 19:20:55,162 [Tingyun Harvest Service 1] [3788 94] INFO  - Starting harvest for wjn_app007
+2020-07-29 19:20:55,177 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - JVM Harvest: Starting...
+2020-07-29 19:20:55,177 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - JVM Harvest: 208 metrics will be sent.
+2020-07-29 19:20:55,230 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - JVM Harvest: End...
+2020-07-29 19:20:55,232 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - Harvest finished for wjn_app007 in 70 milliseconds.
+2020-07-29 19:20:55,249 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - Received JSON(getCmd): {"result":{},"status":"success"}
+2020-07-29 19:21:55,161 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - GetCommandEvents Harvest: Starting...
+2020-07-29 19:21:55,161 [Tingyun Harvest Service 1] [3788 94] INFO  - Starting harvest for wjn_app007
+2020-07-29 19:21:55,169 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - JVM Harvest: Starting...
+2020-07-29 19:21:55,169 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - JVM Harvest: 208 metrics will be sent.
+2020-07-29 19:21:55,222 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - JVM Harvest: End...
+2020-07-29 19:21:55,224 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - Harvest finished for wjn_app007 in 62 milliseconds.
+2020-07-29 19:21:55,247 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - Received JSON(getCmd): {"result":{},"status":"success"}
+2020-07-29 19:22:55,162 [Tingyun Harvest Service 1] [3788 94] INFO  - Starting harvest for wjn_app007
+2020-07-29 19:22:55,162 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - GetCommandEvents Harvest: Starting...
+2020-07-29 19:22:55,187 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - JVM Harvest: Starting...
+2020-07-29 19:22:55,188 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - JVM Harvest: 209 metrics will be sent.
+2020-07-29 19:22:55,241 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - JVM Harvest: End...
+2020-07-29 19:22:55,245 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - Harvest finished for wjn_app007 in 83 milliseconds.
+2020-07-29 19:22:55,251 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - Received JSON(getCmd): {"result":{},"status":"success"}
+2020-07-29 19:23:55,162 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - GetCommandEvents Harvest: Starting...
+2020-07-29 19:23:55,162 [Tingyun Harvest Service 1] [3788 94] INFO  - Starting harvest for wjn_app007
+2020-07-29 19:23:55,187 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - JVM Harvest: Starting...
+2020-07-29 19:23:55,188 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - JVM Harvest: 208 metrics will be sent.
+2020-07-29 19:23:55,254 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - JVM Harvest: End...
+2020-07-29 19:23:55,258 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - Harvest finished for wjn_app007 in 96 milliseconds.
+2020-07-29 19:23:55,264 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - Received JSON(getCmd): {"result":{},"status":"success"}
+2020-07-29 19:24:55,162 [Tingyun Harvest Service 1] [3788 94] INFO  - Starting harvest for wjn_app007
+2020-07-29 19:24:55,162 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - GetCommandEvents Harvest: Starting...
+2020-07-29 19:24:55,179 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - JVM Harvest: Starting...
+2020-07-29 19:24:55,180 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - JVM Harvest: 208 metrics will be sent.
+2020-07-29 19:24:55,233 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - JVM Harvest: End...
+2020-07-29 19:24:55,237 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - Harvest finished for wjn_app007 in 74 milliseconds.
+2020-07-29 19:24:55,252 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - Received JSON(getCmd): {"result":{},"status":"success"}
+2020-07-29 19:25:55,161 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - GetCommandEvents Harvest: Starting...
+2020-07-29 19:25:55,161 [Tingyun Harvest Service 1] [3788 94] INFO  - Starting harvest for wjn_app007
+2020-07-29 19:25:55,179 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - JVM Harvest: Starting...
+2020-07-29 19:25:55,179 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - JVM Harvest: 208 metrics will be sent.
+2020-07-29 19:25:55,234 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - JVM Harvest: End...
+2020-07-29 19:25:55,236 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - Harvest finished for wjn_app007 in 74 milliseconds.
+2020-07-29 19:25:55,249 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - Received JSON(getCmd): {"result":{},"status":"success"}
+2020-07-29 19:26:55,161 [Tingyun Harvest Service 1] [3788 94] INFO  - Starting harvest for wjn_app007
+2020-07-29 19:26:55,162 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - GetCommandEvents Harvest: Starting...
+2020-07-29 19:26:55,192 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - JVM Harvest: Starting...
+2020-07-29 19:26:55,192 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - JVM Harvest: 208 metrics will be sent.
+2020-07-29 19:26:55,243 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - Received JSON(getCmd): {"result":{},"status":"success"}
+2020-07-29 19:26:55,245 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - JVM Harvest: End...
+2020-07-29 19:26:55,248 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - Harvest finished for wjn_app007 in 86 milliseconds.
+2020-07-29 19:27:55,161 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - GetCommandEvents Harvest: Starting...
+2020-07-29 19:27:55,161 [Tingyun Harvest Service 1] [3788 94] INFO  - Starting harvest for wjn_app007
+2020-07-29 19:27:55,177 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - JVM Harvest: Starting...
+2020-07-29 19:27:55,177 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - JVM Harvest: 208 metrics will be sent.
+2020-07-29 19:27:55,229 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - JVM Harvest: End...
+2020-07-29 19:27:55,231 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - Harvest finished for wjn_app007 in 69 milliseconds.
+2020-07-29 19:27:55,247 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - Received JSON(getCmd): {"result":{},"status":"success"}
+2020-07-29 19:28:55,161 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - GetCommandEvents Harvest: Starting...
+2020-07-29 19:28:55,161 [Tingyun Harvest Service 1] [3788 94] INFO  - Starting harvest for wjn_app007
+2020-07-29 19:28:55,199 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - JVM Harvest: Starting...
+2020-07-29 19:28:55,199 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - JVM Harvest: 208 metrics will be sent.
+2020-07-29 19:28:55,252 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - Received JSON(getCmd): {"result":{},"status":"success"}
+2020-07-29 19:28:55,257 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - JVM Harvest: End...
+2020-07-29 19:28:55,260 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - Harvest finished for wjn_app007 in 98 milliseconds.
+2020-07-29 19:29:55,162 [Tingyun Harvest Service 1] [3788 94] INFO  - Starting harvest for wjn_app007
+2020-07-29 19:29:55,162 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - GetCommandEvents Harvest: Starting...
+2020-07-29 19:29:55,174 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - JVM Harvest: Starting...
+2020-07-29 19:29:55,174 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - JVM Harvest: 208 metrics will be sent.
+2020-07-29 19:29:55,224 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - JVM Harvest: End...
+2020-07-29 19:29:55,226 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - Harvest finished for wjn_app007 in 64 milliseconds.
+2020-07-29 19:29:55,247 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - Received JSON(getCmd): {"result":{},"status":"success"}
+2020-07-29 19:30:55,162 [Tingyun Harvest Service 1] [3788 94] INFO  - Starting harvest for wjn_app007
+2020-07-29 19:30:55,162 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - GetCommandEvents Harvest: Starting...
+2020-07-29 19:30:55,196 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - JVM Harvest: Starting...
+2020-07-29 19:30:55,196 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - JVM Harvest: 208 metrics will be sent.
+2020-07-29 19:30:55,249 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - Received JSON(getCmd): {"result":{},"status":"success"}
+2020-07-29 19:30:55,255 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - JVM Harvest: End...
+2020-07-29 19:30:55,259 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - Harvest finished for wjn_app007 in 96 milliseconds.
+2020-07-29 19:31:55,161 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - GetCommandEvents Harvest: Starting...
+2020-07-29 19:31:55,161 [Tingyun Harvest Service 1] [3788 94] INFO  - Starting harvest for wjn_app007
+2020-07-29 19:31:55,194 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - JVM Harvest: Starting...
+2020-07-29 19:31:55,195 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - JVM Harvest: 208 metrics will be sent.
+2020-07-29 19:31:55,245 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - Received JSON(getCmd): {"result":{},"status":"success"}
+2020-07-29 19:31:55,254 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - JVM Harvest: End...
+2020-07-29 19:31:55,258 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - Harvest finished for wjn_app007 in 96 milliseconds.
+2020-07-29 19:32:55,162 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - GetCommandEvents Harvest: Starting...
+2020-07-29 19:32:55,162 [Tingyun Harvest Service 1] [3788 94] INFO  - Starting harvest for wjn_app007
+2020-07-29 19:32:55,190 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - JVM Harvest: Starting...
+2020-07-29 19:32:55,191 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - JVM Harvest: 208 metrics will be sent.
+2020-07-29 19:32:55,243 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - JVM Harvest: End...
+2020-07-29 19:32:55,246 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - Harvest finished for wjn_app007 in 84 milliseconds.
+2020-07-29 19:32:55,251 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - Received JSON(getCmd): {"result":{},"status":"success"}
+2020-07-29 19:33:55,163 [Tingyun Harvest Service 1] [3788 94] INFO  - Starting harvest for wjn_app007
+2020-07-29 19:33:55,163 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - GetCommandEvents Harvest: Starting...
+2020-07-29 19:33:55,170 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - JVM Harvest: Starting...
+2020-07-29 19:33:55,171 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - JVM Harvest: 208 metrics will be sent.
+2020-07-29 19:33:55,240 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - JVM Harvest: End...
+2020-07-29 19:33:55,241 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - Harvest finished for wjn_app007 in 78 milliseconds.
+2020-07-29 19:33:55,271 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - Received JSON(getCmd): {"result":{},"status":"success"}
+2020-07-29 19:34:55,162 [Tingyun Harvest Service 1] [3788 94] INFO  - Starting harvest for wjn_app007
+2020-07-29 19:34:55,162 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - GetCommandEvents Harvest: Starting...
+2020-07-29 19:34:55,191 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - JVM Harvest: Starting...
+2020-07-29 19:34:55,191 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - JVM Harvest: 208 metrics will be sent.
+2020-07-29 19:34:55,250 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - Received JSON(getCmd): {"result":{},"status":"success"}
+2020-07-29 19:34:55,251 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - JVM Harvest: End...
+2020-07-29 19:34:55,254 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - Harvest finished for wjn_app007 in 91 milliseconds.
+2020-07-29 19:35:55,161 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - GetCommandEvents Harvest: Starting...
+2020-07-29 19:35:55,161 [Tingyun Harvest Service 1] [3788 94] INFO  - Starting harvest for wjn_app007
+2020-07-29 19:35:55,196 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - JVM Harvest: Starting...
+2020-07-29 19:35:55,197 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - JVM Harvest: 208 metrics will be sent.
+2020-07-29 19:35:55,253 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - Received JSON(getCmd): {"result":{},"status":"success"}
+2020-07-29 19:35:55,262 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - JVM Harvest: End...
+2020-07-29 19:35:55,267 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - Harvest finished for wjn_app007 in 105 milliseconds.
+2020-07-29 19:36:55,162 [Tingyun Harvest Service 1] [3788 94] INFO  - Starting harvest for wjn_app007
+2020-07-29 19:36:55,162 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - GetCommandEvents Harvest: Starting...
+2020-07-29 19:36:55,191 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - JVM Harvest: Starting...
+2020-07-29 19:36:55,192 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - JVM Harvest: 208 metrics will be sent.
+2020-07-29 19:36:55,246 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - JVM Harvest: End...
+2020-07-29 19:36:55,249 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - Harvest finished for wjn_app007 in 86 milliseconds.
+2020-07-29 19:36:55,249 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - Received JSON(getCmd): {"result":{},"status":"success"}
+2020-07-29 19:37:55,162 [Tingyun Harvest Service 1] [3788 94] INFO  - Starting harvest for wjn_app007
+2020-07-29 19:37:55,162 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - GetCommandEvents Harvest: Starting...
+2020-07-29 19:37:55,192 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - JVM Harvest: Starting...
+2020-07-29 19:37:55,193 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - JVM Harvest: 208 metrics will be sent.
+2020-07-29 19:37:55,247 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - JVM Harvest: End...
+2020-07-29 19:37:55,250 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - Harvest finished for wjn_app007 in 87 milliseconds.
+2020-07-29 19:37:55,252 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - Received JSON(getCmd): {"result":{},"status":"success"}
+2020-07-29 19:38:55,162 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - GetCommandEvents Harvest: Starting...
+2020-07-29 19:38:55,162 [Tingyun Harvest Service 1] [3788 94] INFO  - Starting harvest for wjn_app007
+2020-07-29 19:38:55,197 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - JVM Harvest: Starting...
+2020-07-29 19:38:55,199 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - JVM Harvest: 208 metrics will be sent.
+2020-07-29 19:38:55,312 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - Received JSON(getCmd): {"result":{},"status":"success"}
+2020-07-29 19:38:55,315 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - JVM Harvest: End...
+2020-07-29 19:38:55,319 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - Harvest finished for wjn_app007 in 157 milliseconds.
+2020-07-29 19:39:55,162 [Tingyun Harvest Service 1] [3788 94] INFO  - Starting harvest for wjn_app007
+2020-07-29 19:39:55,162 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - GetCommandEvents Harvest: Starting...
+2020-07-29 19:39:55,181 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - JVM Harvest: Starting...
+2020-07-29 19:39:55,182 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - JVM Harvest: 208 metrics will be sent.
+2020-07-29 19:39:55,239 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - JVM Harvest: End...
+2020-07-29 19:39:55,242 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - Harvest finished for wjn_app007 in 80 milliseconds.
+2020-07-29 19:39:55,251 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - Received JSON(getCmd): {"result":{},"status":"success"}
+2020-07-29 19:40:55,162 [Tingyun Harvest Service 1] [3788 94] INFO  - Starting harvest for wjn_app007
+2020-07-29 19:40:55,162 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - GetCommandEvents Harvest: Starting...
+2020-07-29 19:40:55,201 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - JVM Harvest: Starting...
+2020-07-29 19:40:55,202 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - JVM Harvest: 208 metrics will be sent.
+2020-07-29 19:40:55,255 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - Received JSON(getCmd): {"result":{},"status":"success"}
+2020-07-29 19:40:55,262 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - JVM Harvest: End...
+2020-07-29 19:40:55,264 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - Harvest finished for wjn_app007 in 101 milliseconds.
+2020-07-29 19:41:55,161 [Tingyun Harvest Service 1] [3788 94] INFO  - Starting harvest for wjn_app007
+2020-07-29 19:41:55,161 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - GetCommandEvents Harvest: Starting...
+2020-07-29 19:41:55,191 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - JVM Harvest: Starting...
+2020-07-29 19:41:55,191 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - JVM Harvest: 208 metrics will be sent.
+2020-07-29 19:41:55,244 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - Received JSON(getCmd): {"result":{},"status":"success"}
+2020-07-29 19:41:55,248 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - JVM Harvest: End...
+2020-07-29 19:41:55,251 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - Harvest finished for wjn_app007 in 89 milliseconds.
+2020-07-29 19:42:55,162 [Tingyun Harvest Service 1] [3788 94] INFO  - Starting harvest for wjn_app007
+2020-07-29 19:42:55,162 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - GetCommandEvents Harvest: Starting...
+2020-07-29 19:42:55,189 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - JVM Harvest: Starting...
+2020-07-29 19:42:55,190 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - JVM Harvest: 208 metrics will be sent.
+2020-07-29 19:42:55,258 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - JVM Harvest: End...
+2020-07-29 19:42:55,281 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - Harvest finished for wjn_app007 in 119 milliseconds.
+2020-07-29 19:42:55,281 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - Received JSON(getCmd): {"result":{},"status":"success"}
+2020-07-29 19:43:55,162 [Tingyun Harvest Service 1] [3788 94] INFO  - Starting harvest for wjn_app007
+2020-07-29 19:43:55,162 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - GetCommandEvents Harvest: Starting...
+2020-07-29 19:43:55,196 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - JVM Harvest: Starting...
+2020-07-29 19:43:55,197 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - JVM Harvest: 208 metrics will be sent.
+2020-07-29 19:43:55,258 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - Received JSON(getCmd): {"result":{},"status":"success"}
+2020-07-29 19:43:55,261 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - JVM Harvest: End...
+2020-07-29 19:43:55,266 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - Harvest finished for wjn_app007 in 103 milliseconds.
+2020-07-29 19:44:55,162 [Tingyun Harvest Service 1] [3788 94] INFO  - Starting harvest for wjn_app007
+2020-07-29 19:44:55,162 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - GetCommandEvents Harvest: Starting...
+2020-07-29 19:44:55,199 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - JVM Harvest: Starting...
+2020-07-29 19:44:55,200 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - JVM Harvest: 208 metrics will be sent.
+2020-07-29 19:44:55,248 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - Received JSON(getCmd): {"result":{},"status":"success"}
+2020-07-29 19:44:55,260 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - JVM Harvest: End...
+2020-07-29 19:44:55,263 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - Harvest finished for wjn_app007 in 101 milliseconds.
+2020-07-29 19:45:55,162 [Tingyun Harvest Service 1] [3788 94] INFO  - Starting harvest for wjn_app007
+2020-07-29 19:45:55,162 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - GetCommandEvents Harvest: Starting...
+2020-07-29 19:45:55,196 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - JVM Harvest: Starting...
+2020-07-29 19:45:55,197 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - JVM Harvest: 208 metrics will be sent.
+2020-07-29 19:45:55,250 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - Received JSON(getCmd): {"result":{},"status":"success"}
+2020-07-29 19:45:55,258 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - JVM Harvest: End...
+2020-07-29 19:45:55,261 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - Harvest finished for wjn_app007 in 98 milliseconds.
+2020-07-29 19:46:55,161 [Tingyun Harvest Service 1] [3788 94] INFO  - Starting harvest for wjn_app007
+2020-07-29 19:46:55,161 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - GetCommandEvents Harvest: Starting...
+2020-07-29 19:46:55,197 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - JVM Harvest: Starting...
+2020-07-29 19:46:55,198 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - JVM Harvest: 208 metrics will be sent.
+2020-07-29 19:46:55,248 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - Received JSON(getCmd): {"result":{},"status":"success"}
+2020-07-29 19:46:55,261 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - JVM Harvest: End...
+2020-07-29 19:46:55,264 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - Harvest finished for wjn_app007 in 102 milliseconds.
+2020-07-29 19:47:55,162 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - GetCommandEvents Harvest: Starting...
+2020-07-29 19:47:55,162 [Tingyun Harvest Service 1] [3788 94] INFO  - Starting harvest for wjn_app007
+2020-07-29 19:47:55,183 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - JVM Harvest: Starting...
+2020-07-29 19:47:55,184 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - JVM Harvest: 208 metrics will be sent.
+2020-07-29 19:47:55,238 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - JVM Harvest: End...
+2020-07-29 19:47:55,239 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - Harvest finished for wjn_app007 in 77 milliseconds.
+2020-07-29 19:47:55,248 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - Received JSON(getCmd): {"result":{},"status":"success"}
+2020-07-29 19:48:55,162 [Tingyun Harvest Service 1] [3788 94] INFO  - Starting harvest for wjn_app007
+2020-07-29 19:48:55,162 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - GetCommandEvents Harvest: Starting...
+2020-07-29 19:48:55,192 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - JVM Harvest: Starting...
+2020-07-29 19:48:55,192 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - JVM Harvest: 208 metrics will be sent.
+2020-07-29 19:48:55,249 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - JVM Harvest: End...
+2020-07-29 19:48:55,252 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - Harvest finished for wjn_app007 in 90 milliseconds.
+2020-07-29 19:48:55,252 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - Received JSON(getCmd): {"result":{},"status":"success"}
+2020-07-29 19:49:55,162 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - GetCommandEvents Harvest: Starting...
+2020-07-29 19:49:55,162 [Tingyun Harvest Service 1] [3788 94] INFO  - Starting harvest for wjn_app007
+2020-07-29 19:49:55,190 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - JVM Harvest: Starting...
+2020-07-29 19:49:55,190 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - JVM Harvest: 208 metrics will be sent.
+2020-07-29 19:49:55,246 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - JVM Harvest: End...
+2020-07-29 19:49:55,249 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - Harvest finished for wjn_app007 in 87 milliseconds.
+2020-07-29 19:49:55,254 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - Received JSON(getCmd): {"result":{},"status":"success"}
+2020-07-29 19:50:55,162 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - GetCommandEvents Harvest: Starting...
+2020-07-29 19:50:55,162 [Tingyun Harvest Service 1] [3788 94] INFO  - Starting harvest for wjn_app007
+2020-07-29 19:50:55,196 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - JVM Harvest: Starting...
+2020-07-29 19:50:55,197 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - JVM Harvest: 208 metrics will be sent.
+2020-07-29 19:50:55,250 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - Received JSON(getCmd): {"result":{},"status":"success"}
+2020-07-29 19:50:55,263 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - JVM Harvest: End...
+2020-07-29 19:50:55,267 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - Harvest finished for wjn_app007 in 104 milliseconds.
+2020-07-29 19:51:55,162 [Tingyun Harvest Service 1] [3788 94] INFO  - Starting harvest for wjn_app007
+2020-07-29 19:51:55,162 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - GetCommandEvents Harvest: Starting...
+2020-07-29 19:51:55,178 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - JVM Harvest: Starting...
+2020-07-29 19:51:55,178 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - JVM Harvest: 208 metrics will be sent.
+2020-07-29 19:51:55,233 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - JVM Harvest: End...
+2020-07-29 19:51:55,238 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - Harvest finished for wjn_app007 in 76 milliseconds.
+2020-07-29 19:51:55,242 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - Received JSON(getCmd): {"result":{},"status":"success"}
+2020-07-29 19:52:55,162 [Tingyun Harvest Service 1] [3788 94] INFO  - Starting harvest for wjn_app007
+2020-07-29 19:52:55,162 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - GetCommandEvents Harvest: Starting...
+2020-07-29 19:52:55,197 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - JVM Harvest: Starting...
+2020-07-29 19:52:55,198 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - JVM Harvest: 208 metrics will be sent.
+2020-07-29 19:52:55,253 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - Received JSON(getCmd): {"result":{},"status":"success"}
+2020-07-29 19:52:55,258 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - JVM Harvest: End...
+2020-07-29 19:52:55,261 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - Harvest finished for wjn_app007 in 99 milliseconds.
+2020-07-29 19:53:55,162 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - GetCommandEvents Harvest: Starting...
+2020-07-29 19:53:55,162 [Tingyun Harvest Service 1] [3788 94] INFO  - Starting harvest for wjn_app007
+2020-07-29 19:53:55,191 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - JVM Harvest: Starting...
+2020-07-29 19:53:55,192 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - JVM Harvest: 208 metrics will be sent.
+2020-07-29 19:53:55,250 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - JVM Harvest: End...
+2020-07-29 19:53:55,251 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - Received JSON(getCmd): {"result":{},"status":"success"}
+2020-07-29 19:53:55,257 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - Harvest finished for wjn_app007 in 94 milliseconds.
+2020-07-29 19:54:55,161 [Tingyun Harvest Service 1] [3788 94] INFO  - Starting harvest for wjn_app007
+2020-07-29 19:54:55,161 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - GetCommandEvents Harvest: Starting...
+2020-07-29 19:54:55,174 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - JVM Harvest: Starting...
+2020-07-29 19:54:55,174 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - JVM Harvest: 208 metrics will be sent.
+2020-07-29 19:54:55,228 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - JVM Harvest: End...
+2020-07-29 19:54:55,229 [Tingyun-EventHandlerExecutor 3] [3788 96] INFO  - Harvest finished for wjn_app007 in 68 milliseconds.
+2020-07-29 19:54:55,246 [Tingyun-EventHandlerExecutor 2] [3788 92] INFO  - Received JSON(getCmd): {"result":{},"status":"success"}
+2020-07-29 19:55:31,181 [Tingyun Agent Shutdown] [3788 10] INFO  - JVM is shutting down
+2020-07-29 19:55:31,183 [Tingyun Agent Shutdown] [3788 10] INFO  - Cancelling harvest task for wjn_app007
+2020-07-29 19:55:31,183 [Tingyun Retransform Task] [3788 28] INFO  - The retransform task has been interrupted
+2020-07-29 19:55:31,185 [Tingyun Agent Shutdown] [3788 10] INFO  - Tingyun Agent has shutdown
+2020-07-29 19:55:31,188 [Tingyun EventData Service] [3788 44] WARN  - EventDataTask was interrupted, no longger reported EventData
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2088)
+	at java.util.concurrent.ArrayBlockingQueue.poll(ArrayBlockingQueue.java:418)
+	at com.tingyun.agent.c.c.b.a(SourceFile:54)
+	at com.tingyun.agent.c.c.d.run(SourceFile:31)

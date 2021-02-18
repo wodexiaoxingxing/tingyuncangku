@@ -18,9 +18,12 @@
     <button id="btn4">setTimeout</button>
     <a href='tozhanshi.html' target='main'>跳转到展示页面</a>
     <button onclick="captureException();">error hook 调接口 </button><br>
+
+    <button id="btn5" onclick="yjget();">jq访问袁洁的post接口</button>
 </body>
 
 </html>
+
 <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
 <!--<script src="yjcz.js"></script>-->
@@ -30,7 +33,6 @@
 <script src="ajax.js"></script>
 <script src="scope.js"></script>
 <script>
-    
     //原生js的ajax的请求 get
     function btn1() {
         sendAjax();

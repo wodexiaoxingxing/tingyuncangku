@@ -1,0 +1,534 @@
+2020-07-24 14:13:32,827 [main] 1 INFO  - Writing to TingYun log file: D:\IDEAProjects\server-test-2\server-test-master\tingyun\tingyun-agent-java-2.6.4\tingyun\logs\tingyun_agent.log
+2020-07-24 14:13:32,827 [main] 1 INFO  - JRE vendor Oracle Corporation version 1.8.0_241
+2020-07-24 14:13:32,828 [main] 1 INFO  - JVM vendor Oracle Corporation Java HotSpot(TM) 64-Bit Server VM version 25.241-b07
+2020-07-24 14:13:32,828 [main] 1 INFO  - OS Windows 10 version 10.0 arch amd64
+2020-07-24 14:13:32,838 [main] 1 INFO  - Agent Host: DESKTOP-MCCERJJ IP: 192.168.5.114
+2020-07-24 14:13:32,876 [main] 1 INFO  - ClassLoaders will be to skip: [com/ibm/oti/vm/BootstrapClassLoader, sun/reflect/misc/MethodUtil, com/ibm/oti/vm/AbstractClassLoader, weblogic/utils/classloaders/GenericClassLoader, com/ibm/jvm/ClassLoader, com/alibaba/fastjson/util/ASMClassLoader, com/collaxa/cube/engine/deployment/BPELClassLoader, groovy/lang/GroovyClassLoader, groovy/lang/GroovyClassLoader$InnerLoader, gw/internal/gosu/compiler/SingleServingGosuClassLoader, org/codehaus/groovy/reflection/ClassLoaderForClassArtifacts, org/codehaus/groovy/reflection/SunClassLoader, org/codehaus/groovy/runtime/callsite/CallSiteClassLoader, org/mvel2/optimizers/impl/asm/ASMAccessorOptimizer$ContextClassLoader, org/springframework/context/support/ContextTypeMatchClassLoader, org/springframework/data/convert/ClassGeneratingEntityInstantiator$ObjectInstantiatorClassGenerator, javax/management/remote/rmi/RMIConnectionImpl$CombinedClassLoader, com/tingyun/bootstrap/BootstrapAgent$a]
+2020-07-24 14:13:33,018 [main] 1 INFO  - ClassLoaderClassTransformer patched com.tingyun.bootstrap.BootstrapAgent$a@6d8a00e3(class com.tingyun.bootstrap.BootstrapAgent$a) -- className:com/tingyun/weave/a/a$1
+2020-07-24 14:13:33,068 [main] 1 INFO  - ClassLoaderClassTransformer patched com.tingyun.bootstrap.BootstrapAgent$a@6d8a00e3(class com.tingyun.bootstrap.BootstrapAgent$a) -- className:com/tingyun/weave/a/v$2
+2020-07-24 14:13:33,091 [main] 1 INFO  - ClassLoaderClassTransformer patched BoostrapPlaceholder(class com.tingyun.weave.a.a$1) -- className:java/util/ResourceBundle$RBClassLoader
+2020-07-24 14:13:33,111 [main] 1 INFO  - ClassLoaderClassTransformer patched BoostrapPlaceholder(class com.tingyun.weave.a.a$1) -- className:sun/misc/Launcher$ExtClassLoader
+2020-07-24 14:13:33,130 [main] 1 INFO  - ClassLoaderClassTransformer patched BoostrapPlaceholder(class com.tingyun.weave.a.a$1) -- className:sun/misc/Launcher$AppClassLoader
+2020-07-24 14:13:33,158 [main] 1 INFO  - ClassLoaderClassTransformer patched BoostrapPlaceholder(class com.tingyun.weave.a.a$1) -- className:java/net/URLClassLoader
+2020-07-24 14:13:33,175 [main] 1 INFO  - ClassLoaderClassTransformer patched BoostrapPlaceholder(class com.tingyun.weave.a.a$1) -- className:sun/reflect/DelegatingClassLoader
+2020-07-24 14:13:33,189 [main] 1 INFO  - ClassLoaderClassTransformer patched BoostrapPlaceholder(class com.tingyun.weave.a.a$1) -- className:java/security/SecureClassLoader
+2020-07-24 14:13:33,234 [main] 1 INFO  - ClassLoaderClassTransformer patched BoostrapPlaceholder(class com.tingyun.weave.a.a$1) -- className:java/lang/ClassLoader
+2020-07-24 14:13:33,842 [main] 1 INFO  - Reading extension file D:\IDEAProjects\server-test-2\server-test-master\tingyun\tingyun-agent-java-2.6.4\tingyun\extensions\example.xml
+2020-07-24 14:13:34,215 [Thread-5] 15 INFO  - ---Plugin tingyun-lettuce-plugin-5.1.5 is enabled. Loading.
+2020-07-24 14:13:34,215 [Thread-7] 17 INFO  - ---Plugin tingyun-jetty-plugin-9.3 is enabled. Loading.
+2020-07-24 14:13:34,215 [Thread-2] 12 INFO  - ---Plugin tingyun-jdbc-mysql-plugin-3.0 is enabled. Loading.
+2020-07-24 14:13:34,215 [Thread-3] 13 INFO  - ---Plugin tingyun-jms-plugin-1.1 is enabled. Loading.
+2020-07-24 14:13:34,215 [Thread-0] 10 INFO  - ---Plugin tingyun-jersey-plugin-2.0 is enabled. Loading.
+2020-07-24 14:13:34,215 [Thread-4] 14 INFO  - ---Plugin tingyun-play-exception-plugin-1.2 is enabled. Loading.
+2020-07-24 14:13:34,215 [Thread-1] 11 INFO  - ---Plugin tingyun-jdbc-mysql-multihost-connection-plugin-6.0.2 is enabled. Loading.
+2020-07-24 14:13:34,215 [Thread-6] 16 INFO  - ---Plugin tingyun-mongodb-plugin-2.6.3 is enabled. Loading.
+2020-07-24 14:13:34,241 [Thread-2] 12 INFO  - ---Plugin tingyun-jdbc-hsqldb-plugin-1.7 is enabled. Loading.
+2020-07-24 14:13:34,252 [Thread-2] 12 INFO  - ---Plugin tingyun-mongodb-plugin-2.14.2 is enabled. Loading.
+2020-07-24 14:13:34,258 [Thread-4] 14 INFO  - ---Plugin tingyun-jdbc-sybase-plugin-6 is enabled. Loading.
+2020-07-24 14:13:34,262 [Thread-1] 11 INFO  - ---Plugin tingyun-jdbc-postgresql-plugin-9.4.1208 is enabled. Loading.
+2020-07-24 14:13:34,275 [Thread-4] 14 INFO  - ---Plugin tingyun-resin-plugin-3 is enabled. Loading.
+2020-07-24 14:13:34,317 [Thread-1] 11 INFO  - ---Plugin tingyun-spring-plugin-4.2 is enabled. Loading.
+2020-07-24 14:13:34,362 [Thread-5] 15 INFO  - ---Plugin tingyun-httpclient-plugin-3.1 is enabled. Loading.
+2020-07-24 14:13:34,380 [Thread-0] 10 INFO  - ---Plugin tingyun-websphere-plugin-7 is enabled. Loading.
+2020-07-24 14:13:34,388 [Thread-6] 16 INFO  - ---Plugin tingyun-spring-ws-plugin-2 is enabled. Loading.
+2020-07-24 14:13:34,390 [Thread-7] 17 INFO  - ---Plugin tingyun-jedis-plugin-2.7.2 is enabled. Loading.
+2020-07-24 14:13:34,417 [Thread-3] 13 INFO  - ---Plugin tingyun-scala-plugin-2.9 is enabled. Loading.
+2020-07-24 14:13:34,434 [Thread-1] 11 INFO  - ---Plugin tingyun-play-plugin-2.4 is enabled. Loading.
+2020-07-24 14:13:34,462 [Thread-5] 15 INFO  - ---Plugin tingyun-jetty-plugin-9.0.4 is enabled. Loading.
+2020-07-24 14:13:34,463 [Thread-4] 14 INFO  - ---Plugin tingyun-jetty-plugin-9 is enabled. Loading.
+2020-07-24 14:13:34,477 [Thread-2] 12 INFO  - ---Plugin tingyun-jdbc-socket-plugin is enabled. Loading.
+2020-07-24 14:13:34,480 [Thread-0] 10 INFO  - ---Plugin tingyun-jdbc-embedded-derby-plugin-10.11 is enabled. Loading.
+2020-07-24 14:13:34,488 [Thread-7] 17 INFO  - ---Plugin tingyun-resin-plugin-4.0.9 is enabled. Loading.
+2020-07-24 14:13:34,513 [Thread-3] 13 INFO  - ---Plugin tingyun-jdbc-hsqldb-plugin-2.2 is enabled. Loading.
+2020-07-24 14:13:34,516 [Thread-1] 11 INFO  - ---Plugin tingyun-jboss-ejb-plugin is enabled. Loading.
+2020-07-24 14:13:34,516 [Thread-2] 12 INFO  - ---Plugin tingyun-weblogic-ejb-plugin is enabled. Loading.
+2020-07-24 14:13:34,516 [Thread-6] 16 INFO  - ---Plugin tingyun-netty-plugin-3.4 is enabled. Loading.
+2020-07-24 14:13:34,535 [Thread-0] 10 INFO  - ---Plugin tingyun-akka-plugin-2.0 is enabled. Loading.
+2020-07-24 14:13:34,543 [Thread-1] 11 INFO  - ---Plugin tingyun-resteasy-plugin-3.0 is enabled. Loading.
+2020-07-24 14:13:34,553 [Thread-3] 13 INFO  - ---Plugin tingyun-ning-async-httpclient-plugin-1.8.16 is enabled. Loading.
+2020-07-24 14:13:34,584 [Thread-1] 11 INFO  - ---Plugin tingyun-jetty-servlet-plugin-9 is enabled. Loading.
+2020-07-24 14:13:34,585 [Thread-4] 14 INFO  - ---Plugin tingyun-jdbc-ojdbc-plugin is enabled. Loading.
+2020-07-24 14:13:34,596 [Thread-1] 11 INFO  - ---Plugin tingyun-tomcat-7-request-listener-plugin is enabled. Loading.
+2020-07-24 14:13:34,607 [Thread-5] 15 INFO  - ---Plugin tingyun-jdbc-ojdbc7-plugin-12.1.0.2 is enabled. Loading.
+2020-07-24 14:13:34,633 [Thread-2] 12 INFO  - ---Plugin tingyun-glassfish-plugin-4 is enabled. Loading.
+2020-07-24 14:13:34,636 [Thread-0] 10 INFO  - ---Plugin tingyun-ejb-plugin-3.0 is enabled. Loading.
+2020-07-24 14:13:34,637 [Thread-6] 16 INFO  - ---Plugin tingyun-wildfly-port-plugin-8 is enabled. Loading.
+2020-07-24 14:13:34,640 [Thread-4] 14 INFO  - ---Plugin tingyun-mongodb-plugin-3.1 is enabled. Loading.
+2020-07-24 14:13:34,668 [Thread-3] 13 INFO  - ---Plugin tingyun-wildfly-ex-plugin-8 is enabled. Loading.
+2020-07-24 14:13:34,682 [Thread-6] 16 INFO  - ---Plugin tingyun-jdbc-plugin is enabled. Loading.
+2020-07-24 14:13:34,689 [Thread-3] 13 INFO  - ---Plugin tingyun-rabbit-amqp-plugin-3.5 is enabled. Loading.
+2020-07-24 14:13:34,692 [Thread-5] 15 INFO  - ---Plugin tingyun-spring-annotation-plugin-2.5 is disabled. Skipping.
+2020-07-24 14:13:34,693 [Thread-5] 15 INFO  - ---Plugin tingyun-jedis-plugin-1.5.2 is enabled. Loading.
+2020-07-24 14:13:34,706 [Thread-0] 10 INFO  - ---Plugin tingyun-spring-plugin-4.0 is enabled. Loading.
+2020-07-24 14:13:34,707 [Thread-1] 11 INFO  - ---Plugin tingyun-websphere-plugin-8 is enabled. Loading.
+2020-07-24 14:13:34,718 [Thread-7] 17 INFO  - ---Plugin tingyun-websphere-jmx-plugin is enabled. Loading.
+2020-07-24 14:13:34,722 [Thread-4] 14 INFO  - ---Plugin tingyun-jdbc-db2-plugin is enabled. Loading.
+2020-07-24 14:13:34,730 [Thread-7] 17 INFO  - ---Plugin tingyun-play-plugin-2.2 is enabled. Loading.
+2020-07-24 14:13:34,736 [Thread-4] 14 INFO  - ---Plugin tingyun-servlet-plugin-2.4 is enabled. Loading.
+2020-07-24 14:13:34,762 [Thread-5] 15 INFO  - ---Plugin tingyun-play-plugin-2.0 is enabled. Loading.
+2020-07-24 14:13:34,776 [Thread-0] 10 INFO  - ---Plugin tingyun-thread-plugin is enabled. Loading.
+2020-07-24 14:13:34,791 [Thread-7] 17 INFO  - ---Plugin tingyun-jdbc-embedded-derby-plugin-10.10 is enabled. Loading.
+2020-07-24 14:13:34,797 [Thread-0] 10 INFO  - ---Plugin tingyun-jdbc-postgresql-plugin-9.4.1207 is enabled. Loading.
+2020-07-24 14:13:34,808 [Thread-7] 17 INFO  - ---Plugin tingyun-cxf-plugin-3.1 is enabled. Loading.
+2020-07-24 14:13:34,824 [Thread-5] 15 INFO  - ---Plugin tingyun-jdbc-driver-plugin is enabled. Loading.
+2020-07-24 14:13:34,828 [Thread-5] 15 INFO  - ---Plugin tingyun-cxf-plugin-2.7 is enabled. Loading.
+2020-07-24 14:13:34,835 [Thread-1] 11 INFO  - ---Plugin tingyun-jdbc-h2-plugin is enabled. Loading.
+2020-07-24 14:13:34,846 [Thread-1] 11 INFO  - ---Plugin tingyun-mongodb-plugin-2.12.0 is enabled. Loading.
+2020-07-24 14:13:34,847 [Thread-2] 12 INFO  - ---Plugin tingyun-resttemplate-plugin is enabled. Loading.
+2020-07-24 14:13:34,903 [Thread-0] 10 INFO  - ---Plugin tingyun-resteasy-plugin-2.2 is enabled. Loading.
+2020-07-24 14:13:34,910 [Thread-0] 10 INFO  - ---Plugin tingyun-tomcat-rum-plugin-8 is enabled. Loading.
+2020-07-24 14:13:34,969 [Thread-3] 13 INFO  - ---Plugin tingyun-jboss-plugin-7 is enabled. Loading.
+2020-07-24 14:13:34,972 [Thread-0] 10 INFO  - ---Plugin tingyun-play-plugin-2.3 is enabled. Loading.
+2020-07-24 14:13:34,974 [Thread-2] 12 INFO  - ---Plugin tingyun-spring-plugin-4.3 is enabled. Loading.
+2020-07-24 14:13:35,000 [Thread-6] 16 INFO  - ---Plugin tingyun-websphere-ejb-plugin is enabled. Loading.
+2020-07-24 14:13:35,005 [Thread-4] 14 INFO  - ---Plugin tingyun-axis-plugin-2.0 is enabled. Loading.
+2020-07-24 14:13:35,017 [Thread-0] 10 INFO  - ---Plugin tingyun-jdbc-mysql-multihost-connection-plugin-5.1.3 is enabled. Loading.
+2020-07-24 14:13:35,019 [Thread-6] 16 INFO  - ---Plugin tingyun-jetty-plugin-9.1 is enabled. Loading.
+2020-07-24 14:13:35,030 [Thread-1] 11 INFO  - ---Plugin tingyun-glassfish-plugin-3.1 is enabled. Loading.
+2020-07-24 14:13:35,044 [Thread-2] 12 INFO  - ---Plugin tingyun-akka-plugin-2.2 is enabled. Loading.
+2020-07-24 14:13:35,066 [Thread-0] 10 INFO  - ---Plugin tingyun-netty-plugin-4.0.0 is enabled. Loading.
+2020-07-24 14:13:35,079 [Thread-5] 15 INFO  - ---Plugin tingyun-netty-plugin-3.2.5 is enabled. Loading.
+2020-07-24 14:13:35,083 [Thread-7] 17 INFO  - ---Plugin tingyun-mongodb-plugin-2.7.3 is enabled. Loading.
+2020-07-24 14:13:35,098 [Thread-3] 13 INFO  - ---Plugin tingyun-jetty-plugin-7.6 is enabled. Loading.
+2020-07-24 14:13:35,104 [Thread-4] 14 INFO  - ---Plugin tingyun-httpclient-plugin-3.0 is enabled. Loading.
+2020-07-24 14:13:35,122 [Thread-6] 16 INFO  - ---Plugin tingyun-resin-plugin-4.0.3 is enabled. Loading.
+2020-07-24 14:13:35,152 [Thread-1] 11 INFO  - ---Plugin tingyun-akka-plugin-2.1 is enabled. Loading.
+2020-07-24 14:13:35,181 [Thread-2] 12 INFO  - ---Plugin tingyun-jetty-plugin-7 is enabled. Loading.
+2020-07-24 14:13:35,224 [Thread-3] 13 INFO  - ---Plugin tingyun-jdbc-mysql-plugin-6.0 is enabled. Loading.
+2020-07-24 14:13:35,227 [Thread-4] 14 INFO  - ---Plugin tingyun-wildfly-plugin-8.0.0 is enabled. Loading.
+2020-07-24 14:13:35,246 [Thread-3] 13 INFO  - ---Plugin tingyun-jdbc-sqlserver-plugin is enabled. Loading.
+2020-07-24 14:13:35,253 [Thread-7] 17 INFO  - ---Plugin tingyun-jdbc-postgresql-plugin-8.0 is enabled. Loading.
+2020-07-24 14:13:35,272 [Thread-1] 11 INFO  - ---Plugin tingyun-netty-plugin-4.0.8 is enabled. Loading.
+2020-07-24 14:13:35,276 [Thread-2] 12 INFO  - ---Plugin tingyun-ning-async-httpclient-plugin-1.6.0 is enabled. Loading.
+2020-07-24 14:13:35,292 [Thread-3] 13 INFO  - ---Plugin tingyun-axis-plugin-1.0 is enabled. Loading.
+2020-07-24 14:13:35,306 [Thread-4] 14 INFO  - ---Plugin tingyun-jdbc-informix-plugin is enabled. Loading.
+2020-07-24 14:13:35,311 [Thread-6] 16 INFO  - ---Plugin tingyun-httpclient-plugin-4.0 is enabled. Loading.
+2020-07-24 14:13:35,312 [Thread-3] 13 INFO  - ---Plugin tingyun-glassfish-jersey-plugin-2.9 is enabled. Loading.
+2020-07-24 14:13:35,313 [Thread-4] 14 INFO  - ---Plugin tingyun-weblogic-plugin-12 is enabled. Loading.
+2020-07-24 14:13:35,358 [Thread-7] 17 INFO  - ---Plugin tingyun-netty-plugin-3.8 is enabled. Loading.
+2020-07-24 14:13:35,361 [Thread-3] 13 INFO  - ---Plugin tingyun-springcloud-openfeign-plugin-2.1.0 is enabled. Loading.
+2020-07-24 14:13:35,396 [Thread-3] 13 INFO  - ---Plugin tingyun-mongodb-plugin-3.0 is enabled. Loading.
+2020-07-24 14:13:35,406 [Thread-2] 12 INFO  - ---Plugin tingyun-whalin-memcached-plugin-3.0.0 is enabled. Loading.
+2020-07-24 14:13:35,427 [Thread-5] 15 INFO  - ---Plugin tingyun-resin-plugin-4 is enabled. Loading.
+2020-07-24 14:13:35,459 [Thread-0] 10 INFO  - ---Plugin tingyun-jetty-rum-plugin-9 is enabled. Loading.
+2020-07-24 14:13:35,469 [Thread-0] 10 INFO  - ---Plugin tingyun-javax.xml-plugin is enabled. Loading.
+2020-07-24 14:13:35,509 [Thread-4] 14 INFO  - ---Plugin tingyun-jsp-plugin-2.0 is enabled. Loading.
+2020-07-24 14:13:35,516 [Thread-7] 17 INFO  - ---Plugin tingyun-tomcat-rum-plugin-7 is enabled. Loading.
+2020-07-24 14:13:35,520 [Thread-6] 16 INFO  - ---Plugin tingyun-jdbc-mariadb-plugin-1.3.0 is enabled. Loading.
+2020-07-24 14:13:35,526 [Thread-4] 14 INFO  - ---Plugin tingyun-spymemcached-plugin-2.10.0 is enabled. Loading.
+2020-07-24 14:13:35,532 [Thread-6] 16 INFO  - ---Plugin tingyun-jdbc-embedded-derby-plugin-10.2 is enabled. Loading.
+2020-07-24 14:13:35,547 [Thread-7] 17 INFO  - ---Plugin tingyun-xmemcached-plugin-1.4.3 is enabled. Loading.
+2020-07-24 14:13:35,565 [Thread-0] 10 INFO  - ---Plugin tingyun-mongodb-plugin-2.9.3 is enabled. Loading.
+2020-07-24 14:13:35,570 [Thread-7] 17 INFO  - ---Plugin tingyun-jdbc-mysql-connection-plugin-5.1 is enabled. Loading.
+2020-07-24 14:13:35,585 [Thread-2] 12 INFO  - ---Plugin tingyun-jboss-plugin-4 is enabled. Loading.
+2020-07-24 14:13:35,639 [Thread-7] 17 INFO  - ---Plugin tingyun-spring-plugin-3.0 is enabled. Loading.
+2020-07-24 14:13:35,642 [Thread-6] 16 INFO  - ---Plugin tingyun-play-plugin-2.1 is enabled. Loading.
+2020-07-24 14:13:35,643 [Thread-5] 15 INFO  - ---Plugin tingyun-wildfly-plugin-8 is enabled. Loading.
+2020-07-24 14:13:35,681 [Thread-7] 17 INFO  - ---Plugin tingyun-httpurlconnection-plugin is enabled. Loading.
+2020-07-24 14:13:35,708 [Thread-1] 11 INFO  - ---Plugin tingyun-jetty-plugin-6 is enabled. Loading.
+2020-07-24 14:13:35,715 [Thread-6] 16 INFO  - ---Plugin tingyun-cxf-plugin-2.2.5 is enabled. Loading.
+2020-07-24 14:13:35,727 [Thread-2] 12 INFO  - ---Plugin tingyun-quartz-plugin-2.0.0 is enabled. Loading.
+2020-07-24 14:13:35,742 [Thread-2] 12 INFO  - ---Plugin tingyun-jfinal-plugin-3 is enabled. Loading.
+2020-07-24 14:13:35,759 [Thread-5] 15 INFO  - ---Plugin tingyun-jdbc-jtds-plugin is enabled. Loading.
+2020-07-24 14:13:35,770 [Thread-5] 15 INFO  - ---Plugin tingyun-tomcat-plugin-5 is enabled. Loading.
+2020-07-24 14:13:35,805 [Thread-6] 16 INFO  - ---Plugin tingyun-tomcat-plugin-7 is enabled. Loading.
+2020-07-24 14:13:35,835 [Thread-3] 13 INFO  - ---Plugin tingyun-weblogic-plugin-10 is enabled. Loading.
+2020-07-24 14:13:35,848 [Thread-5] 15 INFO  - ---Plugin tingyun-weblogic-plugin-12.2.1.3 is enabled. Loading.
+2020-07-24 14:13:35,885 [Thread-6] 16 INFO  - ---Plugin tingyun-jedis-plugin-2.7.1 is enabled. Loading.
+2020-07-24 14:13:36,053 [main] 1 INFO  - Loaded 120 internal plugins.
+2020-07-24 14:13:36,054 [main] 1 INFO  - External Plugin tingyun-asynchttpclient-plugin-2.0.32 well be loaded.
+2020-07-24 14:13:36,104 [main] 1 INFO  - External Plugin tingyun-log4j-exception-plugin-1.2 well be loaded.
+2020-07-24 14:13:36,113 [main] 1 INFO  - External Plugin tingyun-tongweb-plugin-6 well be loaded.
+2020-07-24 14:13:36,124 [main] 1 INFO  - External Plugin tingyun-log4j-plugin-1.2 is disabled. Ingored.
+2020-07-24 14:13:36,125 [main] 1 INFO  - External Plugin tingyun-dubbo-plugin-2.5.7 well be loaded.
+2020-07-24 14:13:36,146 [main] 1 INFO  - External Plugin tingyun-tomcat-coyote-plugin well be loaded.
+2020-07-24 14:13:36,150 [main] 1 INFO  - External Plugin tingyun-jdbc-dm-plugin-7 well be loaded.
+2020-07-24 14:13:36,155 [main] 1 INFO  - External Plugin tingyun-dubbo-plugin-2.0 well be loaded.
+2020-07-24 14:13:36,229 [main] 1 INFO  - External Plugin tingyun-jdbc-c3p0-plugin-0.9 well be loaded.
+2020-07-24 14:13:36,237 [main] 1 INFO  - External Plugin tingyun-thrift-plugin-0.5 well be loaded.
+2020-07-24 14:13:36,254 [main] 1 INFO  - External Plugin tingyun-finagle-plugin-6.35 well be loaded.
+2020-07-24 14:13:36,378 [main] 1 INFO  - External Plugin tingyun-grpc-plugin-1.10.1 well be loaded.
+2020-07-24 14:13:36,655 [main] 1 INFO  - External Plugin tingyun-hystrix-plugin-1.4 well be loaded.
+2020-07-24 14:13:36,705 [main] 1 INFO  - External Plugin tingyun-okhttp-plugin-2.4 well be loaded.
+2020-07-24 14:13:36,764 [main] 1 INFO  - External Plugin tingyun-grpc-plugin-1.0.1 well be loaded.
+2020-07-24 14:13:36,852 [main] 1 INFO  - External Plugin tingyun-mina-plugin-2.0.9 well be loaded.
+2020-07-24 14:13:36,869 [main] 1 INFO  - External Plugin tingyun-log4j-plugin-2.0.0 is disabled. Ingored.
+2020-07-24 14:13:36,870 [main] 1 INFO  - External Plugin tingyun-finagle-plugin-6.22.0 well be loaded.
+2020-07-24 14:13:37,019 [main] 1 INFO  - External Plugin tingyun-okhttp-plugin-3.5 well be loaded.
+2020-07-24 14:13:37,066 [main] 1 INFO  - External Plugin tingyun-log4j-plugin-2.3 is disabled. Ingored.
+2020-07-24 14:13:37,066 [main] 1 INFO  - External Plugin tingyun-okhttp-plugin-3.8 well be loaded.
+2020-07-24 14:13:37,114 [main] 1 INFO  - External Plugin tingyun-slf4j-exception-plugin well be loaded.
+2020-07-24 14:13:37,124 [main] 1 INFO  - External Plugin tingyun-spring-aop-plugin is disabled. Ingored.
+2020-07-24 14:13:37,125 [main] 1 INFO  - External Plugin tingyun-thrift-plugin-0.8 well be loaded.
+2020-07-24 14:13:37,166 [main] 1 INFO  - External Plugin tingyun-log4j-exception-plugin-2.0 well be loaded.
+2020-07-24 14:13:37,190 [main] 1 INFO  - External Plugin tingyun-logback-plugin-1.2 is disabled. Ingored.
+2020-07-24 14:13:37,191 [main] 1 INFO  - External Plugin tingyun-okhttp-plugin-3.4 well be loaded.
+2020-07-24 14:13:37,243 [main] 1 INFO  - External Plugin tingyun-xmlrpc-plugin well be loaded.
+2020-07-24 14:13:37,254 [main] 1 INFO  - External Plugin tingyun-jdbc-druid-plugin well be loaded.
+2020-07-24 14:13:37,315 [main] 1 INFO  - Violations:tingyun-websphere-ejb-plugin - 4 failures, classloader BoostrapPlaceholder
+2020-07-24 14:13:37,315 [main] 1 INFO  - WeaveViolation: MISSING_ORIGINAL_BYTECODE
+2020-07-24 14:13:37,315 [main] 1 INFO  - 		Class: com/ibm/CORBA/iiop/ServerDelegate
+2020-07-24 14:13:37,317 [main] 1 INFO  - 		Reason: a{type=MISSING_ORIGINAL_BYTECODE, weaveClass=com/ibm/CORBA/iiop/ServerDelegate, originalClass=com/ibm/CORBA/iiop/ServerRequest, violationMessage=Could not find resource}
+2020-07-24 14:13:37,317 [main] 1 INFO  - WeaveViolation: MISSING_ORIGINAL_BYTECODE
+2020-07-24 14:13:37,317 [main] 1 INFO  - 		Class: com/ibm/CORBA/iiop/ServerDelegate
+2020-07-24 14:13:37,317 [main] 1 INFO  - 		Reason: a{type=MISSING_ORIGINAL_BYTECODE, weaveClass=com/ibm/CORBA/iiop/ServerDelegate, originalClass=com/ibm/CORBA/iiop/ServiceContext, violationMessage=Could not find resource}
+2020-07-24 14:13:37,317 [main] 1 INFO  - WeaveViolation: MISSING_ORIGINAL_BYTECODE
+2020-07-24 14:13:37,317 [main] 1 INFO  - 		Class: com/ibm/CORBA/iiop/ServerDelegate
+2020-07-24 14:13:37,318 [main] 1 INFO  - 		Reason: a{type=MISSING_ORIGINAL_BYTECODE, weaveClass=com/ibm/CORBA/iiop/ServerDelegate, originalClass=com/ibm/CORBA/iiop/ServerResponse, violationMessage=Could not find resource}
+2020-07-24 14:13:37,318 [main] 1 INFO  - WeaveViolation: MISSING_ORIGINAL_BYTECODE
+2020-07-24 14:13:37,318 [main] 1 INFO  - 		Class: com/ibm/CORBA/iiop/ServerDelegate
+2020-07-24 14:13:37,318 [main] 1 INFO  - 		Reason: Could not find original bytecode
+2020-07-24 14:13:37,425 [Thread-11] 21 INFO  - Violations:tingyun-websphere-ejb-plugin - 4 failures, classloader com.tingyun.bootstrap.BootstrapAgent$a@6d8a00e3
+2020-07-24 14:13:37,425 [Thread-11] 21 INFO  - WeaveViolation: MISSING_ORIGINAL_BYTECODE
+2020-07-24 14:13:37,425 [Thread-11] 21 INFO  - 		Class: com/ibm/CORBA/iiop/ServerDelegate
+2020-07-24 14:13:37,425 [Thread-11] 21 INFO  - 		Reason: a{type=MISSING_ORIGINAL_BYTECODE, weaveClass=com/ibm/CORBA/iiop/ServerDelegate, originalClass=com/ibm/CORBA/iiop/ServerRequest, violationMessage=Could not find resource}
+2020-07-24 14:13:37,425 [Thread-11] 21 INFO  - WeaveViolation: MISSING_ORIGINAL_BYTECODE
+2020-07-24 14:13:37,425 [Thread-11] 21 INFO  - 		Class: com/ibm/CORBA/iiop/ServerDelegate
+2020-07-24 14:13:37,425 [Thread-11] 21 INFO  - 		Reason: a{type=MISSING_ORIGINAL_BYTECODE, weaveClass=com/ibm/CORBA/iiop/ServerDelegate, originalClass=com/ibm/CORBA/iiop/ServiceContext, violationMessage=Could not find resource}
+2020-07-24 14:13:37,425 [Thread-11] 21 INFO  - WeaveViolation: MISSING_ORIGINAL_BYTECODE
+2020-07-24 14:13:37,425 [Thread-11] 21 INFO  - 		Class: com/ibm/CORBA/iiop/ServerDelegate
+2020-07-24 14:13:37,426 [Thread-11] 21 INFO  - 		Reason: a{type=MISSING_ORIGINAL_BYTECODE, weaveClass=com/ibm/CORBA/iiop/ServerDelegate, originalClass=com/ibm/CORBA/iiop/ServerResponse, violationMessage=Could not find resource}
+2020-07-24 14:13:37,426 [Thread-11] 21 INFO  - WeaveViolation: MISSING_ORIGINAL_BYTECODE
+2020-07-24 14:13:37,426 [Thread-11] 21 INFO  - 		Class: com/ibm/CORBA/iiop/ServerDelegate
+2020-07-24 14:13:37,426 [Thread-11] 21 INFO  - 		Reason: Could not find original bytecode
+2020-07-24 14:13:37,463 [Thread-8] 18 INFO  - Violations:tingyun-websphere-ejb-plugin - 4 failures, classloader sun.misc.Launcher$ExtClassLoader@7494e528
+2020-07-24 14:13:37,463 [Thread-8] 18 INFO  - WeaveViolation: MISSING_ORIGINAL_BYTECODE
+2020-07-24 14:13:37,463 [Thread-8] 18 INFO  - 		Class: com/ibm/CORBA/iiop/ServerDelegate
+2020-07-24 14:13:37,463 [Thread-8] 18 INFO  - 		Reason: a{type=MISSING_ORIGINAL_BYTECODE, weaveClass=com/ibm/CORBA/iiop/ServerDelegate, originalClass=com/ibm/CORBA/iiop/ServerRequest, violationMessage=Could not find resource}
+2020-07-24 14:13:37,463 [Thread-8] 18 INFO  - WeaveViolation: MISSING_ORIGINAL_BYTECODE
+2020-07-24 14:13:37,463 [Thread-8] 18 INFO  - 		Class: com/ibm/CORBA/iiop/ServerDelegate
+2020-07-24 14:13:37,463 [Thread-8] 18 INFO  - 		Reason: a{type=MISSING_ORIGINAL_BYTECODE, weaveClass=com/ibm/CORBA/iiop/ServerDelegate, originalClass=com/ibm/CORBA/iiop/ServiceContext, violationMessage=Could not find resource}
+2020-07-24 14:13:37,463 [Thread-8] 18 INFO  - WeaveViolation: MISSING_ORIGINAL_BYTECODE
+2020-07-24 14:13:37,463 [Thread-8] 18 INFO  - 		Class: com/ibm/CORBA/iiop/ServerDelegate
+2020-07-24 14:13:37,463 [Thread-8] 18 INFO  - 		Reason: a{type=MISSING_ORIGINAL_BYTECODE, weaveClass=com/ibm/CORBA/iiop/ServerDelegate, originalClass=com/ibm/CORBA/iiop/ServerResponse, violationMessage=Could not find resource}
+2020-07-24 14:13:37,463 [Thread-8] 18 INFO  - WeaveViolation: MISSING_ORIGINAL_BYTECODE
+2020-07-24 14:13:37,463 [Thread-8] 18 INFO  - 		Class: com/ibm/CORBA/iiop/ServerDelegate
+2020-07-24 14:13:37,464 [Thread-8] 18 INFO  - 		Reason: Could not find original bytecode
+2020-07-24 14:13:38,278 [Thread-11] 21 INFO  - Violations:tingyun-glassfish-plugin-4 - 15 failures, classloader sun.misc.Launcher$AppClassLoader@18b4aac2
+2020-07-24 14:13:38,278 [Thread-11] 21 INFO  - WeaveViolation: MISSING_ORIGINAL_BYTECODE
+2020-07-24 14:13:38,278 [Thread-11] 21 INFO  - 		Class: com/nbs/agent/plugin/glassfish4/c
+2020-07-24 14:13:38,279 [Thread-11] 21 INFO  - 		Reason: a{type=MISSING_ORIGINAL_BYTECODE, weaveClass=com/nbs/agent/plugin/glassfish4/c, originalClass=org/apache/catalina/Response, violationMessage=Could not find resource}
+2020-07-24 14:13:38,279 [Thread-11] 21 INFO  - WeaveViolation: MISSING_ORIGINAL_BYTECODE
+2020-07-24 14:13:38,279 [Thread-11] 21 INFO  - 		Class: com/nbs/agent/plugin/glassfish4/c
+2020-07-24 14:13:38,279 [Thread-11] 21 INFO  - 		Reason: a{type=MISSING_ORIGINAL_BYTECODE, weaveClass=com/nbs/agent/plugin/glassfish4/c, originalClass=org/glassfish/grizzly/http/server/Response, violationMessage=Could not find resource}
+2020-07-24 14:13:38,279 [Thread-11] 21 INFO  - WeaveViolation: METHOD_RETURNTYPE_MISMATCH
+2020-07-24 14:13:38,279 [Thread-11] 21 INFO  - 		Class: org/apache/catalina/connector/Response
+2020-07-24 14:13:38,279 [Thread-11] 21 INFO  - 		Method: getCoyoteResponse()Lorg/glassfish/grizzly/http/server/Response;
+2020-07-24 14:13:38,279 [Thread-11] 21 INFO  - 		Reason: Matched methods must have the same return type
+2020-07-24 14:13:38,279 [Thread-11] 21 INFO  - WeaveViolation: METHOD_BASE_CONCRETE_WEAVE
+2020-07-24 14:13:38,279 [Thread-11] 21 INFO  - 		Class: org/apache/catalina/connector/Connector
+2020-07-24 14:13:38,279 [Thread-11] 21 INFO  - 		Method: start()V
+2020-07-24 14:13:38,279 [Thread-11] 21 INFO  - 		Reason: Base matches cannot inspect concrete parent methods
+2020-07-24 14:13:38,280 [Thread-11] 21 INFO  - WeaveViolation: METHOD_NEW_CALL_ORIGINAL_UNSUPPORTED
+2020-07-24 14:13:38,280 [Thread-11] 21 INFO  - 		Class: org/apache/catalina/connector/OutputBuffer
+2020-07-24 14:13:38,280 [Thread-11] 21 INFO  - 		Method: setCoyoteResponse(Lorg/apache/catalina/connector/Response;)V
+2020-07-24 14:13:38,280 [Thread-11] 21 INFO  - 		Reason: New @Inspect methods may not invoke Inspecter.callOriginal()
+2020-07-24 14:13:38,280 [Thread-11] 21 INFO  - WeaveViolation: METHOD_NEW_NON_PRIVATE_UNSUPPORTED
+2020-07-24 14:13:38,280 [Thread-11] 21 INFO  - 		Class: org/apache/catalina/connector/OutputBuffer
+2020-07-24 14:13:38,280 [Thread-11] 21 INFO  - 		Method: setCoyoteResponse(Lorg/apache/catalina/connector/Response;)V
+2020-07-24 14:13:38,280 [Thread-11] 21 INFO  - 		Reason: New methods must be declared private
+2020-07-24 14:13:38,280 [Thread-11] 21 INFO  - WeaveViolation: CLASS_ACCESS_MISMATCH
+2020-07-24 14:13:38,280 [Thread-11] 21 INFO  - 		Class: org/apache/catalina/core/ApplicationDispatcher
+2020-07-24 14:13:38,280 [Thread-11] 21 INFO  - 		Reason: Class access levels do not match
+2020-07-24 14:13:38,280 [Thread-11] 21 INFO  - WeaveViolation: METHOD_NEW_CALL_ORIGINAL_UNSUPPORTED
+2020-07-24 14:13:38,281 [Thread-11] 21 INFO  - 		Class: org/apache/catalina/core/ApplicationDispatcher
+2020-07-24 14:13:38,281 [Thread-11] 21 INFO  - 		Method: dispatch(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;Ljavax/servlet/DispatcherType;)V
+2020-07-24 14:13:38,281 [Thread-11] 21 INFO  - 		Reason: New @Inspect methods may not invoke Inspecter.callOriginal()
+2020-07-24 14:13:38,281 [Thread-11] 21 INFO  - WeaveViolation: METHOD_NEW_NON_PRIVATE_UNSUPPORTED
+2020-07-24 14:13:38,281 [Thread-11] 21 INFO  - 		Class: org/apache/catalina/core/ApplicationDispatcher
+2020-07-24 14:13:38,282 [Thread-11] 21 INFO  - 		Method: dispatch(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;Ljavax/servlet/DispatcherType;)V
+2020-07-24 14:13:38,282 [Thread-11] 21 INFO  - 		Reason: New methods must be declared private
+2020-07-24 14:13:38,282 [Thread-11] 21 INFO  - WeaveViolation: METHOD_NEW_INVOKE_UNSUPPORTED
+2020-07-24 14:13:38,282 [Thread-11] 21 INFO  - 		Class: org/apache/catalina/core/StandardContext
+2020-07-24 14:13:38,282 [Thread-11] 21 INFO  - 		Method: contextListenerStart()V
+2020-07-24 14:13:38,283 [Thread-11] 21 INFO  - 		Reason: Cannot invoke a new method from another new method
+2020-07-24 14:13:38,283 [Thread-11] 21 INFO  - WeaveViolation: METHOD_NEW_CALL_ORIGINAL_UNSUPPORTED
+2020-07-24 14:13:38,283 [Thread-11] 21 INFO  - 		Class: org/apache/catalina/core/StandardContext
+2020-07-24 14:13:38,283 [Thread-11] 21 INFO  - 		Method: contextListenerStart()V
+2020-07-24 14:13:38,283 [Thread-11] 21 INFO  - 		Reason: New @Inspect methods may not invoke Inspecter.callOriginal()
+2020-07-24 14:13:38,283 [Thread-11] 21 INFO  - WeaveViolation: METHOD_NEW_NON_PRIVATE_UNSUPPORTED
+2020-07-24 14:13:38,283 [Thread-11] 21 INFO  - 		Class: org/apache/catalina/core/StandardContext
+2020-07-24 14:13:38,283 [Thread-11] 21 INFO  - 		Method: contextListenerStart()V
+2020-07-24 14:13:38,284 [Thread-11] 21 INFO  - 		Reason: New methods must be declared private
+2020-07-24 14:13:38,284 [Thread-11] 21 INFO  - WeaveViolation: METHOD_NEW_ABSTRACT_UNSUPPORTED
+2020-07-24 14:13:38,284 [Thread-11] 21 INFO  - 		Class: org/apache/catalina/core/StandardContext
+2020-07-24 14:13:38,285 [Thread-11] 21 INFO  - 		Method: addListener(Ljava/util/EventListener;)V
+2020-07-24 14:13:38,285 [Thread-11] 21 INFO  - 		Reason: Cannot define a new abstract method
+2020-07-24 14:13:38,285 [Thread-11] 21 INFO  - WeaveViolation: METHOD_NEW_NON_PRIVATE_UNSUPPORTED
+2020-07-24 14:13:38,285 [Thread-11] 21 INFO  - 		Class: org/apache/catalina/core/StandardContext
+2020-07-24 14:13:38,285 [Thread-11] 21 INFO  - 		Method: addListener(Ljava/util/EventListener;)V
+2020-07-24 14:13:38,286 [Thread-11] 21 INFO  - 		Reason: New methods must be declared private
+2020-07-24 14:13:38,286 [Thread-11] 21 INFO  - WeaveViolation: METHOD_RETURNTYPE_MISMATCH
+2020-07-24 14:13:38,286 [Thread-11] 21 INFO  - 		Class: org/apache/catalina/connector/Request
+2020-07-24 14:13:38,286 [Thread-11] 21 INFO  - 		Method: getResponse()Lorg/apache/catalina/Response;
+2020-07-24 14:13:38,286 [Thread-11] 21 INFO  - 		Reason: Matched methods must have the same return type
+2020-07-24 14:13:38,488 [Thread-11] 21 INFO  - Violations:tingyun-glassfish-plugin-3.1 - 15 failures, classloader sun.misc.Launcher$AppClassLoader@18b4aac2
+2020-07-24 14:13:38,489 [Thread-11] 21 INFO  - WeaveViolation: MISSING_ORIGINAL_BYTECODE
+2020-07-24 14:13:38,489 [Thread-11] 21 INFO  - 		Class: com/nbs/agent/plugin/glassfish3_1/c
+2020-07-24 14:13:38,489 [Thread-11] 21 INFO  - 		Reason: a{type=MISSING_ORIGINAL_BYTECODE, weaveClass=com/nbs/agent/plugin/glassfish3_1/c, originalClass=org/apache/catalina/Response, violationMessage=Could not find resource}
+2020-07-24 14:13:38,489 [Thread-11] 21 INFO  - WeaveViolation: MISSING_ORIGINAL_BYTECODE
+2020-07-24 14:13:38,489 [Thread-11] 21 INFO  - 		Class: com/nbs/agent/plugin/glassfish3_1/c
+2020-07-24 14:13:38,489 [Thread-11] 21 INFO  - 		Reason: a{type=MISSING_ORIGINAL_BYTECODE, weaveClass=com/nbs/agent/plugin/glassfish3_1/c, originalClass=com/sun/grizzly/tcp/Response, violationMessage=Could not find resource}
+2020-07-24 14:13:38,489 [Thread-11] 21 INFO  - WeaveViolation: METHOD_RETURNTYPE_MISMATCH
+2020-07-24 14:13:38,489 [Thread-11] 21 INFO  - 		Class: org/apache/catalina/connector/Response
+2020-07-24 14:13:38,489 [Thread-11] 21 INFO  - 		Method: getCoyoteResponse()Lcom/sun/grizzly/tcp/Response;
+2020-07-24 14:13:38,489 [Thread-11] 21 INFO  - 		Reason: Matched methods must have the same return type
+2020-07-24 14:13:38,489 [Thread-11] 21 INFO  - WeaveViolation: METHOD_BASE_CONCRETE_WEAVE
+2020-07-24 14:13:38,489 [Thread-11] 21 INFO  - 		Class: org/apache/catalina/connector/Connector
+2020-07-24 14:13:38,489 [Thread-11] 21 INFO  - 		Method: start()V
+2020-07-24 14:13:38,489 [Thread-11] 21 INFO  - 		Reason: Base matches cannot inspect concrete parent methods
+2020-07-24 14:13:38,490 [Thread-11] 21 INFO  - WeaveViolation: METHOD_NEW_CALL_ORIGINAL_UNSUPPORTED
+2020-07-24 14:13:38,490 [Thread-11] 21 INFO  - 		Class: org/apache/catalina/connector/OutputBuffer
+2020-07-24 14:13:38,490 [Thread-11] 21 INFO  - 		Method: setCoyoteResponse(Lorg/apache/catalina/connector/Response;)V
+2020-07-24 14:13:38,490 [Thread-11] 21 INFO  - 		Reason: New @Inspect methods may not invoke Inspecter.callOriginal()
+2020-07-24 14:13:38,490 [Thread-11] 21 INFO  - WeaveViolation: METHOD_NEW_NON_PRIVATE_UNSUPPORTED
+2020-07-24 14:13:38,490 [Thread-11] 21 INFO  - 		Class: org/apache/catalina/connector/OutputBuffer
+2020-07-24 14:13:38,490 [Thread-11] 21 INFO  - 		Method: setCoyoteResponse(Lorg/apache/catalina/connector/Response;)V
+2020-07-24 14:13:38,490 [Thread-11] 21 INFO  - 		Reason: New methods must be declared private
+2020-07-24 14:13:38,490 [Thread-11] 21 INFO  - WeaveViolation: CLASS_ACCESS_MISMATCH
+2020-07-24 14:13:38,490 [Thread-11] 21 INFO  - 		Class: org/apache/catalina/core/ApplicationDispatcher
+2020-07-24 14:13:38,491 [Thread-11] 21 INFO  - 		Reason: Class access levels do not match
+2020-07-24 14:13:38,491 [Thread-11] 21 INFO  - WeaveViolation: METHOD_NEW_CALL_ORIGINAL_UNSUPPORTED
+2020-07-24 14:13:38,491 [Thread-11] 21 INFO  - 		Class: org/apache/catalina/core/ApplicationDispatcher
+2020-07-24 14:13:38,491 [Thread-11] 21 INFO  - 		Method: dispatch(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;Ljavax/servlet/DispatcherType;)V
+2020-07-24 14:13:38,492 [Thread-11] 21 INFO  - 		Reason: New @Inspect methods may not invoke Inspecter.callOriginal()
+2020-07-24 14:13:38,492 [Thread-11] 21 INFO  - WeaveViolation: METHOD_NEW_NON_PRIVATE_UNSUPPORTED
+2020-07-24 14:13:38,492 [Thread-11] 21 INFO  - 		Class: org/apache/catalina/core/ApplicationDispatcher
+2020-07-24 14:13:38,492 [Thread-11] 21 INFO  - 		Method: dispatch(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;Ljavax/servlet/DispatcherType;)V
+2020-07-24 14:13:38,492 [Thread-11] 21 INFO  - 		Reason: New methods must be declared private
+2020-07-24 14:13:38,492 [Thread-11] 21 INFO  - WeaveViolation: METHOD_RETURNTYPE_MISMATCH
+2020-07-24 14:13:38,492 [Thread-11] 21 INFO  - 		Class: org/apache/catalina/connector/Request
+2020-07-24 14:13:38,492 [Thread-11] 21 INFO  - 		Method: getResponse()Lorg/apache/catalina/Response;
+2020-07-24 14:13:38,492 [Thread-11] 21 INFO  - 		Reason: Matched methods must have the same return type
+2020-07-24 14:13:38,492 [Thread-11] 21 INFO  - WeaveViolation: METHOD_NEW_INVOKE_UNSUPPORTED
+2020-07-24 14:13:38,492 [Thread-11] 21 INFO  - 		Class: org/apache/catalina/core/StandardContext
+2020-07-24 14:13:38,492 [Thread-11] 21 INFO  - 		Method: contextListenerStart()V
+2020-07-24 14:13:38,492 [Thread-11] 21 INFO  - 		Reason: Cannot invoke a new method from another new method
+2020-07-24 14:13:38,493 [Thread-11] 21 INFO  - WeaveViolation: METHOD_NEW_CALL_ORIGINAL_UNSUPPORTED
+2020-07-24 14:13:38,493 [Thread-11] 21 INFO  - 		Class: org/apache/catalina/core/StandardContext
+2020-07-24 14:13:38,493 [Thread-11] 21 INFO  - 		Method: contextListenerStart()V
+2020-07-24 14:13:38,493 [Thread-11] 21 INFO  - 		Reason: New @Inspect methods may not invoke Inspecter.callOriginal()
+2020-07-24 14:13:38,493 [Thread-11] 21 INFO  - WeaveViolation: METHOD_NEW_NON_PRIVATE_UNSUPPORTED
+2020-07-24 14:13:38,493 [Thread-11] 21 INFO  - 		Class: org/apache/catalina/core/StandardContext
+2020-07-24 14:13:38,494 [Thread-11] 21 INFO  - 		Method: contextListenerStart()V
+2020-07-24 14:13:38,494 [Thread-11] 21 INFO  - 		Reason: New methods must be declared private
+2020-07-24 14:13:38,494 [Thread-11] 21 INFO  - WeaveViolation: METHOD_NEW_ABSTRACT_UNSUPPORTED
+2020-07-24 14:13:38,494 [Thread-11] 21 INFO  - 		Class: org/apache/catalina/core/StandardContext
+2020-07-24 14:13:38,494 [Thread-11] 21 INFO  - 		Method: addListener(Ljava/util/EventListener;)V
+2020-07-24 14:13:38,494 [Thread-11] 21 INFO  - 		Reason: Cannot define a new abstract method
+2020-07-24 14:13:38,494 [Thread-11] 21 INFO  - WeaveViolation: METHOD_NEW_NON_PRIVATE_UNSUPPORTED
+2020-07-24 14:13:38,494 [Thread-11] 21 INFO  - 		Class: org/apache/catalina/core/StandardContext
+2020-07-24 14:13:38,495 [Thread-11] 21 INFO  - 		Method: addListener(Ljava/util/EventListener;)V
+2020-07-24 14:13:38,495 [Thread-11] 21 INFO  - 		Reason: New methods must be declared private
+2020-07-24 14:13:38,679 [Thread-11] 21 INFO  - Violations:tingyun-jboss-plugin-4 - 3 failures, classloader sun.misc.Launcher$AppClassLoader@18b4aac2
+2020-07-24 14:13:38,679 [Thread-11] 21 INFO  - WeaveViolation: METHOD_BASE_CONCRETE_WEAVE
+2020-07-24 14:13:38,679 [Thread-11] 21 INFO  - 		Class: org/apache/catalina/connector/Connector
+2020-07-24 14:13:38,679 [Thread-11] 21 INFO  - 		Method: start()V
+2020-07-24 14:13:38,679 [Thread-11] 21 INFO  - 		Reason: Base matches cannot inspect concrete parent methods
+2020-07-24 14:13:38,680 [Thread-11] 21 INFO  - WeaveViolation: METHOD_BASE_CONCRETE_WEAVE
+2020-07-24 14:13:38,680 [Thread-11] 21 INFO  - 		Class: org/apache/catalina/core/StandardServer
+2020-07-24 14:13:38,680 [Thread-11] 21 INFO  - 		Method: start()V
+2020-07-24 14:13:38,680 [Thread-11] 21 INFO  - 		Reason: Base matches cannot inspect concrete parent methods
+2020-07-24 14:13:38,680 [Thread-11] 21 INFO  - WeaveViolation: MISSING_ORIGINAL_BYTECODE
+2020-07-24 14:13:38,680 [Thread-11] 21 INFO  - 		Class: org/jboss/util/CloneableObject
+2020-07-24 14:13:38,680 [Thread-11] 21 INFO  - 		Reason: Could not find original bytecode
+2020-07-24 14:13:38,783 [Thread-11] 21 INFO  - Violations:tingyun-jboss-plugin-7 - 2 failures, classloader sun.misc.Launcher$AppClassLoader@18b4aac2
+2020-07-24 14:13:38,783 [Thread-11] 21 INFO  - WeaveViolation: MISSING_ORIGINAL_BYTECODE
+2020-07-24 14:13:38,783 [Thread-11] 21 INFO  - 		Class: org/jboss/web/rewrite/Resolver
+2020-07-24 14:13:38,783 [Thread-11] 21 INFO  - 		Reason: Could not find original bytecode
+2020-07-24 14:13:38,783 [Thread-11] 21 INFO  - WeaveViolation: METHOD_BASE_CONCRETE_WEAVE
+2020-07-24 14:13:38,783 [Thread-11] 21 INFO  - 		Class: org/apache/catalina/connector/Connector
+2020-07-24 14:13:38,783 [Thread-11] 21 INFO  - 		Method: start()V
+2020-07-24 14:13:38,783 [Thread-11] 21 INFO  - 		Reason: Base matches cannot inspect concrete parent methods
+2020-07-24 14:13:38,800 [Thread-11] 21 INFO  - Violations:tingyun-websphere-ejb-plugin - 4 failures, classloader sun.misc.Launcher$AppClassLoader@18b4aac2
+2020-07-24 14:13:38,801 [Thread-11] 21 INFO  - WeaveViolation: MISSING_ORIGINAL_BYTECODE
+2020-07-24 14:13:38,801 [Thread-11] 21 INFO  - 		Class: com/ibm/CORBA/iiop/ServerDelegate
+2020-07-24 14:13:38,801 [Thread-11] 21 INFO  - 		Reason: a{type=MISSING_ORIGINAL_BYTECODE, weaveClass=com/ibm/CORBA/iiop/ServerDelegate, originalClass=com/ibm/CORBA/iiop/ServerRequest, violationMessage=Could not find resource}
+2020-07-24 14:13:38,801 [Thread-11] 21 INFO  - WeaveViolation: MISSING_ORIGINAL_BYTECODE
+2020-07-24 14:13:38,801 [Thread-11] 21 INFO  - 		Class: com/ibm/CORBA/iiop/ServerDelegate
+2020-07-24 14:13:38,801 [Thread-11] 21 INFO  - 		Reason: a{type=MISSING_ORIGINAL_BYTECODE, weaveClass=com/ibm/CORBA/iiop/ServerDelegate, originalClass=com/ibm/CORBA/iiop/ServiceContext, violationMessage=Could not find resource}
+2020-07-24 14:13:38,801 [Thread-11] 21 INFO  - WeaveViolation: MISSING_ORIGINAL_BYTECODE
+2020-07-24 14:13:38,801 [Thread-11] 21 INFO  - 		Class: com/ibm/CORBA/iiop/ServerDelegate
+2020-07-24 14:13:38,801 [Thread-11] 21 INFO  - 		Reason: a{type=MISSING_ORIGINAL_BYTECODE, weaveClass=com/ibm/CORBA/iiop/ServerDelegate, originalClass=com/ibm/CORBA/iiop/ServerResponse, violationMessage=Could not find resource}
+2020-07-24 14:13:38,801 [Thread-11] 21 INFO  - WeaveViolation: MISSING_ORIGINAL_BYTECODE
+2020-07-24 14:13:38,801 [Thread-11] 21 INFO  - 		Class: com/ibm/CORBA/iiop/ServerDelegate
+2020-07-24 14:13:38,801 [Thread-11] 21 INFO  - 		Reason: Could not find original bytecode
+2020-07-24 14:13:38,808 [Thread-11] 21 INFO  - Violations:tingyun-spring-plugin-4.2 - 2 failures, classloader sun.misc.Launcher$AppClassLoader@18b4aac2
+2020-07-24 14:13:38,809 [Thread-11] 21 INFO  - WeaveViolation: MISSING_ORIGINAL_BYTECODE
+2020-07-24 14:13:38,809 [Thread-11] 21 INFO  - 		Class: org/springframework/http/client/OkHttpClientHttpRequest
+2020-07-24 14:13:38,809 [Thread-11] 21 INFO  - 		Reason: Could not find original bytecode
+2020-07-24 14:13:38,809 [Thread-11] 21 INFO  - WeaveViolation: MISSING_ORIGINAL_BYTECODE
+2020-07-24 14:13:38,809 [Thread-11] 21 INFO  - 		Class: org/springframework/http/client/OkHttpClientHttpRequest$OkHttpListenableFuture
+2020-07-24 14:13:38,809 [Thread-11] 21 INFO  - 		Reason: Could not find original bytecode
+2020-07-24 14:13:38,874 [Thread-11] 21 INFO  - Violations:tingyun-tomcat-plugin-5 - 5 failures, classloader sun.misc.Launcher$AppClassLoader@18b4aac2
+2020-07-24 14:13:38,874 [Thread-11] 21 INFO  - WeaveViolation: METHOD_BASE_CONCRETE_WEAVE
+2020-07-24 14:13:38,874 [Thread-11] 21 INFO  - 		Class: org/apache/catalina/connector/Connector
+2020-07-24 14:13:38,874 [Thread-11] 21 INFO  - 		Method: start()V
+2020-07-24 14:13:38,874 [Thread-11] 21 INFO  - 		Reason: Base matches cannot inspect concrete parent methods
+2020-07-24 14:13:38,874 [Thread-11] 21 INFO  - WeaveViolation: METHOD_NEW_ABSTRACT_UNSUPPORTED
+2020-07-24 14:13:38,874 [Thread-11] 21 INFO  - 		Class: org/apache/catalina/connector/Connector
+2020-07-24 14:13:38,874 [Thread-11] 21 INFO  - 		Method: getBufferSize()I
+2020-07-24 14:13:38,874 [Thread-11] 21 INFO  - 		Reason: Cannot define a new abstract method
+2020-07-24 14:13:38,874 [Thread-11] 21 INFO  - WeaveViolation: METHOD_NEW_NON_PRIVATE_UNSUPPORTED
+2020-07-24 14:13:38,874 [Thread-11] 21 INFO  - 		Class: org/apache/catalina/connector/Connector
+2020-07-24 14:13:38,874 [Thread-11] 21 INFO  - 		Method: getBufferSize()I
+2020-07-24 14:13:38,874 [Thread-11] 21 INFO  - 		Reason: New methods must be declared private
+2020-07-24 14:13:38,874 [Thread-11] 21 INFO  - WeaveViolation: METHOD_BASE_CONCRETE_WEAVE
+2020-07-24 14:13:38,874 [Thread-11] 21 INFO  - 		Class: org/apache/catalina/core/StandardServer
+2020-07-24 14:13:38,874 [Thread-11] 21 INFO  - 		Method: start()V
+2020-07-24 14:13:38,874 [Thread-11] 21 INFO  - 		Reason: Base matches cannot inspect concrete parent methods
+2020-07-24 14:13:38,874 [Thread-11] 21 INFO  - WeaveViolation: MISSING_ORIGINAL_BYTECODE
+2020-07-24 14:13:38,874 [Thread-11] 21 INFO  - 		Class: org/apache/catalina/core/DummyRequest
+2020-07-24 14:13:38,874 [Thread-11] 21 INFO  - 		Reason: Could not find original bytecode
+2020-07-24 14:13:39,328 [main] 1 INFO  - Configured to connect to Tingyun data center at redirect.networkbench.com:443
+2020-07-24 14:13:39,344 [main] 1 INFO  - Setting protocol to "https"
+2020-07-24 14:13:40,234 [main] 1 INFO  - User tracing is disabled.
+2020-07-24 14:13:40,401 [main] 1 INFO  - TingYun Agent V2.6.4 has started.
+2020-07-24 14:13:40,401 [main] 1 INFO  - Agent class loader: com.tingyun.bootstrap.BootstrapAgent$a@6d8a00e3
+2020-07-24 14:13:40,401 [main] 1 INFO  - TingYun Java Agent premain startup complete in 9239ms
+2020-07-24 14:13:40,718 [main] 1 INFO  - ClassLoaderClassTransformer patched BoostrapPlaceholder(class com.tingyun.weave.a.a$1) -- className:javax/management/remote/rmi/NoCallStackClassLoader
+2020-07-24 14:13:40,773 [main] 1 INFO  - Violations:tingyun-log4j-exception-plugin-2.0 - 5 failures, classloader sun.misc.Launcher$AppClassLoader@18b4aac2
+2020-07-24 14:13:40,773 [main] 1 INFO  - WeaveViolation: METHOD_ACCESS_MISMATCH
+2020-07-24 14:13:40,774 [main] 1 INFO  - 		Class: org/apache/logging/log4j/Logger
+2020-07-24 14:13:40,774 [main] 1 INFO  - 		Method: fatal(Ljava/lang/Object;)V
+2020-07-24 14:13:40,774 [main] 1 INFO  - 		Reason: Method access levels do not match
+2020-07-24 14:13:40,774 [main] 1 INFO  - WeaveViolation: METHOD_ACCESS_MISMATCH
+2020-07-24 14:13:40,774 [main] 1 INFO  - 		Class: org/apache/logging/log4j/Logger
+2020-07-24 14:13:40,774 [main] 1 INFO  - 		Method: fatal(Ljava/lang/Object;Ljava/lang/Throwable;)V
+2020-07-24 14:13:40,774 [main] 1 INFO  - 		Reason: Method access levels do not match
+2020-07-24 14:13:40,774 [main] 1 INFO  - WeaveViolation: METHOD_ACCESS_MISMATCH
+2020-07-24 14:13:40,774 [main] 1 INFO  - 		Class: org/apache/logging/log4j/Logger
+2020-07-24 14:13:40,774 [main] 1 INFO  - 		Method: fatal(Ljava/lang/String;)V
+2020-07-24 14:13:40,774 [main] 1 INFO  - 		Reason: Method access levels do not match
+2020-07-24 14:13:40,774 [main] 1 INFO  - WeaveViolation: METHOD_ACCESS_MISMATCH
+2020-07-24 14:13:40,774 [main] 1 INFO  - 		Class: org/apache/logging/log4j/Logger
+2020-07-24 14:13:40,774 [main] 1 INFO  - 		Method: fatal(Ljava/lang/String;[Ljava/lang/Object;)V
+2020-07-24 14:13:40,774 [main] 1 INFO  - 		Reason: Method access levels do not match
+2020-07-24 14:13:40,774 [main] 1 INFO  - WeaveViolation: METHOD_ACCESS_MISMATCH
+2020-07-24 14:13:40,774 [main] 1 INFO  - 		Class: org/apache/logging/log4j/Logger
+2020-07-24 14:13:40,774 [main] 1 INFO  - 		Method: fatal(Ljava/lang/String;Ljava/lang/Throwable;)V
+2020-07-24 14:13:40,774 [main] 1 INFO  - 		Reason: Method access levels do not match
+2020-07-24 14:13:40,877 [RMI TCP Connection(1)-192.168.5.114] 38 INFO  - ClassLoaderClassTransformer patched BoostrapPlaceholder(class com.tingyun.weave.a.a$1) -- className:com/sun/jmx/remote/util/ClassLoaderWithRepository
+2020-07-24 14:13:40,878 [RMI TCP Connection(1)-192.168.5.114] 38 INFO  - ClassLoader transformer: classloaders to skip contains javax/management/remote/rmi/RMIConnectionImpl$CombinedClassLoader
+2020-07-24 14:13:40,880 [RMI TCP Connection(1)-192.168.5.114] 38 INFO  - ClassLoaderClassTransformer patched BoostrapPlaceholder(class com.tingyun.weave.a.a$1) -- className:javax/management/remote/rmi/RMIConnectionImpl$CombinedClassLoader$ClassLoaderWrapper
+2020-07-24 14:13:42,667 [main] 1 INFO  - Violations:tingyun-spring-plugin-3.0 - 2 failures, classloader sun.misc.Launcher$AppClassLoader@18b4aac2
+2020-07-24 14:13:42,667 [main] 1 INFO  - WeaveViolation: SKIP_INSPECT
+2020-07-24 14:13:42,667 [main] 1 INFO  - 		Class: org/springframework/web/bind/annotation/RestController
+2020-07-24 14:13:42,668 [main] 1 INFO  - 		Reason: Encountered illegal original class.
+2020-07-24 14:13:42,668 [main] 1 INFO  - WeaveViolation: SKIP_INSPECT
+2020-07-24 14:13:42,668 [main] 1 INFO  - 		Class: org/springframework/context/event/EventListener
+2020-07-24 14:13:42,668 [main] 1 INFO  - 		Reason: Encountered illegal original class.
+2020-07-24 14:13:42,668 [main] 1 INFO  - Violations:tingyun-spring-plugin-4.0 - 1 failures, classloader sun.misc.Launcher$AppClassLoader@18b4aac2
+2020-07-24 14:13:42,669 [main] 1 INFO  - WeaveViolation: SKIP_INSPECT
+2020-07-24 14:13:42,669 [main] 1 INFO  - 		Class: org/springframework/context/event/EventListener
+2020-07-24 14:13:42,669 [main] 1 INFO  - 		Reason: Encountered illegal original class.
+2020-07-24 14:13:43,517 [main] 1 INFO  - Violations:tingyun-tomcat-coyote-plugin - 2 failures, classloader sun.misc.Launcher$AppClassLoader@18b4aac2
+2020-07-24 14:13:43,517 [main] 1 INFO  - WeaveViolation: METHOD_NEW_ABSTRACT_UNSUPPORTED
+2020-07-24 14:13:43,517 [main] 1 INFO  - 		Class: org/apache/coyote/Response
+2020-07-24 14:13:43,517 [main] 1 INFO  - 		Method: setContentLength(I)V
+2020-07-24 14:13:43,517 [main] 1 INFO  - 		Reason: Cannot define a new abstract method
+2020-07-24 14:13:43,517 [main] 1 INFO  - WeaveViolation: METHOD_NEW_NON_PRIVATE_UNSUPPORTED
+2020-07-24 14:13:43,517 [main] 1 INFO  - 		Class: org/apache/coyote/Response
+2020-07-24 14:13:43,517 [main] 1 INFO  - 		Method: setContentLength(I)V
+2020-07-24 14:13:43,517 [main] 1 INFO  - 		Reason: New methods must be declared private
+2020-07-24 14:13:43,588 [main] 1 INFO  - ClassLoaderClassTransformer patched sun.misc.Launcher$AppClassLoader@18b4aac2(class sun.misc.Launcher$AppClassLoader) -- className:org/apache/catalina/loader/WebappClassLoaderBase
+2020-07-24 14:13:44,506 [RMI TCP Connection(2)-192.168.5.114] 68 INFO  - ClassLoaderClassTransformer patched BoostrapPlaceholder(class com.tingyun.weave.a.a$1) -- className:com/sun/jmx/remote/util/OrderClassLoaders
+2020-07-24 14:13:45,575 [TingYun Connection Service 1] 31 INFO  - TingYun connection task for wjn_app_test009 is done.
+2020-07-24 14:13:45,969 [TingYun Connection Service 1] 31 WARN  - Error sending JSON(getRedirectHost). Intermittent connection failurs can occur. Please only contact support if this message occurs several times.: java.net.URISyntaxException: Illegal character in query at index 110: https://redirect.networkbench.com:443/getRedirectHost?licenseKey=D:IDEAProjectsserver-test-2server-test-master	ingyun	ingyun-agent-java-2.6.4	ingyun&version=1.4.0
+	at java.net.URI$Parser.fail(URI.java:2848)
+	at java.net.URI$Parser.checkChars(URI.java:3021)
+	at java.net.URI$Parser.parseHierarchical(URI.java:3111)
+	at java.net.URI$Parser.parse(URI.java:3053)
+	at java.net.URI.<init>(URI.java:588)
+	at java.net.URL.toURI(URL.java:963)
+	at com.tingyun.agent.d.b.b.a(SourceFile:858)
+	at com.tingyun.agent.d.b.b.c(SourceFile:796)
+	at com.tingyun.agent.d.b.b.b(SourceFile:743)
+	at com.tingyun.agent.d.b.b.a(SourceFile:697)
+	at com.tingyun.agent.d.b.b.a(SourceFile:678)
+	at com.tingyun.agent.d.b.b.j(SourceFile:273)
+	at com.tingyun.agent.d.b.b.a(SourceFile:236)
+	at com.tingyun.agent.d.a.e.f(SourceFile:176)
+	at com.tingyun.agent.d.a.d$a.n(SourceFile:229)
+	at com.tingyun.agent.d.a.d$a.j(SourceFile:68)
+	at com.tingyun.agent.d.a.d$a$3.run(SourceFile:183)
+	at com.tingyun.agent.l.aa$1.run(SourceFile:20)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020-07-24 14:13:45,973 [TingYun Connection Service 1] 31 WARN  - Failed to connect to dcs1.networkbench.com for wjn_app_test009: Illegal character in query at index 110: https://redirect.networkbench.com:443/getRedirectHost?licenseKey=D:IDEAProjectsserver-test-2server-test-master	ingyun	ingyun-agent-java-2.6.4	ingyun&version=1.4.0
+2020-07-24 14:13:53,349 [http-nio-8089-exec-2] 54 INFO  - Violations:tingyun-tomcat-rum-plugin-7 - 3 failures, classloader sun.misc.Launcher$AppClassLoader@18b4aac2
+2020-07-24 14:13:53,349 [http-nio-8089-exec-2] 54 INFO  - WeaveViolation: INVALID_REFERENCE
+2020-07-24 14:13:53,349 [http-nio-8089-exec-2] 54 INFO  - 		Class: org/apache/catalina/connector/OutputBuffer
+2020-07-24 14:13:53,349 [http-nio-8089-exec-2] 54 INFO  - 		Reason: a{type=INVALID_REFERENCE, weaveClass=org/apache/catalina/connector/OutputBuffer, originalClass=org/apache/coyote/Response, violationMessage=missing method. weave code expects method: setContentLength(I)V}
+2020-07-24 14:13:53,349 [http-nio-8089-exec-2] 54 INFO  - WeaveViolation: METHOD_NEW_ABSTRACT_UNSUPPORTED
+2020-07-24 14:13:53,349 [http-nio-8089-exec-2] 54 INFO  - 		Class: org/apache/catalina/connector/OutputBuffer
+2020-07-24 14:13:53,349 [http-nio-8089-exec-2] 54 INFO  - 		Method: getResponse()Lorg/apache/coyote/Response;
+2020-07-24 14:13:53,349 [http-nio-8089-exec-2] 54 INFO  - 		Reason: Cannot define a new abstract method
+2020-07-24 14:13:53,349 [http-nio-8089-exec-2] 54 INFO  - WeaveViolation: METHOD_NEW_NON_PRIVATE_UNSUPPORTED
+2020-07-24 14:13:53,349 [http-nio-8089-exec-2] 54 INFO  - 		Class: org/apache/catalina/connector/OutputBuffer
+2020-07-24 14:13:53,349 [http-nio-8089-exec-2] 54 INFO  - 		Method: getResponse()Lorg/apache/coyote/Response;
+2020-07-24 14:13:53,349 [http-nio-8089-exec-2] 54 INFO  - 		Reason: New methods must be declared private
+2020-07-24 14:14:46,118 [TingYun Connection Service 1] 31 WARN  - Error sending JSON(getRedirectHost). Intermittent connection failurs can occur. Please only contact support if this message occurs several times.: java.net.URISyntaxException: Illegal character in query at index 110: https://redirect.networkbench.com:443/getRedirectHost?licenseKey=D:IDEAProjectsserver-test-2server-test-master	ingyun	ingyun-agent-java-2.6.4	ingyun&version=1.4.0
+	at java.net.URI$Parser.fail(URI.java:2848)
+	at java.net.URI$Parser.checkChars(URI.java:3021)
+	at java.net.URI$Parser.parseHierarchical(URI.java:3111)
+	at java.net.URI$Parser.parse(URI.java:3053)
+	at java.net.URI.<init>(URI.java:588)
+	at java.net.URL.toURI(URL.java:963)
+	at com.tingyun.agent.d.b.b.a(SourceFile:858)
+	at com.tingyun.agent.d.b.b.c(SourceFile:796)
+	at com.tingyun.agent.d.b.b.b(SourceFile:743)
+	at com.tingyun.agent.d.b.b.a(SourceFile:697)
+	at com.tingyun.agent.d.b.b.a(SourceFile:678)
+	at com.tingyun.agent.d.b.b.j(SourceFile:273)
+	at com.tingyun.agent.d.b.b.a(SourceFile:236)
+	at com.tingyun.agent.d.a.e.f(SourceFile:176)
+	at com.tingyun.agent.d.a.d$a.n(SourceFile:229)
+	at com.tingyun.agent.d.a.d$a.j(SourceFile:68)
+	at com.tingyun.agent.d.a.d$a$3.run(SourceFile:183)
+	at com.tingyun.agent.l.aa$1.run(SourceFile:20)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020-07-24 14:14:46,119 [TingYun Connection Service 1] 31 WARN  - Failed to connect to dcs1.networkbench.com for wjn_app_test009: Illegal character in query at index 110: https://redirect.networkbench.com:443/getRedirectHost?licenseKey=D:IDEAProjectsserver-test-2server-test-master	ingyun	ingyun-agent-java-2.6.4	ingyun&version=1.4.0
+2020-07-24 14:15:46,255 [TingYun Connection Service 1] 31 WARN  - Error sending JSON(getRedirectHost). Intermittent connection failurs can occur. Please only contact support if this message occurs several times.: java.net.URISyntaxException: Illegal character in query at index 110: https://redirect.networkbench.com:443/getRedirectHost?licenseKey=D:IDEAProjectsserver-test-2server-test-master	ingyun	ingyun-agent-java-2.6.4	ingyun&version=1.4.0
+	at java.net.URI$Parser.fail(URI.java:2848)
+	at java.net.URI$Parser.checkChars(URI.java:3021)
+	at java.net.URI$Parser.parseHierarchical(URI.java:3111)
+	at java.net.URI$Parser.parse(URI.java:3053)
+	at java.net.URI.<init>(URI.java:588)
+	at java.net.URL.toURI(URL.java:963)
+	at com.tingyun.agent.d.b.b.a(SourceFile:858)
+	at com.tingyun.agent.d.b.b.c(SourceFile:796)
+	at com.tingyun.agent.d.b.b.b(SourceFile:743)
+	at com.tingyun.agent.d.b.b.a(SourceFile:697)
+	at com.tingyun.agent.d.b.b.a(SourceFile:678)
+	at com.tingyun.agent.d.b.b.j(SourceFile:273)
+	at com.tingyun.agent.d.b.b.a(SourceFile:236)
+	at com.tingyun.agent.d.a.e.f(SourceFile:176)
+	at com.tingyun.agent.d.a.d$a.n(SourceFile:229)
+	at com.tingyun.agent.d.a.d$a.j(SourceFile:68)
+	at com.tingyun.agent.d.a.d$a$3.run(SourceFile:183)
+	at com.tingyun.agent.l.aa$1.run(SourceFile:20)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020-07-24 14:15:46,255 [TingYun Connection Service 1] 31 WARN  - Failed to connect to dcs1.networkbench.com for wjn_app_test009: Illegal character in query at index 110: https://redirect.networkbench.com:443/getRedirectHost?licenseKey=D:IDEAProjectsserver-test-2server-test-master	ingyun	ingyun-agent-java-2.6.4	ingyun&version=1.4.0
+2020-07-24 14:16:29,747 [TingYun Agent Shutdown] 9 INFO  - JVM is shutting down
+2020-07-24 14:16:29,749 [TingYun Agent Shutdown] 9 INFO  - TingYun Agent has shutdown
