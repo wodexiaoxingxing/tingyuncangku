@@ -14,16 +14,15 @@
     <button id="btn2" onclick="btn2();">jq的ajax的get请求</button>
     <button id="btn3" onclick="sendList();">原生js的ajax的post请求</button>
     <button onclick="triggerJsError();">触发js错误</button>
-    <button onclick="foo();">触发js错误 调用没有的函数</button><br>
-    <button id="btn4">setTimeout</button>
+    <button onclick="foo();">触发js错误--调用没有的函数</button><br>
+    <!-- <button id="btn4">setTimeout</button> -->
     <a href='tozhanshi.html' target='main'>跳转到展示页面</a>
-    <button onclick="captureException();">error hook 调接口 </button><br>
-
+    <button onclick="captureException();">js error hook 调接口 captureException</button><br>
+    <!-- <button onclick="hookerror();">error hook 调接口 hookerror </button><br> -->
     <button id="btn5" onclick="yjget();">jq访问袁洁的post接口</button>
 </body>
 
 </html>
-
 <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
 <!--<script src="yjcz.js"></script>-->
@@ -40,7 +39,6 @@
     }
     //jq的ajax的get请求
     function btn2() {
-        sendjQAjax();
         sendjQAjax();
     }
     //setTimeout

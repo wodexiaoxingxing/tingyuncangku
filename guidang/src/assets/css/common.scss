@@ -1,0 +1,6 @@
+
+/* 公共的自定义函数 */
+@function pxcal($px) {
+  @return ($px/2)*1px;
+}
+

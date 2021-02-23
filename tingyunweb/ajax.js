@@ -25,7 +25,8 @@ function sendAjax() {
             delay: 2000
         }))
         // event.end();
-    event.fail();
+        // event.fail();
+    console.log('原生js两个同级别ajax的get请求')
 }
 
 function sendRequest() {
@@ -49,9 +50,9 @@ function sendRequest() {
 }
 
 function sendList() {
-    const event = window.TINGYUN.createAutoEvent({
-        key: '批量审批-手动123123123123123123123123123'
-    });
+    // const event = window.TINGYUN.createAutoEvent({
+    //     key: '批量审批-手动123123123123123123123123123'
+    // });
     const xhr = new XMLHttpRequest();
     //设置请求头
 
@@ -66,19 +67,21 @@ function sendList() {
         console.log('原生js的ajax的post请求')
     }
     xhr.send(JSON.stringify({
-        delay: 2000
-    }))
-    event.fail();
+            delay: 2000
+        }))
+        // event.fail();
+    console.log('原生js的ajax的post请求')
 }
 
 function sendjQAjax(time) {
     $.ajax({
-            method: 'GET',
-            url: `https://reportalpha1.tingyun.com/demo-server/test/custom-request?timeout=${time || 100}`,
-            success: function() {
-                console.log(`request ${time} end`);
-            }
-        })
+        method: 'GET',
+        url: `https://reportalpha1.tingyun.com/demo-server/test/custom-request?timeout=${time || 100}`,
+        success: function() {
+            console.log(`request ${time} end`);
+        }
+    })
+    console.log(`jq的ajax的get请求`)
         // $.get(`https://reportalpha1.tingyun.com/demo-server/test/custom-request?timeout=${time || 100}`, function() {
         //     console.log(`request ${time} end`);
         // })
