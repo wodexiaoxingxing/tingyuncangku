@@ -33,6 +33,9 @@ def login():
     res.status = '200'  # 设置状态码
     res.headers['token'] = "123456"  # 设置响应头
     res.headers['Access-Control-Allow-Origin'] = "*"  # 设置响应头
+    res.headers['ceshi1'] = ""  # 设置响应头
+    res.headers['ceshi2'] = ""  # 设置响应头
+    res.headers['wjn_test'] = ""  # 设置响应头
     return res
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000,debug=True)

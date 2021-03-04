@@ -55,13 +55,11 @@ function sendList() {
     // });
     const xhr = new XMLHttpRequest();
     //设置请求头
-
-
     xhr.open('POST', 'http://192.168.5.114:8089/shop/list?type=wjn_type1')
     xhr.setRequestHeader('Content-Type', 'application/json')
     xhr.setRequestHeader('wjn_test', 'header_snow')
         //当前袁洁配置的不能生效，原因是该接口没有配置ceshi1的  -----没配服务端返回头导致的报错
-        //xhr.setRequestHeader('ceshi1', 'ceshi1')
+    xhr.setRequestHeader('ceshi1', 'ceshi1')
     xhr.onload = function() {
         // sleep(1000);
         console.log('原生js的ajax的post请求')
@@ -90,13 +88,18 @@ function sendjQAjax(time) {
 function foo() { bar(); }
 
 function yjget() {
+    // var time = new Date().getTime()
     $.ajax({
         method: 'POST',
         url: `http://192.168.5.186:5000/index1`,
         // dataType: 'jsonp', // 请求方式为jsonp
         // crossDomain: true,
+        // timeout :  5000,
+        //headers: { wjn_test: 'header_snow' },
+        //xhr.setRequestHeader('wjn_test1', 'header_snow')
         success: function() {
-            console.log('jq访问袁洁的get接口');
+            console.log('jq访问袁洁的post接口');
         }
     })
+    console.log('jq访问袁洁的post接口');
 }

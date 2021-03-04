@@ -20,18 +20,36 @@
     <button onclick="captureException();">js error hook 调接口 captureException</button><br>
     <!-- <button onclick="hookerror();">error hook 调接口 hookerror </button><br> -->
     <button id="btn5" onclick="yjget();">jq访问袁洁的post接口</button>
+    <button id="btn5" onclick="yjget2();">yjget2</button>
 </body>
 
 </html>
+<script>
+    // 设置设备ID    
+    //localStorage.setItem('TY_DEVICE_N_ID', 'device1'); //设置设备id   不设置用户id 的时候 ，用户id（uid）=设备id
+    //localStorage.setItem('TY_USER_ID', '999999'); //设置用户id  设置了探针会上传用户自己设置的id（uid）
+</script>
 <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
-<!--<script src="yjcz.js"></script>-->
-<!-- <script src="yjcznew.js"></script> -->
-<!--<script src="10.128.2.95cj.js"></script>-->
-<script src="10.128.2.95cj-new.js"></script>
+<script src="new.js"></script>
+<!-- <script src="11111.js"></script> -->
 <script src="ajax.js"></script>
 <script src="scope.js"></script>
 <script>
+    // window.TINGYUN && window.TINGYUN.setDid('device2');
+    //window.TINGYUN.setUid('!@185**633020|3779704762646E424B64766E41426C42315A766944673D3D');
+    window.TINGYUN.setUid('!@186****6605|3779704762646E424B64766E41426C42315A766944673D3D');
+    //window.TINGYUN && window.TINGYUN.setDid('设备id自定义');
+    //window.TINGYUN.setUid('袁洁');
+
+    function yjget2() {
+        yjget();
+        yjget()
+    }
+    //监听浏览器有没有给文件名字
+    // window.addEventListener('error',  function(e)  {            
+    //         alert('filename'  +  e.filename)        
+    //     })
     //原生js的ajax的请求 get
     function btn1() {
         sendAjax();
