@@ -57,17 +57,17 @@ window.TINGYUN.addActionHook('error', function(param) {
 
 
 //局部scope-error 调接口
-// function captureException() {
-//     window.TINGYUN.captureException(new Error('captureException'), {
-//         log: {
-//             name: 1,
-//             age: 100
-//         },
-//         yuanjie: {
-//             yuanjie: "1234567890"
-//         }
-//     })
-// }
+function captureException() {
+    window.TINGYUN.captureException(new Error('captureException'), {
+        log: {
+            name: 1,
+            age: 100
+        },
+        yuanjie: {
+            yuanjie: "1234567890"
+        }
+    })
+}
 //----------------局部scope ajax请求----------------------------------------------------------
 //局部scope-ajax hook
 window.TINGYUN.addActionHook('ajax', function(params) {

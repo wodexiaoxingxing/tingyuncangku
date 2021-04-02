@@ -19,14 +19,14 @@ Vue.config.productionTip = false;
 require('@/assets/css/reset.scss');
 //实现过滤器
 for (var i in filters) {
-  Vue.filter(i, filters[i]);
+    Vue.filter(i, filters[i]);
 }
 
 //全局的路由钩子函数。所有的路由，进入之前都会执行该方法！
 router.beforeEach((to, from, next) => {
-  //什么时候要拦截，满足以下两点
-  //该用户未登陆的时候
-  next()
+    //什么时候要拦截，满足以下两点
+    //该用户未登陆的时候
+    next()
 })
 
 /**
@@ -36,10 +36,19 @@ router.beforeEach((to, from, next) => {
  */
 installMixin(Vue);
 
+// 监控代码开始
+// if (window.TINGYUN && window.TINGYUN.wrapVueRouter) {
+//     window.TINGYUN.wrapVueRouter(router, {
+//         endDelay: 500 // 切换路由后延迟结束时间
+//     });
+// }
+// 监控代码结束
+
+
 /* eslint-disable no-new */
 new Vue({
-  el: '#app',
-  router,
-  components: {App},
-  template: '<App/>'
+    el: '#app',
+    router,
+    components: { App },
+    template: '<App/>'
 });

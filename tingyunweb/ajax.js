@@ -88,10 +88,13 @@ function sendjQAjax(time) {
 function foo() { bar(); }
 
 function yjget() {
+    // const event = window.TINGYUN.createAutoEvent({
+    //     key: 'yuanjie 投影时间'
+    // });
     // var time = new Date().getTime()
     $.ajax({
         method: 'POST',
-        url: `http://192.168.5.186:5000/index1`,
+        url: `http://192.168.5.186:5555/index1`,
         // dataType: 'jsonp', // 请求方式为jsonp
         // crossDomain: true,
         // timeout :  5000,
@@ -101,5 +104,29 @@ function yjget() {
             console.log('jq访问袁洁的post接口');
         }
     })
+
+    // event.end();
     console.log('jq访问袁洁的post接口');
+}
+
+
+function yjgetevent() {
+
+    $.ajax({
+        method: 'get',
+        // url: `http://192.168.5.186:5555/index1`,
+        url: `https://jsonplaceholder.typicode.com/todos/1`,
+        // async: false,
+        // dataType: 'jsonp', // 请求方式为jsonp
+        // crossDomain: true,
+        // timeout :  5000,
+        //headers: { wjn_test: 'header_snow' },
+        //xhr.setRequestHeader('wjn_test1', 'header_snow')
+        success: function() {
+            console.log('jq访问袁洁的post接口');
+        }
+    })
+
+
+    console.log('原生js的ajax的post请求')
 }
